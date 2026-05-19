@@ -4,6 +4,14 @@
 
 Derived directly from the YANG sources and "Backward Incompatible Change" (BIC) deltas shipped in this repository.
 
+### TL;DR -- what's new and changed between 17.15.1 and 17.18.1
+
+- **5 NEW modules**: `wireless-rogue-authz-rpc`, `wireless-urwb-cfg`, `wireless-urwb-common-types`, `wireless-urwbnet-oper`, `wireless-wat-cfg`.
+- **32 CHANGED modules** out of 83 (46 unchanged). **0 modules removed.**
+- **+309 schema symbols added, 0 removed** across modified modules. Top adders: `access-point-oper` (+70), `types` (+65), `client-global-oper` (+38), `rogue-cfg` (+25), `rogue-oper` (+22).
+- **8 dominant feature programs**: Wi-Fi 7 / 802.11be MLO, URWB backhaul, Cisco Smart Licensing observability, LSC renewal, 802.11k/v request stats, Rogue Authorization, AP next-gen tunnel, UWB DL-TDOA + WAT/ThousandEyes.
+- **Backward-incompatible footprint is small**: 1 XPath obsoleted (`access-point-oper-data/stgrd-upg-report/stgrd-upgd-ap`), 0 deprecated, ~60 tightened `must`/`length`/`pattern` constraints across 19 modules.
+
 ## Table of Contents
 
 1. [Executive Summary](#1-executive-summary)
