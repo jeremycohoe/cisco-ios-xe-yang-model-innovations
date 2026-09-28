@@ -215,6 +215,10 @@ Profile membership is from the saved module-set snapshots; it does not guarantee
 
 This is a **new module**. It belongs in this Added models list; the “8 RPC” count in the existing-model section refers to eight previously present RPC modules with tracked changes.
 
+**Revision metadata:** YANG revision `2026-08-01`; Cisco module version `1.0.0`.
+
+**Operation shape:** `erase-config` is declared without `input` or `output` statements in this module. This reports the YANG declaration only; it does not establish device behavior or runtime support.
+
 **Purpose:** This module contains a collection of YANG definitions for device configuration management RPCs.
 
 **Declared operations or notifications:** `rpc erase-config` — Erase device configuration action RPC.
