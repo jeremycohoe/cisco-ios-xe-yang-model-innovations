@@ -85,7 +85,7 @@ Use this order:
 3. Platform applicability summary with a searchable CSV.
 4. Key changes and high-priority YANG semantics.
 5. Added/removed modules.
-6. Existing changed modules grouped by flavor, with a compact index, direct source links, collapsible flavor sections, and collapsible per-module details.
+6. Existing changed modules grouped by flavor, with a compact index, module names linked to report details where useful, collapsible flavor sections, and collapsible per-module details.
 7. Grouping explanation before grouping statistics; distinguish definitions, use sites, and resolved schema nodes.
 8. Deviation/import findings, method, limitations, and reproducibility links.
 
@@ -99,7 +99,6 @@ Create release-named artifacts in `release-comparisons/`:
 - A grouping-delta CSV with grouping, local path/context, change kind, and before/after values.
 - A deviation-delta CSV with target, action, and before/after details.
 - A platform-applicability CSV with one row per source module/profile and release values.
-- An optional share bundle containing the overview, linked CSVs, source YANG folders, profile snapshots, this plan, and scoped agent instructions.
 
 Keep relative links valid in both the directory layout and any generated ZIP. Include only the comparison materials needed to support the YANG report.
 
@@ -109,7 +108,7 @@ Keep relative links valid in both the directory layout and any generated ZIP. In
 - The report explains what is a direct declaration, grouping definition, `uses` reference, profile listing, and resolved schema result.
 - Grouping and deviation changes are not overclaimed as effective schema changes unless resolved.
 - Hardware/profile labels are evidence-based and do not imply exact SKU support without evidence.
-- Reader navigation, collapsible sections, source links, and CSV links work in the delivered layout.
+- Reader navigation, collapsible sections, report navigation and CSV links work in the delivered layout; source YANG files are not published with the report.
 - Limitations, provenance gaps, and classification assumptions are easy to find.
 - The report contains only YANG comparison material; other workflows live separately.
 
