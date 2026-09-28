@@ -1,6 +1,10 @@
 #!/usr/bin/env python3
 """
 YANG Release Comparison Script
+
+LEGACY: Compares releases for the historical report format. This script
+does not perform the current augment and saved-profile audit.
+
 Compares two consecutive IOS-XE releases and generates detailed markdown report
 
 Usage:
