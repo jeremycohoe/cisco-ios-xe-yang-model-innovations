@@ -13,9 +13,14 @@ The completed baseline compares `2611/` (26.1.1) with `2621/` (26.2.1):
 - Overview: [2621-YANG-Model-Overview.md](2621-YANG-Model-Overview.md)
 - Grouping deltas: [2621-YANG-Model-Grouping-Deltas.csv](2621-YANG-Model-Grouping-Deltas.csv)
 - Deviation deltas: [2621-YANG-Model-Deviation-Deltas.csv](2621-YANG-Model-Deviation-Deltas.csv)
+- Augment declarations and nested `uses` deltas: [2621-YANG-Model-Augment-Deltas.csv](2621-YANG-Model-Augment-Deltas.csv)
 - Platform applicability: [2621-YANG-Platform-Applicability.csv](2621-YANG-Platform-Applicability.csv)
+- Advertised profile feature deltas: [2621-YANG-Platform-Feature-Deltas.csv](2621-YANG-Platform-Feature-Deltas.csv)
+- Changed deviation targets by saved profile: [2621-YANG-Platform-Deviation-Targets.csv](2621-YANG-Platform-Deviation-Targets.csv)
 
 These filenames and counts are examples for the completed comparison. Recompute all values for the next release pair.
+
+**Generator status:** `scripts/generate_markdown.py`, `scripts/compare_releases.py`, and `scripts/count_xpaths.py` are historical tools for earlier report formats. They do not reproduce this baseline report or its six supporting CSVs. The 26.2.1 report was assembled from static source/profile analyses and reviewed CSVs; a maintained end-to-end generator is still future work.
 
 ## Scope
 
@@ -25,7 +30,7 @@ Compare the supplied YANG module sources and saved platform module-set inventori
 - Model flavors: Oper, RPC, Native, Config, OpenConfig, IETF, and Other.
 - Data nodes and schema-relevant properties such as type, default, units, status, constraints, keys, cardinality, and feature conditions.
 - Reusable groupings, `uses` references, typedefs, identities, features, imports, augments, deviations, RPCs/actions, and notifications.
-- Per-profile module presence, advertised revision, conformance type, and listed deviation associations where matching profile snapshots are supplied.
+- Per-profile module presence, advertised revision, conformance type, advertised features, and listed deviation associations where matching profile snapshots are supplied.
 
 Do not infer runtime feature behavior from a YANG source file or a profile name. This project describes the supplied model evidence and labels unresolved questions.
 
@@ -48,7 +53,7 @@ Build a release inventory of module and submodule names, revisions, namespaces, 
 
 ### 2. Compare source declarations
 
-Compare the YANG statement trees and report declaration-level changes. Separate direct data-node declarations from reusable definitions. Track changes to types, defaults, units, status, conditions and constraints, keys, cardinality, features, operation definitions, notifications, imports, augments, and deviations. Preserve before/after values for detailed CSV rows.
+Compare the YANG statement trees and report declaration-level changes. Separate direct data-node declarations from reusable definitions. Track changes to types, defaults, units, status, conditions and constraints, keys, cardinality, features, operation definitions, notifications, imports, augments, and deviations. For augments, record target paths, conditions, nested `uses` references, and direct node changes so a new use of an existing grouping is not missed. Preserve before/after values for detailed CSV rows.
 
 Do not label declaration counts as counts of a fully resolved schema tree. Description-only and metadata changes should be distinguished from changes that can alter schema shape or validation rules.
 
@@ -70,7 +75,7 @@ If the full use graph is not resolved, say so and do not convert grouping counts
 
 ### 4. Compare platform profiles
 
-Parse each supplied `yang-set-<profile>.xml` inventory. For each source module/profile pair, record release presence, revision, conformance type, and deviation associations. Summarize newly listed modules, no-longer-listed modules, revision changes, and deviation-association changes by profile and flavor.
+Parse each supplied `yang-set-<profile>.xml` inventory. For each source module/profile pair, record release presence, revision, conformance type, advertised features, and deviation associations. Summarize newly listed modules, no-longer-listed modules, revision changes, feature-list changes, and deviation-association changes by profile and flavor. Join changed deviation targets to associated modules, but label them as candidate effects until the schema is resolved.
 
 Make the comparison denominator explicit: if the table covers only source modules supplied in the two folders, say that it is not the complete module inventory of the profile. Treat a profile-to-product mapping as family-level unless exact model evidence is available.
 
@@ -100,7 +105,9 @@ Create release-named artifacts in `release-comparisons/`:
 - A Markdown overview with flavor navigation, platform summary, findings, method, and limitations.
 - A grouping-delta CSV with grouping, local path/context, change kind, and before/after values.
 - A deviation-delta CSV with target, action, and before/after details.
+- An augment-delta CSV with target, condition, nested `uses`, and direct-node changes.
 - A platform-applicability CSV with one row per source module/profile and release values.
+- A profile feature-delta CSV and a profile deviation-target CSV when matching saved snapshots are available.
 
 Keep relative links valid in both the directory layout and any generated ZIP. Include only the comparison materials needed to support the YANG report.
 

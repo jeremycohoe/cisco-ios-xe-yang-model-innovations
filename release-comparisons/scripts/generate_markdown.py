@@ -2,6 +2,9 @@
 """
 Complete YANG Release Comparison Markdown Generator
 
+LEGACY: Generates the historical report format. This script does not
+reproduce the 26.1.1-to-26.2.1 overview or its supporting CSVs.
+
 Generates comprehensive comparison markdown files matching the 2611 template format.
 Includes full XPath counting, delta calculation, and "What Changed" analysis.
 

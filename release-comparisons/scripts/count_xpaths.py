@@ -2,6 +2,9 @@
 """
 XPath Counter Utility for YANG Models
 
+LEGACY UTILITY: Its pyang tree counts are not resolved per-profile schema
+counts and do not reproduce the current release overview.
+
 Counts configuration/operational XPaths in YANG files using pyang tree analysis.
 This matches the counting methodology used in the comparison documents.
 
