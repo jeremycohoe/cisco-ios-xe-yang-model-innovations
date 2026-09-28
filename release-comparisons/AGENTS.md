@@ -12,7 +12,7 @@ This folder contains Cisco IOS XE YANG release comparisons. Read `NEXT-RELEASE-H
 
 ## Current comparison
 
-- Baseline folders: `../2611/` (26.1.1) and `../2621/` (26.2.1).
+- Baseline folders, when supplied locally: `../2611/` (26.1.1) and `../2621/` (26.2.1); these source folders are not committed to this repository.
 - Overview: `2621-YANG-Model-Overview.md`.
 - Supporting files: `2621-YANG-Model-Grouping-Deltas.csv`, `2621-YANG-Model-Deviation-Deltas.csv`, and `2621-YANG-Platform-Applicability.csv`.
 

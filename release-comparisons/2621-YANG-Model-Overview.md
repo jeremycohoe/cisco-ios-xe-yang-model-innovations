@@ -233,7 +233,7 @@ Profile membership is from the saved module-set snapshots; it does not guarantee
 
 **Purpose:** This module contains a collection of YANG definitions for Next-Generation Firewall (NGFW) RPC.
 
-**Declared operations or notifications:** `rpc ngfw-upd-file` — Next-Generation Firewall (NGFW) update file action RPC.; `rpc ngfw-cust-sig-apply` — Applies a custom-signature file to an NGFW profile.; `rpc ngfw-cust-sig-load` — Loads a custom-signature file for an NGFW profile.; `rpc ngfw-cust-sig-valdt` — Validates a custom-signature file for NGFW.; `rpc ngfw-cust-sig-glbl-apply` — Applies a custom-signature file globally in NGFW.; `rpc ngfw-cust-sig-glbl-load` — Loads a custom-signature file globally in NGFW..
+**Declared operations or notifications:** `rpc ngfw-upd-file` — Next-Generation Firewall (NGFW) update file action RPC; `rpc ngfw-cust-sig-apply` — Applies a custom-signature file to an NGFW profile; `rpc ngfw-cust-sig-load` — Loads a custom-signature file for an NGFW profile; `rpc ngfw-cust-sig-valdt` — Validates a custom-signature file for NGFW; `rpc ngfw-cust-sig-glbl-apply` — Applies a custom-signature file globally in NGFW; `rpc ngfw-cust-sig-glbl-load` — Loads a custom-signature file globally in NGFW.
 
 **Listed in 26.2.1 profiles:** `asr1k`, `c8000v`, `c8500`, `cat9k`, `ess3x00`, `ie3x00`, `ir1101`, `isr1k`, `wireless`.
 
@@ -388,7 +388,7 @@ Profile membership is from the saved module-set snapshots; it does not guarantee
 
 **Purpose:** This module defines the SD-WAN statistics events operational data model and notifications used to report drops and related statistics across SD-WAN subsystems (for example application, QoS, firewall, and system statistics). It provides a single container for event data and a common set of identifiers to classify the statistics source.
 
-**Declared operations or notifications:** `notification stats-dropped` — Notification emitted when statistics records are dropped..
+**Declared operations or notifications:** `notification stats-dropped` — Notification emitted when statistics records are dropped.
 
 **Listed in 26.2.1 profiles:** `asr1k`, `c8000v`, `c8500`, `isr1k`.
 
