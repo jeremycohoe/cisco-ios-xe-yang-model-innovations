@@ -409,7 +409,16 @@ Profile membership is from the saved module-set snapshots; it does not guarantee
 
 ## Removed model
 
-- **Oper:** `Cisco-IOS-XE-wireless-rrm-emul-oper.yang` (last module revision in 26.1.1: 2023-03-01).
+<details>
+<summary><code>Cisco-IOS-XE-wireless-rrm-emul-oper.yang</code> — removed from the 26.2.1 source folder</summary>
+
+**Last module revision in 26.1.1:** `2023-03-01`.
+
+**Profile snapshot change:** listed with `implement` conformance in the 26.1.1 `cat9k`, `ir1101`, and `wireless` profiles; not listed in those 26.2.1 snapshots. It was not listed in the other seven supplied profiles in either release.
+
+This is a source-folder and saved-profile change. It does not by itself establish runtime behavior on every device in those families. See the [platform applicability CSV](2621-YANG-Platform-Applicability.csv) for the complete profile rows.
+
+</details>
 
 ## Existing models with tracked schema changes
 
