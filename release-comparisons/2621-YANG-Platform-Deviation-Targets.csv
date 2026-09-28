@@ -1,0 +1,526 @@
+profile,deviation_file,target,change,actions_before,actions_after,associated_modules_in_profile
+asr1k,Cisco-IOS-XE-cdp-deviation.yang,/ios:native/ios:interface/ios:FourHundredGigE/ios-cdp:cdp/ios-cdp:enable,added,,replace,Cisco-IOS-XE-cdp; Cisco-IOS-XE-native
+asr1k,Cisco-IOS-XE-cdp-deviation.yang,/ios:native/ios:interface/ios:TwoHundredGigE/ios-cdp:cdp/ios-cdp:enable,added,,replace,Cisco-IOS-XE-cdp; Cisco-IOS-XE-native
+asr1k,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:ATM-subinterface/ios:ATM/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+asr1k,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:ATM/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+asr1k,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:AppGigabitEthernet/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+asr1k,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:AppNav-Compress/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+asr1k,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:AppNav-UnCompress/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+asr1k,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:Async/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+asr1k,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:BD-VIF/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+asr1k,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:BDI/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+asr1k,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:Bundle/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+asr1k,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:Cellular/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+asr1k,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:Dialer/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+asr1k,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:Embedded-Service-Engine/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+asr1k,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:Ethernet-Internal/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+asr1k,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:GMPLS/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+asr1k,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:Group-Async/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+asr1k,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:HSR-ring/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+asr1k,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:L2LISP-subinterface/ios:L2LISP/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+asr1k,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:L2LISP/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+asr1k,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:LISP-subinterface/ios:LISP/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+asr1k,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:LISP/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+asr1k,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:LORAWAN/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+asr1k,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:Loopback/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+asr1k,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:MFR-subinterface/ios:MFR/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+asr1k,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:MFR/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+asr1k,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:Multilink/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+asr1k,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:PRP-channel/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+asr1k,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:SM/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+asr1k,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:Serial-subinterface/ios:Serial/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+asr1k,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:Serial/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+asr1k,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:Service-Engine/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+asr1k,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:Tunnel/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+asr1k,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:Vif/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+asr1k,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:Virtual-PPP/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+asr1k,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:Virtual-Template/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+asr1k,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:Virtual-WPAN/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+asr1k,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:VirtualPortGroup/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+asr1k,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:WPAN/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+asr1k,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:Wlan-GigabitEthernet/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+asr1k,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:nve/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+asr1k,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:ucse/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+asr1k,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:vasileft/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+asr1k,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:vasiright/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+asr1k,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:vmi/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+asr1k,Cisco-IOS-XE-ospf-deviation.yang,/ios:native/ios:router/ios-ospf:router-ospf/ios-ospf:ospf/ios-ospf:process-id/ios-ospf:passive-interface-config/ios-ospf:disable-interface/ios-ospf:FourHundredGigE/ios-ospf:name,added,,delete,Cisco-IOS-XE-native; Cisco-IOS-XE-ospf
+asr1k,Cisco-IOS-XE-ospf-deviation.yang,/ios:native/ios:router/ios-ospf:router-ospf/ios-ospf:ospf/ios-ospf:process-id/ios-ospf:passive-interface-config/ios-ospf:disable-interface/ios-ospf:TwoHundredGigE/ios-ospf:name,added,,delete,Cisco-IOS-XE-native; Cisco-IOS-XE-ospf
+asr1k,Cisco-IOS-XE-ospf-deviation.yang,/ios:native/ios:router/ios-ospf:router-ospf/ios-ospf:ospf/ios-ospf:process-id/ios-ospf:passive-interface-config/ios-ospf:enable-interface/ios-ospf:FourHundredGigE/ios-ospf:name,added,,delete,Cisco-IOS-XE-native; Cisco-IOS-XE-ospf
+asr1k,Cisco-IOS-XE-ospf-deviation.yang,/ios:native/ios:router/ios-ospf:router-ospf/ios-ospf:ospf/ios-ospf:process-id/ios-ospf:passive-interface-config/ios-ospf:enable-interface/ios-ospf:TwoHundredGigE/ios-ospf:name,added,,delete,Cisco-IOS-XE-native; Cisco-IOS-XE-ospf
+asr1k,Cisco-IOS-XE-port-channel-deviation.yang,/ios:native/ios:interface/ios:FourHundredGigE/ios-eth:channel-group/ios-eth:number,added,,replace,Cisco-IOS-XE-ethernet; Cisco-IOS-XE-native
+asr1k,Cisco-IOS-XE-port-channel-deviation.yang,/ios:native/ios:interface/ios:HundredGigE/ios-eth:channel-group/ios-eth:number,added,,replace,Cisco-IOS-XE-ethernet; Cisco-IOS-XE-native
+asr1k,Cisco-IOS-XE-port-channel-deviation.yang,/ios:native/ios:interface/ios:TwoHundredGigE/ios-eth:channel-group/ios-eth:number,added,,replace,Cisco-IOS-XE-ethernet; Cisco-IOS-XE-native
+asr1k,Cisco-IOS-XE-port-channel-unsupported-deviation.yang,/ios:native/ios:interface/ios:FourHundredGigE/ios-eth:channel-group/ios-eth:auto,added,,not-supported,Cisco-IOS-XE-ethernet; Cisco-IOS-XE-native
+asr1k,Cisco-IOS-XE-port-channel-unsupported-deviation.yang,/ios:native/ios:interface/ios:FourHundredGigE/ios-eth:channel-group/ios-eth:non-silent,added,,not-supported,Cisco-IOS-XE-ethernet; Cisco-IOS-XE-native
+asr1k,Cisco-IOS-XE-port-channel-unsupported-deviation.yang,/ios:native/ios:interface/ios:HundredGigE/ios-eth:channel-group/ios-eth:auto,added,,not-supported,Cisco-IOS-XE-ethernet; Cisco-IOS-XE-native
+asr1k,Cisco-IOS-XE-port-channel-unsupported-deviation.yang,/ios:native/ios:interface/ios:HundredGigE/ios-eth:channel-group/ios-eth:non-silent,added,,not-supported,Cisco-IOS-XE-ethernet; Cisco-IOS-XE-native
+asr1k,Cisco-IOS-XE-port-channel-unsupported-deviation.yang,/ios:native/ios:interface/ios:TwoHundredGigE/ios-eth:channel-group/ios-eth:auto,added,,not-supported,Cisco-IOS-XE-ethernet; Cisco-IOS-XE-native
+asr1k,Cisco-IOS-XE-port-channel-unsupported-deviation.yang,/ios:native/ios:interface/ios:TwoHundredGigE/ios-eth:channel-group/ios-eth:non-silent,added,,not-supported,Cisco-IOS-XE-ethernet; Cisco-IOS-XE-native
+c8000v,Cisco-IOS-XE-cdp-deviation.yang,/ios:native/ios:interface/ios:FourHundredGigE/ios-cdp:cdp/ios-cdp:enable,added,,replace,Cisco-IOS-XE-cdp; Cisco-IOS-XE-native
+c8000v,Cisco-IOS-XE-cdp-deviation.yang,/ios:native/ios:interface/ios:TwoHundredGigE/ios-cdp:cdp/ios-cdp:enable,added,,replace,Cisco-IOS-XE-cdp; Cisco-IOS-XE-native
+c8000v,Cisco-IOS-XE-dhcp-deviation.yang,/ios:native/ios:interface/ios:FourHundredGigE/ios:ip/ios:dhcp/ios-dhcp:snooping,added,,not-supported,Cisco-IOS-XE-dhcp; Cisco-IOS-XE-native
+c8000v,Cisco-IOS-XE-dhcp-deviation.yang,/ios:native/ios:interface/ios:TwoHundredGigE/ios:ip/ios:dhcp/ios-dhcp:snooping,added,,not-supported,Cisco-IOS-XE-dhcp; Cisco-IOS-XE-native
+c8000v,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:ATM-subinterface/ios:ATM/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+c8000v,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:ATM/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+c8000v,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:AppGigabitEthernet/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+c8000v,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:AppNav-Compress/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+c8000v,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:AppNav-UnCompress/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+c8000v,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:Async/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+c8000v,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:BD-VIF/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+c8000v,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:BDI/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+c8000v,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:Bundle/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+c8000v,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:Cellular/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+c8000v,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:Dialer/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+c8000v,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:Embedded-Service-Engine/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+c8000v,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:Ethernet-Internal/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+c8000v,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:GMPLS/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+c8000v,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:Group-Async/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+c8000v,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:HSR-ring/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+c8000v,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:L2LISP-subinterface/ios:L2LISP/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+c8000v,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:L2LISP/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+c8000v,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:LISP-subinterface/ios:LISP/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+c8000v,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:LISP/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+c8000v,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:LORAWAN/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+c8000v,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:Loopback/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+c8000v,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:MFR-subinterface/ios:MFR/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+c8000v,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:MFR/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+c8000v,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:Multilink/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+c8000v,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:PRP-channel/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+c8000v,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:SM/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+c8000v,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:Serial-subinterface/ios:Serial/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+c8000v,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:Serial/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+c8000v,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:Service-Engine/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+c8000v,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:Tunnel/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+c8000v,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:Vif/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+c8000v,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:Virtual-PPP/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+c8000v,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:Virtual-Template/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+c8000v,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:Virtual-WPAN/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+c8000v,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:VirtualPortGroup/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+c8000v,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:WPAN/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+c8000v,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:Wlan-GigabitEthernet/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+c8000v,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:nve/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+c8000v,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:ucse/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+c8000v,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:vasileft/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+c8000v,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:vasiright/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+c8000v,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:vmi/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+c8000v,Cisco-IOS-XE-ospf-deviation.yang,/ios:native/ios:router/ios-ospf:router-ospf/ios-ospf:ospf/ios-ospf:process-id/ios-ospf:passive-interface-config/ios-ospf:disable-interface/ios-ospf:FourHundredGigE/ios-ospf:name,added,,delete,Cisco-IOS-XE-native; Cisco-IOS-XE-ospf
+c8000v,Cisco-IOS-XE-ospf-deviation.yang,/ios:native/ios:router/ios-ospf:router-ospf/ios-ospf:ospf/ios-ospf:process-id/ios-ospf:passive-interface-config/ios-ospf:disable-interface/ios-ospf:TwoHundredGigE/ios-ospf:name,added,,delete,Cisco-IOS-XE-native; Cisco-IOS-XE-ospf
+c8000v,Cisco-IOS-XE-ospf-deviation.yang,/ios:native/ios:router/ios-ospf:router-ospf/ios-ospf:ospf/ios-ospf:process-id/ios-ospf:passive-interface-config/ios-ospf:enable-interface/ios-ospf:FourHundredGigE/ios-ospf:name,added,,delete,Cisco-IOS-XE-native; Cisco-IOS-XE-ospf
+c8000v,Cisco-IOS-XE-ospf-deviation.yang,/ios:native/ios:router/ios-ospf:router-ospf/ios-ospf:ospf/ios-ospf:process-id/ios-ospf:passive-interface-config/ios-ospf:enable-interface/ios-ospf:TwoHundredGigE/ios-ospf:name,added,,delete,Cisco-IOS-XE-native; Cisco-IOS-XE-ospf
+c8000v,Cisco-IOS-XE-port-channel-deviation.yang,/ios:native/ios:interface/ios:FourHundredGigE/ios-eth:channel-group/ios-eth:number,added,,replace,Cisco-IOS-XE-ethernet; Cisco-IOS-XE-native
+c8000v,Cisco-IOS-XE-port-channel-deviation.yang,/ios:native/ios:interface/ios:HundredGigE/ios-eth:channel-group/ios-eth:number,added,,replace,Cisco-IOS-XE-ethernet; Cisco-IOS-XE-native
+c8000v,Cisco-IOS-XE-port-channel-deviation.yang,/ios:native/ios:interface/ios:TwoHundredGigE/ios-eth:channel-group/ios-eth:number,added,,replace,Cisco-IOS-XE-ethernet; Cisco-IOS-XE-native
+c8000v,Cisco-IOS-XE-port-channel-unsupported-deviation.yang,/ios:native/ios:interface/ios:FourHundredGigE/ios-eth:channel-group/ios-eth:auto,added,,not-supported,Cisco-IOS-XE-ethernet; Cisco-IOS-XE-native
+c8000v,Cisco-IOS-XE-port-channel-unsupported-deviation.yang,/ios:native/ios:interface/ios:FourHundredGigE/ios-eth:channel-group/ios-eth:non-silent,added,,not-supported,Cisco-IOS-XE-ethernet; Cisco-IOS-XE-native
+c8000v,Cisco-IOS-XE-port-channel-unsupported-deviation.yang,/ios:native/ios:interface/ios:HundredGigE/ios-eth:channel-group/ios-eth:auto,added,,not-supported,Cisco-IOS-XE-ethernet; Cisco-IOS-XE-native
+c8000v,Cisco-IOS-XE-port-channel-unsupported-deviation.yang,/ios:native/ios:interface/ios:HundredGigE/ios-eth:channel-group/ios-eth:non-silent,added,,not-supported,Cisco-IOS-XE-ethernet; Cisco-IOS-XE-native
+c8000v,Cisco-IOS-XE-port-channel-unsupported-deviation.yang,/ios:native/ios:interface/ios:TwoHundredGigE/ios-eth:channel-group/ios-eth:auto,added,,not-supported,Cisco-IOS-XE-ethernet; Cisco-IOS-XE-native
+c8000v,Cisco-IOS-XE-port-channel-unsupported-deviation.yang,/ios:native/ios:interface/ios:TwoHundredGigE/ios-eth:channel-group/ios-eth:non-silent,added,,not-supported,Cisco-IOS-XE-ethernet; Cisco-IOS-XE-native
+c8500,Cisco-IOS-XE-cdp-deviation.yang,/ios:native/ios:interface/ios:FourHundredGigE/ios-cdp:cdp/ios-cdp:enable,added,,replace,Cisco-IOS-XE-cdp; Cisco-IOS-XE-native
+c8500,Cisco-IOS-XE-cdp-deviation.yang,/ios:native/ios:interface/ios:TwoHundredGigE/ios-cdp:cdp/ios-cdp:enable,added,,replace,Cisco-IOS-XE-cdp; Cisco-IOS-XE-native
+c8500,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:ATM-subinterface/ios:ATM/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+c8500,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:ATM/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+c8500,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:AppGigabitEthernet/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+c8500,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:AppNav-Compress/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+c8500,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:AppNav-UnCompress/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+c8500,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:Async/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+c8500,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:BD-VIF/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+c8500,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:BDI/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+c8500,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:Bundle/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+c8500,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:Cellular/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+c8500,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:Dialer/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+c8500,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:Embedded-Service-Engine/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+c8500,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:Ethernet-Internal/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+c8500,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:GMPLS/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+c8500,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:Group-Async/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+c8500,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:HSR-ring/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+c8500,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:L2LISP-subinterface/ios:L2LISP/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+c8500,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:L2LISP/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+c8500,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:LISP-subinterface/ios:LISP/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+c8500,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:LISP/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+c8500,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:LORAWAN/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+c8500,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:Loopback/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+c8500,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:MFR-subinterface/ios:MFR/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+c8500,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:MFR/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+c8500,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:Multilink/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+c8500,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:PRP-channel/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+c8500,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:SM/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+c8500,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:Serial-subinterface/ios:Serial/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+c8500,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:Serial/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+c8500,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:Service-Engine/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+c8500,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:Tunnel/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+c8500,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:Vif/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+c8500,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:Virtual-PPP/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+c8500,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:Virtual-Template/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+c8500,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:Virtual-WPAN/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+c8500,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:VirtualPortGroup/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+c8500,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:WPAN/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+c8500,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:Wlan-GigabitEthernet/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+c8500,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:nve/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+c8500,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:ucse/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+c8500,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:vasileft/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+c8500,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:vasiright/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+c8500,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:vmi/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+c8500,Cisco-IOS-XE-ospf-deviation.yang,/ios:native/ios:router/ios-ospf:router-ospf/ios-ospf:ospf/ios-ospf:process-id/ios-ospf:passive-interface-config/ios-ospf:disable-interface/ios-ospf:FourHundredGigE/ios-ospf:name,added,,delete,Cisco-IOS-XE-native; Cisco-IOS-XE-ospf
+c8500,Cisco-IOS-XE-ospf-deviation.yang,/ios:native/ios:router/ios-ospf:router-ospf/ios-ospf:ospf/ios-ospf:process-id/ios-ospf:passive-interface-config/ios-ospf:disable-interface/ios-ospf:TwoHundredGigE/ios-ospf:name,added,,delete,Cisco-IOS-XE-native; Cisco-IOS-XE-ospf
+c8500,Cisco-IOS-XE-ospf-deviation.yang,/ios:native/ios:router/ios-ospf:router-ospf/ios-ospf:ospf/ios-ospf:process-id/ios-ospf:passive-interface-config/ios-ospf:enable-interface/ios-ospf:FourHundredGigE/ios-ospf:name,added,,delete,Cisco-IOS-XE-native; Cisco-IOS-XE-ospf
+c8500,Cisco-IOS-XE-ospf-deviation.yang,/ios:native/ios:router/ios-ospf:router-ospf/ios-ospf:ospf/ios-ospf:process-id/ios-ospf:passive-interface-config/ios-ospf:enable-interface/ios-ospf:TwoHundredGigE/ios-ospf:name,added,,delete,Cisco-IOS-XE-native; Cisco-IOS-XE-ospf
+c8500,Cisco-IOS-XE-port-channel-deviation.yang,/ios:native/ios:interface/ios:FourHundredGigE/ios-eth:channel-group/ios-eth:number,added,,replace,Cisco-IOS-XE-ethernet; Cisco-IOS-XE-native
+c8500,Cisco-IOS-XE-port-channel-deviation.yang,/ios:native/ios:interface/ios:HundredGigE/ios-eth:channel-group/ios-eth:number,added,,replace,Cisco-IOS-XE-ethernet; Cisco-IOS-XE-native
+c8500,Cisco-IOS-XE-port-channel-deviation.yang,/ios:native/ios:interface/ios:TwoHundredGigE/ios-eth:channel-group/ios-eth:number,added,,replace,Cisco-IOS-XE-ethernet; Cisco-IOS-XE-native
+c8500,Cisco-IOS-XE-port-channel-unsupported-deviation.yang,/ios:native/ios:interface/ios:FourHundredGigE/ios-eth:channel-group/ios-eth:auto,added,,not-supported,Cisco-IOS-XE-ethernet; Cisco-IOS-XE-native
+c8500,Cisco-IOS-XE-port-channel-unsupported-deviation.yang,/ios:native/ios:interface/ios:FourHundredGigE/ios-eth:channel-group/ios-eth:non-silent,added,,not-supported,Cisco-IOS-XE-ethernet; Cisco-IOS-XE-native
+c8500,Cisco-IOS-XE-port-channel-unsupported-deviation.yang,/ios:native/ios:interface/ios:HundredGigE/ios-eth:channel-group/ios-eth:auto,added,,not-supported,Cisco-IOS-XE-ethernet; Cisco-IOS-XE-native
+c8500,Cisco-IOS-XE-port-channel-unsupported-deviation.yang,/ios:native/ios:interface/ios:HundredGigE/ios-eth:channel-group/ios-eth:non-silent,added,,not-supported,Cisco-IOS-XE-ethernet; Cisco-IOS-XE-native
+c8500,Cisco-IOS-XE-port-channel-unsupported-deviation.yang,/ios:native/ios:interface/ios:TwoHundredGigE/ios-eth:channel-group/ios-eth:auto,added,,not-supported,Cisco-IOS-XE-ethernet; Cisco-IOS-XE-native
+c8500,Cisco-IOS-XE-port-channel-unsupported-deviation.yang,/ios:native/ios:interface/ios:TwoHundredGigE/ios-eth:channel-group/ios-eth:non-silent,added,,not-supported,Cisco-IOS-XE-ethernet; Cisco-IOS-XE-native
+cat9200,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:ATM-subinterface/ios:ATM/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+cat9200,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:ATM/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+cat9200,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:AppGigabitEthernet/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+cat9200,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:AppNav-Compress/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+cat9200,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:AppNav-UnCompress/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+cat9200,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:Async/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+cat9200,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:BD-VIF/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+cat9200,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:BDI/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+cat9200,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:Bundle/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+cat9200,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:Cellular/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+cat9200,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:Dialer/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+cat9200,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:Embedded-Service-Engine/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+cat9200,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:Ethernet-Internal/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+cat9200,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:GMPLS/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+cat9200,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:Group-Async/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+cat9200,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:HSR-ring/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+cat9200,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:L2LISP-subinterface/ios:L2LISP/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+cat9200,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:L2LISP/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+cat9200,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:LISP-subinterface/ios:LISP/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+cat9200,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:LISP/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+cat9200,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:LORAWAN/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+cat9200,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:Loopback/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+cat9200,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:MFR-subinterface/ios:MFR/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+cat9200,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:MFR/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+cat9200,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:Multilink/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+cat9200,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:PRP-channel/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+cat9200,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:SM/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+cat9200,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:Serial-subinterface/ios:Serial/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+cat9200,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:Serial/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+cat9200,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:Service-Engine/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+cat9200,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:Tunnel/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+cat9200,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:Vif/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+cat9200,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:Virtual-PPP/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+cat9200,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:Virtual-Template/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+cat9200,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:Virtual-WPAN/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+cat9200,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:VirtualPortGroup/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+cat9200,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:WPAN/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+cat9200,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:Wlan-GigabitEthernet/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+cat9200,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:nve/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+cat9200,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:ucse/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+cat9200,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:vasileft/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+cat9200,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:vasiright/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+cat9200,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:vmi/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+cat9200,Cisco-IOS-XE-ospf-deviation.yang,/ios:native/ios:router/ios-ospf:router-ospf/ios-ospf:ospf/ios-ospf:process-id/ios-ospf:passive-interface-config/ios-ospf:disable-interface/ios-ospf:FourHundredGigE/ios-ospf:name,added,,delete,Cisco-IOS-XE-native; Cisco-IOS-XE-ospf
+cat9200,Cisco-IOS-XE-ospf-deviation.yang,/ios:native/ios:router/ios-ospf:router-ospf/ios-ospf:ospf/ios-ospf:process-id/ios-ospf:passive-interface-config/ios-ospf:disable-interface/ios-ospf:TwoHundredGigE/ios-ospf:name,added,,delete,Cisco-IOS-XE-native; Cisco-IOS-XE-ospf
+cat9200,Cisco-IOS-XE-ospf-deviation.yang,/ios:native/ios:router/ios-ospf:router-ospf/ios-ospf:ospf/ios-ospf:process-id/ios-ospf:passive-interface-config/ios-ospf:enable-interface/ios-ospf:FourHundredGigE/ios-ospf:name,added,,delete,Cisco-IOS-XE-native; Cisco-IOS-XE-ospf
+cat9200,Cisco-IOS-XE-ospf-deviation.yang,/ios:native/ios:router/ios-ospf:router-ospf/ios-ospf:ospf/ios-ospf:process-id/ios-ospf:passive-interface-config/ios-ospf:enable-interface/ios-ospf:TwoHundredGigE/ios-ospf:name,added,,delete,Cisco-IOS-XE-native; Cisco-IOS-XE-ospf
+cat9200,Cisco-IOS-XE-switch-deviation.yang,/ios:native/ios-sw:device/ios-sw:classifier-with-condition/ios-sw:classifier/ios-sw:condition,updated,add,add,Cisco-IOS-XE-native; Cisco-IOS-XE-policy; Cisco-IOS-XE-switch
+cat9200,Cisco-IOS-XE-switch-deviation.yang,/ios:native/ios-sw:device/ios-sw:classifier-with-condition/ios-sw:classifier/ios-sw:device-type,updated,add,add,Cisco-IOS-XE-native; Cisco-IOS-XE-policy; Cisco-IOS-XE-switch
+cat9k,Cisco-IOS-XE-device-tracking-cat9k-deviation.yang,/ios:native/ios:interface/ios:FourHundredGigE/ios-sw:device-tracking,added,,add,Cisco-IOS-XE-native; Cisco-IOS-XE-switch
+cat9k,Cisco-IOS-XE-device-tracking-cat9k-deviation.yang,/ios:native/ios:interface/ios:TwoHundredGigE/ios-sw:device-tracking,added,,add,Cisco-IOS-XE-native; Cisco-IOS-XE-switch
+cat9k,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:ATM-subinterface/ios:ATM/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+cat9k,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:ATM/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+cat9k,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:AppGigabitEthernet/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+cat9k,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:AppNav-Compress/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+cat9k,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:AppNav-UnCompress/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+cat9k,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:Async/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+cat9k,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:BD-VIF/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+cat9k,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:BDI/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+cat9k,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:Bundle/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+cat9k,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:Cellular/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+cat9k,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:Dialer/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+cat9k,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:Embedded-Service-Engine/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+cat9k,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:Ethernet-Internal/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+cat9k,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:GMPLS/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+cat9k,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:Group-Async/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+cat9k,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:HSR-ring/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+cat9k,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:L2LISP-subinterface/ios:L2LISP/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+cat9k,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:L2LISP/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+cat9k,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:LISP-subinterface/ios:LISP/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+cat9k,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:LISP/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+cat9k,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:LORAWAN/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+cat9k,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:Loopback/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+cat9k,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:MFR-subinterface/ios:MFR/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+cat9k,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:MFR/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+cat9k,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:Multilink/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+cat9k,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:PRP-channel/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+cat9k,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:SM/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+cat9k,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:Serial-subinterface/ios:Serial/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+cat9k,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:Serial/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+cat9k,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:Service-Engine/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+cat9k,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:Tunnel/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+cat9k,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:Vif/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+cat9k,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:Virtual-PPP/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+cat9k,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:Virtual-Template/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+cat9k,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:Virtual-WPAN/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+cat9k,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:VirtualPortGroup/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+cat9k,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:WPAN/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+cat9k,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:Wlan-GigabitEthernet/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+cat9k,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:nve/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+cat9k,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:ucse/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+cat9k,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:vasileft/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+cat9k,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:vasiright/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+cat9k,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:vmi/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+cat9k,Cisco-IOS-XE-ospf-deviation.yang,/ios:native/ios:router/ios-ospf:router-ospf/ios-ospf:ospf/ios-ospf:process-id/ios-ospf:passive-interface-config/ios-ospf:disable-interface/ios-ospf:FourHundredGigE/ios-ospf:name,added,,delete,Cisco-IOS-XE-native; Cisco-IOS-XE-ospf
+cat9k,Cisco-IOS-XE-ospf-deviation.yang,/ios:native/ios:router/ios-ospf:router-ospf/ios-ospf:ospf/ios-ospf:process-id/ios-ospf:passive-interface-config/ios-ospf:disable-interface/ios-ospf:TwoHundredGigE/ios-ospf:name,added,,delete,Cisco-IOS-XE-native; Cisco-IOS-XE-ospf
+cat9k,Cisco-IOS-XE-ospf-deviation.yang,/ios:native/ios:router/ios-ospf:router-ospf/ios-ospf:ospf/ios-ospf:process-id/ios-ospf:passive-interface-config/ios-ospf:enable-interface/ios-ospf:FourHundredGigE/ios-ospf:name,added,,delete,Cisco-IOS-XE-native; Cisco-IOS-XE-ospf
+cat9k,Cisco-IOS-XE-ospf-deviation.yang,/ios:native/ios:router/ios-ospf:router-ospf/ios-ospf:ospf/ios-ospf:process-id/ios-ospf:passive-interface-config/ios-ospf:enable-interface/ios-ospf:TwoHundredGigE/ios-ospf:name,added,,delete,Cisco-IOS-XE-native; Cisco-IOS-XE-ospf
+cat9k,Cisco-IOS-XE-switch-deviation.yang,/ios:native/ios-sw:device/ios-sw:classifier-with-condition/ios-sw:classifier/ios-sw:condition,updated,add,add,Cisco-IOS-XE-native; Cisco-IOS-XE-policy; Cisco-IOS-XE-switch
+cat9k,Cisco-IOS-XE-switch-deviation.yang,/ios:native/ios-sw:device/ios-sw:classifier-with-condition/ios-sw:classifier/ios-sw:device-type,updated,add,add,Cisco-IOS-XE-native; Cisco-IOS-XE-policy; Cisco-IOS-XE-switch
+ess3x00,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:ATM-subinterface/ios:ATM/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+ess3x00,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:ATM/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+ess3x00,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:AppGigabitEthernet/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+ess3x00,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:AppNav-Compress/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+ess3x00,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:AppNav-UnCompress/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+ess3x00,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:Async/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+ess3x00,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:BD-VIF/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+ess3x00,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:BDI/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+ess3x00,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:Bundle/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+ess3x00,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:Cellular/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+ess3x00,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:Dialer/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+ess3x00,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:Embedded-Service-Engine/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+ess3x00,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:Ethernet-Internal/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+ess3x00,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:GMPLS/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+ess3x00,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:Group-Async/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+ess3x00,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:HSR-ring/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+ess3x00,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:L2LISP-subinterface/ios:L2LISP/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+ess3x00,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:L2LISP/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+ess3x00,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:LISP-subinterface/ios:LISP/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+ess3x00,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:LISP/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+ess3x00,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:LORAWAN/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+ess3x00,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:Loopback/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+ess3x00,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:MFR-subinterface/ios:MFR/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+ess3x00,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:MFR/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+ess3x00,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:Multilink/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+ess3x00,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:PRP-channel/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+ess3x00,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:SM/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+ess3x00,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:Serial-subinterface/ios:Serial/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+ess3x00,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:Serial/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+ess3x00,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:Service-Engine/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+ess3x00,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:Tunnel/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+ess3x00,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:Vif/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+ess3x00,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:Virtual-PPP/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+ess3x00,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:Virtual-Template/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+ess3x00,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:Virtual-WPAN/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+ess3x00,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:VirtualPortGroup/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+ess3x00,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:WPAN/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+ess3x00,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:Wlan-GigabitEthernet/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+ess3x00,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:nve/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+ess3x00,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:ucse/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+ess3x00,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:vasileft/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+ess3x00,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:vasiright/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+ess3x00,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:vmi/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+ess3x00,Cisco-IOS-XE-ospf-deviation.yang,/ios:native/ios:router/ios-ospf:router-ospf/ios-ospf:ospf/ios-ospf:process-id/ios-ospf:passive-interface-config/ios-ospf:disable-interface/ios-ospf:FourHundredGigE/ios-ospf:name,added,,delete,Cisco-IOS-XE-native; Cisco-IOS-XE-ospf
+ess3x00,Cisco-IOS-XE-ospf-deviation.yang,/ios:native/ios:router/ios-ospf:router-ospf/ios-ospf:ospf/ios-ospf:process-id/ios-ospf:passive-interface-config/ios-ospf:disable-interface/ios-ospf:TwoHundredGigE/ios-ospf:name,added,,delete,Cisco-IOS-XE-native; Cisco-IOS-XE-ospf
+ess3x00,Cisco-IOS-XE-ospf-deviation.yang,/ios:native/ios:router/ios-ospf:router-ospf/ios-ospf:ospf/ios-ospf:process-id/ios-ospf:passive-interface-config/ios-ospf:enable-interface/ios-ospf:FourHundredGigE/ios-ospf:name,added,,delete,Cisco-IOS-XE-native; Cisco-IOS-XE-ospf
+ess3x00,Cisco-IOS-XE-ospf-deviation.yang,/ios:native/ios:router/ios-ospf:router-ospf/ios-ospf:ospf/ios-ospf:process-id/ios-ospf:passive-interface-config/ios-ospf:enable-interface/ios-ospf:TwoHundredGigE/ios-ospf:name,added,,delete,Cisco-IOS-XE-native; Cisco-IOS-XE-ospf
+ie3x00,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:ATM-subinterface/ios:ATM/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+ie3x00,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:ATM/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+ie3x00,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:AppGigabitEthernet/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+ie3x00,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:AppNav-Compress/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+ie3x00,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:AppNav-UnCompress/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+ie3x00,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:Async/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+ie3x00,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:BD-VIF/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+ie3x00,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:BDI/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+ie3x00,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:Bundle/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+ie3x00,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:Cellular/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+ie3x00,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:Dialer/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+ie3x00,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:Embedded-Service-Engine/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+ie3x00,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:Ethernet-Internal/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+ie3x00,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:GMPLS/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+ie3x00,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:Group-Async/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+ie3x00,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:HSR-ring/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+ie3x00,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:L2LISP-subinterface/ios:L2LISP/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+ie3x00,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:L2LISP/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+ie3x00,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:LISP-subinterface/ios:LISP/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+ie3x00,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:LISP/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+ie3x00,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:LORAWAN/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+ie3x00,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:Loopback/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+ie3x00,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:MFR-subinterface/ios:MFR/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+ie3x00,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:MFR/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+ie3x00,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:Multilink/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+ie3x00,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:PRP-channel/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+ie3x00,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:SM/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+ie3x00,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:Serial-subinterface/ios:Serial/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+ie3x00,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:Serial/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+ie3x00,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:Service-Engine/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+ie3x00,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:Tunnel/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+ie3x00,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:Vif/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+ie3x00,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:Virtual-PPP/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+ie3x00,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:Virtual-Template/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+ie3x00,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:Virtual-WPAN/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+ie3x00,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:VirtualPortGroup/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+ie3x00,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:WPAN/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+ie3x00,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:Wlan-GigabitEthernet/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+ie3x00,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:nve/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+ie3x00,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:ucse/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+ie3x00,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:vasileft/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+ie3x00,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:vasiright/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+ie3x00,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:vmi/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+ie3x00,Cisco-IOS-XE-ospf-deviation.yang,/ios:native/ios:router/ios-ospf:router-ospf/ios-ospf:ospf/ios-ospf:process-id/ios-ospf:passive-interface-config/ios-ospf:disable-interface/ios-ospf:FourHundredGigE/ios-ospf:name,added,,delete,Cisco-IOS-XE-native; Cisco-IOS-XE-ospf
+ie3x00,Cisco-IOS-XE-ospf-deviation.yang,/ios:native/ios:router/ios-ospf:router-ospf/ios-ospf:ospf/ios-ospf:process-id/ios-ospf:passive-interface-config/ios-ospf:disable-interface/ios-ospf:TwoHundredGigE/ios-ospf:name,added,,delete,Cisco-IOS-XE-native; Cisco-IOS-XE-ospf
+ie3x00,Cisco-IOS-XE-ospf-deviation.yang,/ios:native/ios:router/ios-ospf:router-ospf/ios-ospf:ospf/ios-ospf:process-id/ios-ospf:passive-interface-config/ios-ospf:enable-interface/ios-ospf:FourHundredGigE/ios-ospf:name,added,,delete,Cisco-IOS-XE-native; Cisco-IOS-XE-ospf
+ie3x00,Cisco-IOS-XE-ospf-deviation.yang,/ios:native/ios:router/ios-ospf:router-ospf/ios-ospf:ospf/ios-ospf:process-id/ios-ospf:passive-interface-config/ios-ospf:enable-interface/ios-ospf:TwoHundredGigE/ios-ospf:name,added,,delete,Cisco-IOS-XE-native; Cisco-IOS-XE-ospf
+ir1101,Cisco-IOS-XE-ethernet-radium-deviation.yang,/ios:native/ios:interface/ios:Port-channel/ios-eth:lacp/ios-eth:max-bundle,added,,replace,Cisco-IOS-XE-ethernet; Cisco-IOS-XE-native
+ir1101,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:ATM-subinterface/ios:ATM/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+ir1101,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:ATM/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+ir1101,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:AppGigabitEthernet/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+ir1101,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:AppNav-Compress/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+ir1101,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:AppNav-UnCompress/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+ir1101,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:Async/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+ir1101,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:BD-VIF/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+ir1101,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:BDI/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+ir1101,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:Bundle/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+ir1101,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:Cellular/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+ir1101,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:Dialer/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+ir1101,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:Embedded-Service-Engine/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+ir1101,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:Ethernet-Internal/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+ir1101,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:GMPLS/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+ir1101,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:Group-Async/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+ir1101,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:HSR-ring/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+ir1101,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:L2LISP-subinterface/ios:L2LISP/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+ir1101,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:L2LISP/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+ir1101,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:LISP-subinterface/ios:LISP/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+ir1101,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:LISP/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+ir1101,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:LORAWAN/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+ir1101,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:Loopback/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+ir1101,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:MFR-subinterface/ios:MFR/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+ir1101,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:MFR/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+ir1101,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:Multilink/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+ir1101,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:PRP-channel/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+ir1101,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:SM/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+ir1101,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:Serial-subinterface/ios:Serial/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+ir1101,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:Serial/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+ir1101,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:Service-Engine/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+ir1101,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:Tunnel/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+ir1101,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:Vif/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+ir1101,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:Virtual-PPP/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+ir1101,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:Virtual-Template/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+ir1101,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:Virtual-WPAN/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+ir1101,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:VirtualPortGroup/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+ir1101,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:WPAN/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+ir1101,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:Wlan-GigabitEthernet/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+ir1101,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:nve/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+ir1101,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:ucse/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+ir1101,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:vasileft/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+ir1101,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:vasiright/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+ir1101,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:vmi/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+ir1101,Cisco-IOS-XE-ospf-deviation.yang,/ios:native/ios:router/ios-ospf:router-ospf/ios-ospf:ospf/ios-ospf:process-id/ios-ospf:passive-interface-config/ios-ospf:disable-interface/ios-ospf:FourHundredGigE/ios-ospf:name,added,,delete,Cisco-IOS-XE-native; Cisco-IOS-XE-ospf
+ir1101,Cisco-IOS-XE-ospf-deviation.yang,/ios:native/ios:router/ios-ospf:router-ospf/ios-ospf:ospf/ios-ospf:process-id/ios-ospf:passive-interface-config/ios-ospf:disable-interface/ios-ospf:TwoHundredGigE/ios-ospf:name,added,,delete,Cisco-IOS-XE-native; Cisco-IOS-XE-ospf
+ir1101,Cisco-IOS-XE-ospf-deviation.yang,/ios:native/ios:router/ios-ospf:router-ospf/ios-ospf:ospf/ios-ospf:process-id/ios-ospf:passive-interface-config/ios-ospf:enable-interface/ios-ospf:FourHundredGigE/ios-ospf:name,added,,delete,Cisco-IOS-XE-native; Cisco-IOS-XE-ospf
+ir1101,Cisco-IOS-XE-ospf-deviation.yang,/ios:native/ios:router/ios-ospf:router-ospf/ios-ospf:ospf/ios-ospf:process-id/ios-ospf:passive-interface-config/ios-ospf:enable-interface/ios-ospf:TwoHundredGigE/ios-ospf:name,added,,delete,Cisco-IOS-XE-native; Cisco-IOS-XE-ospf
+ir1101,Cisco-IOS-XE-port-channel-unsupported-deviation.yang,/ios:native/ios:interface/ios:FourHundredGigE/ios-eth:channel-group/ios-eth:auto,added,,not-supported,Cisco-IOS-XE-ethernet; Cisco-IOS-XE-native
+ir1101,Cisco-IOS-XE-port-channel-unsupported-deviation.yang,/ios:native/ios:interface/ios:FourHundredGigE/ios-eth:channel-group/ios-eth:non-silent,added,,not-supported,Cisco-IOS-XE-ethernet; Cisco-IOS-XE-native
+ir1101,Cisco-IOS-XE-port-channel-unsupported-deviation.yang,/ios:native/ios:interface/ios:HundredGigE/ios-eth:channel-group/ios-eth:auto,added,,not-supported,Cisco-IOS-XE-ethernet; Cisco-IOS-XE-native
+ir1101,Cisco-IOS-XE-port-channel-unsupported-deviation.yang,/ios:native/ios:interface/ios:HundredGigE/ios-eth:channel-group/ios-eth:non-silent,added,,not-supported,Cisco-IOS-XE-ethernet; Cisco-IOS-XE-native
+ir1101,Cisco-IOS-XE-port-channel-unsupported-deviation.yang,/ios:native/ios:interface/ios:TwoHundredGigE/ios-eth:channel-group/ios-eth:auto,added,,not-supported,Cisco-IOS-XE-ethernet; Cisco-IOS-XE-native
+ir1101,Cisco-IOS-XE-port-channel-unsupported-deviation.yang,/ios:native/ios:interface/ios:TwoHundredGigE/ios-eth:channel-group/ios-eth:non-silent,added,,not-supported,Cisco-IOS-XE-ethernet; Cisco-IOS-XE-native
+isr1k,Cisco-IOS-XE-ethernet-radium-deviation.yang,/ios:native/ios:interface/ios:Port-channel/ios-eth:lacp/ios-eth:max-bundle,added,,replace,Cisco-IOS-XE-ethernet; Cisco-IOS-XE-native
+isr1k,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:ATM-subinterface/ios:ATM/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+isr1k,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:ATM/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+isr1k,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:AppGigabitEthernet/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+isr1k,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:AppNav-Compress/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+isr1k,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:AppNav-UnCompress/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+isr1k,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:Async/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+isr1k,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:BD-VIF/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+isr1k,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:BDI/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+isr1k,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:Bundle/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+isr1k,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:Cellular/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+isr1k,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:Dialer/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+isr1k,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:Embedded-Service-Engine/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+isr1k,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:Ethernet-Internal/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+isr1k,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:GMPLS/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+isr1k,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:Group-Async/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+isr1k,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:HSR-ring/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+isr1k,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:L2LISP-subinterface/ios:L2LISP/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+isr1k,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:L2LISP/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+isr1k,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:LISP-subinterface/ios:LISP/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+isr1k,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:LISP/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+isr1k,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:LORAWAN/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+isr1k,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:Loopback/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+isr1k,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:MFR-subinterface/ios:MFR/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+isr1k,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:MFR/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+isr1k,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:Multilink/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+isr1k,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:PRP-channel/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+isr1k,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:SM/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+isr1k,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:Serial-subinterface/ios:Serial/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+isr1k,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:Serial/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+isr1k,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:Service-Engine/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+isr1k,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:Tunnel/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+isr1k,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:Vif/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+isr1k,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:Virtual-PPP/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+isr1k,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:Virtual-Template/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+isr1k,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:Virtual-WPAN/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+isr1k,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:VirtualPortGroup/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+isr1k,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:WPAN/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+isr1k,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:Wlan-GigabitEthernet/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+isr1k,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:nve/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+isr1k,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:ucse/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+isr1k,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:vasileft/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+isr1k,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:vasiright/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+isr1k,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:vmi/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+isr1k,Cisco-IOS-XE-ospf-deviation.yang,/ios:native/ios:router/ios-ospf:router-ospf/ios-ospf:ospf/ios-ospf:process-id/ios-ospf:passive-interface-config/ios-ospf:disable-interface/ios-ospf:FourHundredGigE/ios-ospf:name,added,,delete,Cisco-IOS-XE-native; Cisco-IOS-XE-ospf
+isr1k,Cisco-IOS-XE-ospf-deviation.yang,/ios:native/ios:router/ios-ospf:router-ospf/ios-ospf:ospf/ios-ospf:process-id/ios-ospf:passive-interface-config/ios-ospf:disable-interface/ios-ospf:TwoHundredGigE/ios-ospf:name,added,,delete,Cisco-IOS-XE-native; Cisco-IOS-XE-ospf
+isr1k,Cisco-IOS-XE-ospf-deviation.yang,/ios:native/ios:router/ios-ospf:router-ospf/ios-ospf:ospf/ios-ospf:process-id/ios-ospf:passive-interface-config/ios-ospf:enable-interface/ios-ospf:FourHundredGigE/ios-ospf:name,added,,delete,Cisco-IOS-XE-native; Cisco-IOS-XE-ospf
+isr1k,Cisco-IOS-XE-ospf-deviation.yang,/ios:native/ios:router/ios-ospf:router-ospf/ios-ospf:ospf/ios-ospf:process-id/ios-ospf:passive-interface-config/ios-ospf:enable-interface/ios-ospf:TwoHundredGigE/ios-ospf:name,added,,delete,Cisco-IOS-XE-native; Cisco-IOS-XE-ospf
+isr1k,Cisco-IOS-XE-port-channel-unsupported-deviation.yang,/ios:native/ios:interface/ios:FourHundredGigE/ios-eth:channel-group/ios-eth:auto,added,,not-supported,Cisco-IOS-XE-ethernet; Cisco-IOS-XE-native
+isr1k,Cisco-IOS-XE-port-channel-unsupported-deviation.yang,/ios:native/ios:interface/ios:FourHundredGigE/ios-eth:channel-group/ios-eth:non-silent,added,,not-supported,Cisco-IOS-XE-ethernet; Cisco-IOS-XE-native
+isr1k,Cisco-IOS-XE-port-channel-unsupported-deviation.yang,/ios:native/ios:interface/ios:HundredGigE/ios-eth:channel-group/ios-eth:auto,added,,not-supported,Cisco-IOS-XE-ethernet; Cisco-IOS-XE-native
+isr1k,Cisco-IOS-XE-port-channel-unsupported-deviation.yang,/ios:native/ios:interface/ios:HundredGigE/ios-eth:channel-group/ios-eth:non-silent,added,,not-supported,Cisco-IOS-XE-ethernet; Cisco-IOS-XE-native
+isr1k,Cisco-IOS-XE-port-channel-unsupported-deviation.yang,/ios:native/ios:interface/ios:TwoHundredGigE/ios-eth:channel-group/ios-eth:auto,added,,not-supported,Cisco-IOS-XE-ethernet; Cisco-IOS-XE-native
+isr1k,Cisco-IOS-XE-port-channel-unsupported-deviation.yang,/ios:native/ios:interface/ios:TwoHundredGigE/ios-eth:channel-group/ios-eth:non-silent,added,,not-supported,Cisco-IOS-XE-ethernet; Cisco-IOS-XE-native
+wireless,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:ATM-subinterface/ios:ATM/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+wireless,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:ATM/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+wireless,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:AppGigabitEthernet/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+wireless,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:AppNav-Compress/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+wireless,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:AppNav-UnCompress/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+wireless,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:Async/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+wireless,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:BD-VIF/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+wireless,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:BDI/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+wireless,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:Bundle/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+wireless,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:Cellular/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+wireless,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:Dialer/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+wireless,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:Embedded-Service-Engine/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+wireless,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:Ethernet-Internal/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+wireless,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:GMPLS/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+wireless,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:Group-Async/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+wireless,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:HSR-ring/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+wireless,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:L2LISP-subinterface/ios:L2LISP/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+wireless,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:L2LISP/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+wireless,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:LISP-subinterface/ios:LISP/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+wireless,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:LISP/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+wireless,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:LORAWAN/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+wireless,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:Loopback/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+wireless,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:MFR-subinterface/ios:MFR/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+wireless,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:MFR/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+wireless,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:Multilink/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+wireless,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:PRP-channel/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+wireless,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:SM/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+wireless,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:Serial-subinterface/ios:Serial/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+wireless,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:Serial/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+wireless,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:Service-Engine/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+wireless,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:Tunnel/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+wireless,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:Vif/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+wireless,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:Virtual-PPP/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+wireless,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:Virtual-Template/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+wireless,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:Virtual-WPAN/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+wireless,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:VirtualPortGroup/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+wireless,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:WPAN/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+wireless,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:Wlan-GigabitEthernet/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+wireless,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:nve/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+wireless,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:ucse/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+wireless,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:vasileft/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+wireless,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:vasiright/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+wireless,Cisco-IOS-XE-interfaces-deviation.yang,/ios:native/ios:interface/ios:vmi/ios:ip/ios:address-choice/ios:forward/ios:forward,added,,not-supported,Cisco-IOS-XE-native
+wireless,Cisco-IOS-XE-ospf-deviation.yang,/ios:native/ios:router/ios-ospf:router-ospf/ios-ospf:ospf/ios-ospf:process-id/ios-ospf:passive-interface-config/ios-ospf:disable-interface/ios-ospf:FourHundredGigE/ios-ospf:name,added,,delete,Cisco-IOS-XE-native; Cisco-IOS-XE-ospf
+wireless,Cisco-IOS-XE-ospf-deviation.yang,/ios:native/ios:router/ios-ospf:router-ospf/ios-ospf:ospf/ios-ospf:process-id/ios-ospf:passive-interface-config/ios-ospf:disable-interface/ios-ospf:TwoHundredGigE/ios-ospf:name,added,,delete,Cisco-IOS-XE-native; Cisco-IOS-XE-ospf
+wireless,Cisco-IOS-XE-ospf-deviation.yang,/ios:native/ios:router/ios-ospf:router-ospf/ios-ospf:ospf/ios-ospf:process-id/ios-ospf:passive-interface-config/ios-ospf:enable-interface/ios-ospf:FourHundredGigE/ios-ospf:name,added,,delete,Cisco-IOS-XE-native; Cisco-IOS-XE-ospf
+wireless,Cisco-IOS-XE-ospf-deviation.yang,/ios:native/ios:router/ios-ospf:router-ospf/ios-ospf:ospf/ios-ospf:process-id/ios-ospf:passive-interface-config/ios-ospf:enable-interface/ios-ospf:TwoHundredGigE/ios-ospf:name,added,,delete,Cisco-IOS-XE-native; Cisco-IOS-XE-ospf

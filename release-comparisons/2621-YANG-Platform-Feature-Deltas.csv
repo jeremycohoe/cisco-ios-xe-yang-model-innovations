@@ -1,0 +1,7 @@
+profile,module,flavor,module_presence,revision_before,revision_after,features_added,features_removed,feature_count_before,feature_count_after
+asr1k,Cisco-IOS-XE-features,Other,existing,2026-02-01,2026-08-01,port-settings,,28,29
+c8000v,Cisco-IOS-XE-features,Other,existing,2026-02-01,2026-08-01,port-settings,,21,22
+c8500,Cisco-IOS-XE-features,Other,existing,2026-02-01,2026-08-01,port-settings,,28,29
+cat9k,Cisco-IOS-XE-features,Other,existing,2026-02-01,2026-08-01,ip-forward,,40,41
+ir1101,Cisco-IOS-XE-features,Other,existing,2026-02-01,2026-08-01,port-settings,,40,41
+isr1k,Cisco-IOS-XE-features,Other,existing,2026-02-01,2026-08-01,port-settings,,35,36
