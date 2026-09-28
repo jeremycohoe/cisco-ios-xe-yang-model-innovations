@@ -9,6 +9,7 @@ This folder contains Cisco IOS XE YANG release comparisons. Read `NEXT-RELEASE-H
 - Organize changed modules by model flavor. Use a short index, collapsible flavor sections, collapsible per-module details, and module names should link only to verifiable public sources; otherwise keep them as plain text and link to report details.
 - Label model flavors and platform profiles with their evidence and limits. Do not imply an exact hardware SKU from a family profile without evidence.
 - Prefer clear before/after descriptions and searchable CSVs over dense source-signature strings.
+- Include an at-a-glance summary by model flavor. Reconcile module, changed-source, tracked-schema, grouping, and RPC-entry counts; distinguish new modules from changed existing modules.
 
 ## Current comparison
 

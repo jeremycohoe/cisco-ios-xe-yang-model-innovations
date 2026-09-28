@@ -9,6 +9,7 @@
 ## Quick navigation
 
 - [Executive summary](#executive-summary)
+- [At-a-glance change summary](#at-a-glance-change-summary)
 - [Release inventory by model flavor](#release-inventory-by-model-flavor)
 - [Platform applicability](#platform-applicability)
 - [Structural change signals](#structural-change-signals)
@@ -36,6 +37,23 @@ The **165** count is a count of source files with a change in one or more tracke
 New coverage is concentrated in Cisco operational and configuration models, with a coordinated Next-Generation Firewall (NGFW) set, new wireless and Industrial IoT operational models, configuration-management RPCs, and OpenConfig telemetry. The monolithic Native model also has direct node changes. The detailed tables below distinguish source declarations from the resolved YANG schema they may contribute to.
 
 > **Counting note:** “schema signature” and “declared node” counts below come from statements present in each `.yang` source file. They are not counts of nodes in a fully resolved schema tree. This source comparison does not expand imported `uses` groupings, apply the full augment/deviation set, or resolve platform-specific schemas. The separate [Platform applicability](#platform-applicability) section compares the saved module-set inventories.
+
+### At-a-glance change summary
+
+| Model flavor | New modules | Removed modules | Existing source files changed | With tracked schema signal | Without tracked schema signal |
+|---|---:|---:|---:|---:|---:|
+| Oper | 7 | 1 | 178 | 60 | 118 |
+| RPC | 4 | 0 | 13 | 8 | 5 |
+| Native | 0 | 0 | 6 | 6 | 0 |
+| Config | 6 | 0 | 103 | 65 | 38 |
+| OpenConfig | 4 | 0 | 1 | 0 | 1 |
+| IETF | 0 | 0 | 0 | 0 | 0 |
+| Other | 3 | 0 | 35 | 26 | 9 |
+| **Total** | **24** | **1** | **336** | **165** | **171** |
+
+Added and removed counts are standalone module files. Existing changed-file counts include modules and submodules. “Tracked schema signal” means the source parser detected a difference in a tracked YANG declaration; it is a review signal, not proof of semantic impact. For example, two grouping bodies differ only by statement order. “Without tracked signal” means the file changed but no tracked declaration difference was detected. Neither count is a resolved per-device schema count.
+
+**RPC count:** the four new RPC modules declare **12 top-level RPC operations**. The eight RPC entries in the tracked-change column are eight existing RPC modules with changed declarations; they are a separate count.
 
 ## Release inventory by model flavor
 
@@ -82,10 +100,11 @@ Counts cover modules present in the supplied source folders; they are not total 
 | Declaration type | Added | Removed | Existing definitions changed |
 |---|---:|---:|---:|
 | Direct data-node declarations | 54 | 0 | 40 |
-| Reusable groupings | 65 | 0 | 276 |
+| Grouping bodies changed in source | 65 | 0 | 276 |
 | Typedefs | 36 | 0 | 21 |
 | Deviation statements | 63 | 0 | 2 |
 | Features | 2 | 0 | 0 |
+| Added `refine` constraints | 2 | 0 | 0 |
 
 Among the 40 changed direct data-node declarations, the changed properties were status (30), type (5), default (3), when (1), must (1). These are statement-level occurrences; a changed grouping may affect multiple schema locations where it is used. The 63 added deviations are especially relevant to the effective schema because they can remove or alter nodes in a profile’s schema set. Choice/case statements are traversed to find data nodes but are not themselves data nodes in the resulting schema tree.
 
@@ -93,11 +112,25 @@ Among the 40 changed direct data-node declarations, the changed properties were 
 
 **How to read grouping changes:** a `grouping` is a named, reusable set of YANG schema statements—similar to a template. A `uses` statement inserts that template at a particular location in the schema. The grouping name itself does not create a data node. A new grouping has no effect on the schema tree unless a module uses it; an updated grouping may affect every use site, while an unused grouping may have no effect. Counts below describe grouping definitions and references, not the number of resulting nodes. This audit compares their source bodies but does not expand all local/imported `uses` references, so the final affected schema locations still need resolution.
 
-The grouping-name counts above conceal changes inside reusable definitions. A path-relative comparison of the grouping bodies found:
+The grouping-body comparison flagged **276 existing definitions** as different between the source releases. The detailed CSV contains schema-relevant rows for **274** of those definitions: 273 with node, property, or `uses` deltas, plus `config-ospf-passive-interface-grouping`, where two `must` refinements were added for `TwoHundredGigE/name` and `FourHundredGigE/name`. The other two changed bodies (`config-ntp-grouping` and `ip-wccp-group-address-grouping`) only move existing statements within the same grouping-relative paths; no schema path or value change was detected for those moves, so they are not listed as schema deltas.
+
+A path-relative comparison of grouping contents found:
 
 - **65 new grouping definitions** contain 295 directly declared data nodes and 311 `uses` references. These are template contents and references, not 295 guaranteed additions to a module’s schema tree.
-- **276 updated grouping definitions** have 305 directly declared data nodes added, no direct data nodes removed, 960 existing data nodes with 964 tracked property changes, 44 `uses` references added, and 10 `uses` references removed. A data node can have multiple changed properties, which is why the property-change total is larger than the node count.
-- **Units and lifecycle metadata dominate:** 735 nodes gained a `units` statement (537 `octets`, 48 `seconds`, 39 `bytes`, 26 `milliseconds`); status was added as `deprecated` on 99 nodes and `obsolete` on 16, with 6 nodes moving from `deprecated` to `obsolete`. Units clarify value meaning; status marks lifecycle. Neither alone removes a node. There were also 45 type changes and 42 `must` constraint changes, which can change accepted values or validity rules and deserve closer compatibility review.
+- **274 existing grouping definitions with schema-relevant deltas** have 305 directly declared data nodes added, no direct data nodes removed, 960 existing data nodes with 964 tracked property changes, 44 `uses` references added, 10 `uses` references removed, and the two OSPF `must` refinements noted above. A data node can have multiple changed properties, which is why the property-change total is larger than the node count.
+
+
+| Flavor | New grouping definitions | Existing groupings with schema-relevant delta rows | Existing bodies changed only by statement order |
+|---|---:|---:|---:|
+| Oper | 19 | 129 | 0 |
+| RPC | 6 | 6 | 0 |
+| Native | 2 | 9 | 0 |
+| Config | 29 | 111 | 2 |
+| Other | 9 | 19 | 0 |
+| OpenConfig / IETF | 0 | 0 | 0 |
+| **Total** | **65** | **274** | **2** |
+
+- **Units and lifecycle metadata dominate:** 735 nodes gained a `units` statement (537 `octets`, 48 `seconds`, 39 `bytes`, 26 `milliseconds`); status was added as `deprecated` on 99 nodes and `obsolete` on 16, with 6 nodes moving from `deprecated` to `obsolete`. Units clarify value meaning; status marks lifecycle. Neither alone removes a node. There were also 45 type changes and 42 existing `must` constraint changes in the row-level property comparison, plus the two newly added OSPF refinements. These can change accepted values or validity rules and deserve closer compatibility review.
 
 The removed `uses` references are a follow-up priority: BGP removes IPv4/IPv6/VPN unicast groupings from `address-family-no-vrf-obsolete-grouping`; crypto removes shared authentication groupings from several IKEv2 profile branches; IP removes route-replication and VRF-maximum groupings from its VRF branch. Those changes can remove inherited schema nodes after `uses` resolution even though no local data node was deleted from the grouping bodies. Confirm whether those parent groupings are still used and resolve the resulting schema before concluding that nodes were added or removed.
 
@@ -1767,9 +1800,11 @@ Each flavor and each module can be expanded independently. The counts here cover
 
 **26.2.1 revision note:** Updated Must constraint for ip ospf interface config to validate ip VRF - Added support for TwoHundredGigE and FourHundredGigE interface
 
-**Change at a glance:** adds/updates 2 reusable grouping(s).
+**Change at a glance:** adds/updates 2 reusable grouping(s); adds 2 `must` refinements for newer interface types.
 
 **Updated groupings:** `config-ospf-interface-process-id-igrouping`, `config-ospf-passive-interface-grouping`.
+
+**Refine constraints:** added the existing passive-interface `must` rule for `TwoHundredGigE/name` and `FourHundredGigE/name`; see the two dedicated rows in the grouping-delta CSV.
 
 </details>
 
