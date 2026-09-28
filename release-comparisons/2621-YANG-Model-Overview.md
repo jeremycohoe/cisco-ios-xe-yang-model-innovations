@@ -4,6 +4,8 @@
 **Generated:** 2026-09-27
 **Model flavors:** Oper, RPC, Native, Config, OpenConfig, IETF, Other
 
+> **Source files:** The YANG folders used for this comparison are input artifacts and are not published in this repository. Module filenames below are plain text; the report links to its own details and supporting CSVs.
+
 ## Quick navigation
 
 - [Executive summary](#executive-summary)
@@ -135,42 +137,270 @@ Import additions can change how a module resolves even when its own node list ap
 
 ### Oper
 
-- **[Cisco-IOS-XE-dp-tcam-usage-oper.yang](../2621/Cisco-IOS-XE-dp-tcam-usage-oper.yang)** (revision 2026-08-01): This module contains a collection of YANG definitions for Datapath TCAM classification operational data.
-- **[Cisco-IOS-XE-iiot-pwr-mgmt-oper.yang](../2621/Cisco-IOS-XE-iiot-pwr-mgmt-oper.yang)** (revision 2026-08-01): This module provides YANG operational data definitions for Power Management. It is platform-specific and supported only on Cisco IOS-XE Industrial IoT rugged routers which supports other power management features (sense, low power mode, etc.), not supported on other Industrial IoT Routers.
-- **[Cisco-IOS-XE-isis-operv2-oper.yang](../2621/Cisco-IOS-XE-isis-operv2-oper.yang)** (revision 2026-08-01): This module contains a collection of YANG definitions for ISIS operational data.
-- **[Cisco-IOS-XE-live-protect-oper.yang](../2621/Cisco-IOS-XE-live-protect-oper.yang)** (revision 2026-08-01): This module contains a collection of YANG definitions for Live Protect operational data.
-- **[Cisco-IOS-XE-ngfw-common-oper.yang](../2621/Cisco-IOS-XE-ngfw-common-oper.yang)** (revision 2026-08-01): This module contains a collection of YANG definitions common for all NGFW operational data.
-- **[Cisco-IOS-XE-ngfw-oper.yang](../2621/Cisco-IOS-XE-ngfw-oper.yang)** (revision 2026-08-01): This module contains a collection of YANG definitions for Next-Generation Firewall (NGFW).
-- **[Cisco-IOS-XE-wireless-wat-oper.yang](../2621/Cisco-IOS-XE-wireless-wat-oper.yang)** (revision 2026-08-01): This module contains a collection of YANG definitions for Wireless Active Testing (WAT) operational data.
+<details>
+<summary><code>Cisco-IOS-XE-dp-tcam-usage-oper.yang</code> — revision 2026-08-01</summary>
+
+**Purpose:** This module contains a collection of YANG definitions for Datapath TCAM classification operational data.
+
+**Listed in 26.2.1 profiles:** `asr1k`, `c8500`.
+
+Profile membership is from the saved module-set snapshots; it does not guarantee support on every device in a named family. Full per-profile revisions and deviation associations are in the [platform applicability CSV](2621-YANG-Platform-Applicability.csv).
+
+</details>
+<details>
+<summary><code>Cisco-IOS-XE-iiot-pwr-mgmt-oper.yang</code> — revision 2026-08-01</summary>
+
+**Purpose:** This module provides YANG operational data definitions for Power Management. It is platform-specific and supported only on Cisco IOS-XE Industrial IoT rugged routers which supports other power management features (sense, low power mode, etc.), not supported on other Industrial IoT Routers.
+
+**Listed in 26.2.1 profiles:** `isr1k`.
+
+Profile membership is from the saved module-set snapshots; it does not guarantee support on every device in a named family. Full per-profile revisions and deviation associations are in the [platform applicability CSV](2621-YANG-Platform-Applicability.csv).
+
+</details>
+<details>
+<summary><code>Cisco-IOS-XE-isis-operv2-oper.yang</code> — revision 2026-08-01</summary>
+
+**Purpose:** This module contains a collection of YANG definitions for ISIS operational data.
+
+**Listed in 26.2.1 profiles:** `c8000v`, `cat9k`.
+
+Profile membership is from the saved module-set snapshots; it does not guarantee support on every device in a named family. Full per-profile revisions and deviation associations are in the [platform applicability CSV](2621-YANG-Platform-Applicability.csv).
+
+</details>
+<details>
+<summary><code>Cisco-IOS-XE-live-protect-oper.yang</code> — revision 2026-08-01</summary>
+
+**Purpose:** This module contains a collection of YANG definitions for Live Protect operational data.
+
+**Listed in 26.2.1 profiles:** `cat9k`.
+
+Profile membership is from the saved module-set snapshots; it does not guarantee support on every device in a named family. Full per-profile revisions and deviation associations are in the [platform applicability CSV](2621-YANG-Platform-Applicability.csv).
+
+</details>
+<details>
+<summary><code>Cisco-IOS-XE-ngfw-common-oper.yang</code> — revision 2026-08-01</summary>
+
+**Purpose:** This module contains a collection of YANG definitions common for all NGFW operational data.
+
+**Listed in 26.2.1 profiles:** `asr1k`, `c8000v`, `c8500`, `cat9k`, `ess3x00`, `ie3x00`, `ir1101`, `isr1k`, `wireless`.
+
+Profile membership is from the saved module-set snapshots; it does not guarantee support on every device in a named family. Full per-profile revisions and deviation associations are in the [platform applicability CSV](2621-YANG-Platform-Applicability.csv).
+
+</details>
+<details>
+<summary><code>Cisco-IOS-XE-ngfw-oper.yang</code> — revision 2026-08-01</summary>
+
+**Purpose:** This module contains a collection of YANG definitions for Next-Generation Firewall (NGFW).
+
+**Listed in 26.2.1 profiles:** `asr1k`, `c8000v`, `c8500`, `isr1k`.
+
+Profile membership is from the saved module-set snapshots; it does not guarantee support on every device in a named family. Full per-profile revisions and deviation associations are in the [platform applicability CSV](2621-YANG-Platform-Applicability.csv).
+
+</details>
+<details>
+<summary><code>Cisco-IOS-XE-wireless-wat-oper.yang</code> — revision 2026-08-01</summary>
+
+**Purpose:** This module contains a collection of YANG definitions for Wireless Active Testing (WAT) operational data.
+
+**Listed in 26.2.1 profiles:** `cat9k`, `ir1101`, `wireless`.
+
+Profile membership is from the saved module-set snapshots; it does not guarantee support on every device in a named family. Full per-profile revisions and deviation associations are in the [platform applicability CSV](2621-YANG-Platform-Applicability.csv).
+
+</details>
 
 ### RPC
 
-- **[Cisco-IOS-XE-config-mgmt-rpc.yang](../2621/Cisco-IOS-XE-config-mgmt-rpc.yang)** (revision 2026-08-01): This module contains a collection of YANG definitions for device configuration management RPCs.
-- **[Cisco-IOS-XE-ngfw-actions-rpc.yang](../2621/Cisco-IOS-XE-ngfw-actions-rpc.yang)** (revision 2026-08-01): This module contains a collection of YANG definitions for Next-Generation Firewall (NGFW) RPC.
-- **[Cisco-IOS-XE-ngfw-ctrl-actions-rpc.yang](../2621/Cisco-IOS-XE-ngfw-ctrl-actions-rpc.yang)** (revision 2026-08-01): This module contains a collection of YANG definitions for Next-Generation Firewall (NGFW) controller-initiated update RPCs.
-- **[Cisco-IOS-XE-wireless-raf-cfg-rpc.yang](../2621/Cisco-IOS-XE-wireless-raf-cfg-rpc.yang)** (revision 2026-08-01): This module contains a collection of YANG definitions for processing Regulatory Activation File(RAF).
+<details>
+<summary><code>Cisco-IOS-XE-config-mgmt-rpc.yang</code> — revision 2026-08-01</summary>
+
+This is a **new module**. It belongs in this Added models list; the “8 RPC” count in the existing-model section refers to eight previously present RPC modules with tracked changes.
+
+**Purpose:** This module contains a collection of YANG definitions for device configuration management RPCs.
+
+**Declared operations or notifications:** `rpc erase-config` — Erase device configuration action RPC.
+
+**Listed in 26.2.1 profiles:** `asr1k`, `c8000v`, `c8500`, `cat9k`, `ess3x00`, `ie3x00`, `ir1101`, `isr1k`, `wireless`.
+
+Profile membership is from the saved module-set snapshots; it does not guarantee support on every device in a named family. Full per-profile revisions and deviation associations are in the [platform applicability CSV](2621-YANG-Platform-Applicability.csv).
+
+</details>
+<details>
+<summary><code>Cisco-IOS-XE-ngfw-actions-rpc.yang</code> — revision 2026-08-01</summary>
+
+**Purpose:** This module contains a collection of YANG definitions for Next-Generation Firewall (NGFW) RPC.
+
+**Declared operations or notifications:** `rpc ngfw-upd-file` — Next-Generation Firewall (NGFW) update file action RPC.; `rpc ngfw-cust-sig-apply` — Applies a custom-signature file to an NGFW profile.; `rpc ngfw-cust-sig-load` — Loads a custom-signature file for an NGFW profile.; `rpc ngfw-cust-sig-valdt` — Validates a custom-signature file for NGFW.; `rpc ngfw-cust-sig-glbl-apply` — Applies a custom-signature file globally in NGFW.; `rpc ngfw-cust-sig-glbl-load` — Loads a custom-signature file globally in NGFW..
+
+**Listed in 26.2.1 profiles:** `asr1k`, `c8000v`, `c8500`, `cat9k`, `ess3x00`, `ie3x00`, `ir1101`, `isr1k`, `wireless`.
+
+Profile membership is from the saved module-set snapshots; it does not guarantee support on every device in a named family. Full per-profile revisions and deviation associations are in the [platform applicability CSV](2621-YANG-Platform-Applicability.csv).
+
+</details>
+<details>
+<summary><code>Cisco-IOS-XE-ngfw-ctrl-actions-rpc.yang</code> — revision 2026-08-01</summary>
+
+**Purpose:** This module contains a collection of YANG definitions for Next-Generation Firewall (NGFW) controller-initiated update RPCs.
+
+**Declared operations or notifications:** `rpc ngfw-upd` — NGFW periodic update action (controller-initiated).
+
+**Listed in 26.2.1 profiles:** `c8000v`, `isr1k`.
+
+Profile membership is from the saved module-set snapshots; it does not guarantee support on every device in a named family. Full per-profile revisions and deviation associations are in the [platform applicability CSV](2621-YANG-Platform-Applicability.csv).
+
+</details>
+<details>
+<summary><code>Cisco-IOS-XE-wireless-raf-cfg-rpc.yang</code> — revision 2026-08-01</summary>
+
+**Purpose:** This module contains a collection of YANG definitions for processing Regulatory Activation File(RAF).
+
+**Declared operations or notifications:** `rpc set-raf-name` — Configures regulatory activation file name; `rpc apply-raf-config` — Apply regulatory activation file mapping; `rpc clear-country-map-all-ap` — Clear regulatory activation country code mappings for all APs; `rpc clear-country-ap-map` — Clear regulatory activation mapping for AP.
+
+**Listed in 26.2.1 profiles:** `cat9k`, `ir1101`, `wireless`.
+
+Profile membership is from the saved module-set snapshots; it does not guarantee support on every device in a named family. Full per-profile revisions and deviation associations are in the [platform applicability CSV](2621-YANG-Platform-Applicability.csv).
+
+</details>
 
 ### Config
 
-- **[Cisco-IOS-XE-audit-cfg.yang](../2621/Cisco-IOS-XE-audit-cfg.yang)** (revision 2026-08-01): This module contains a collection of YANG definitions for Audit Monitor configuration data.
-- **[Cisco-IOS-XE-live-protect-cfg.yang](../2621/Cisco-IOS-XE-live-protect-cfg.yang)** (revision 2026-08-01): This module contains a collection of YANG definitions for Live Protect shield configuration.
-- **[Cisco-IOS-XE-ngfw.yang](../2621/Cisco-IOS-XE-ngfw.yang)** (revision 2026-08-01): Cisco XE Native Next-Generation Firewall (NGFW) Yang model.
-- **[Cisco-IOS-XE-sla-policy.yang](../2621/Cisco-IOS-XE-sla-policy.yang)** (revision 2026-08-01): Cisco XE Native SLA Policy YANG model.
-- **[Cisco-IOS-XE-webauth-banner-internal.yang](../2621/Cisco-IOS-XE-webauth-banner-internal.yang)** (revision 2025-03-01): NED YANG module for IOS-XE.
-- **[Cisco-IOS-XE-wireless-ld-cfg.yang](../2621/Cisco-IOS-XE-wireless-ld-cfg.yang)** (revision 2026-08-01): This module contains a collection of YANG definitions for global Live-Detect (LD) configurational data.
+<details>
+<summary><code>Cisco-IOS-XE-audit-cfg.yang</code> — revision 2026-08-01</summary>
+
+**Purpose:** This module contains a collection of YANG definitions for Audit Monitor configuration data.
+
+**Listed in 26.2.1 profiles:** `asr1k`, `c8000v`, `c8500`, `cat9k`, `ess3x00`, `ie3x00`, `ir1101`, `isr1k`, `wireless`.
+
+Profile membership is from the saved module-set snapshots; it does not guarantee support on every device in a named family. Full per-profile revisions and deviation associations are in the [platform applicability CSV](2621-YANG-Platform-Applicability.csv).
+
+</details>
+<details>
+<summary><code>Cisco-IOS-XE-live-protect-cfg.yang</code> — revision 2026-08-01</summary>
+
+**Purpose:** This module contains a collection of YANG definitions for Live Protect shield configuration.
+
+**Listed in 26.2.1 profiles:** `cat9k`.
+
+Profile membership is from the saved module-set snapshots; it does not guarantee support on every device in a named family. Full per-profile revisions and deviation associations are in the [platform applicability CSV](2621-YANG-Platform-Applicability.csv).
+
+</details>
+<details>
+<summary><code>Cisco-IOS-XE-ngfw.yang</code> — revision 2026-08-01</summary>
+
+**Purpose:** Cisco XE Native Next-Generation Firewall (NGFW) Yang model.
+
+**Listed in 26.2.1 profiles:** `asr1k`, `c8000v`, `c8500`, `ir1101`, `isr1k`.
+
+Profile membership is from the saved module-set snapshots; it does not guarantee support on every device in a named family. Full per-profile revisions and deviation associations are in the [platform applicability CSV](2621-YANG-Platform-Applicability.csv).
+
+</details>
+<details>
+<summary><code>Cisco-IOS-XE-sla-policy.yang</code> — revision 2026-08-01</summary>
+
+**Purpose:** Cisco XE Native SLA Policy YANG model.
+
+**Listed in 26.2.1 profiles:** `asr1k`, `c8000v`, `c8500`, `ir1101`, `isr1k`.
+
+Profile membership is from the saved module-set snapshots; it does not guarantee support on every device in a named family. Full per-profile revisions and deviation associations are in the [platform applicability CSV](2621-YANG-Platform-Applicability.csv).
+
+</details>
+<details>
+<summary><code>Cisco-IOS-XE-webauth-banner-internal.yang</code> — revision 2025-03-01</summary>
+
+**Purpose:** NED YANG module for IOS-XE.
+
+**Listed in supplied 26.2.1 profiles:** none.
+
+Profile membership is from the saved module-set snapshots; it does not guarantee support on every device in a named family. Full per-profile revisions and deviation associations are in the [platform applicability CSV](2621-YANG-Platform-Applicability.csv).
+
+</details>
+<details>
+<summary><code>Cisco-IOS-XE-wireless-ld-cfg.yang</code> — revision 2026-08-01</summary>
+
+**Purpose:** This module contains a collection of YANG definitions for global Live-Detect (LD) configurational data.
+
+**Listed in 26.2.1 profiles:** `cat9k`, `ir1101`, `wireless`.
+
+Profile membership is from the saved module-set snapshots; it does not guarantee support on every device in a named family. Full per-profile revisions and deviation associations are in the [platform applicability CSV](2621-YANG-Platform-Applicability.csv).
+
+</details>
 
 ### OpenConfig
 
-- **[cisco-xe-openconfig-telemetry-deviation.yang](../2621/cisco-xe-openconfig-telemetry-deviation.yang)** (revision 2026-08-01): This module defines deviation statements for openconfig-telemetry module.
-- **[cisco-xe-openconfig-telemetry-ext.yang](../2621/cisco-xe-openconfig-telemetry-ext.yang)** (revision 2026-08-01): Cisco augmentation to the oc-telemetry model.
-- **[openconfig-telemetry-types.yang](../2621/openconfig-telemetry-types.yang)** (revision —): This module defines type and identities used by the OpenConfig telemetry model.
-- **[openconfig-telemetry.yang](../2621/openconfig-telemetry.yang)** (revision —): Data model which creates the configuration for the telemetry systems and functions on the device.
+<details>
+<summary><code>cisco-xe-openconfig-telemetry-deviation.yang</code> — revision 2026-08-01</summary>
+
+**Purpose:** This module defines deviation statements for openconfig-telemetry module.
+
+**Listed in 26.2.1 profiles:** `asr1k`, `c8000v`, `c8500`, `cat9200`, `cat9k`, `ess3x00`, `ie3x00`, `ir1101`, `isr1k`, `wireless`.
+
+Profile membership is from the saved module-set snapshots; it does not guarantee support on every device in a named family. Full per-profile revisions and deviation associations are in the [platform applicability CSV](2621-YANG-Platform-Applicability.csv).
+
+</details>
+<details>
+<summary><code>cisco-xe-openconfig-telemetry-ext.yang</code> — revision 2026-08-01</summary>
+
+**Purpose:** Cisco augmentation to the oc-telemetry model.
+
+**Listed in 26.2.1 profiles:** `asr1k`, `c8000v`, `c8500`, `cat9200`, `cat9k`, `ess3x00`, `ie3x00`, `ir1101`, `isr1k`, `wireless`.
+
+Profile membership is from the saved module-set snapshots; it does not guarantee support on every device in a named family. Full per-profile revisions and deviation associations are in the [platform applicability CSV](2621-YANG-Platform-Applicability.csv).
+
+</details>
+<details>
+<summary><code>openconfig-telemetry-types.yang</code> — revision —</summary>
+
+**Purpose:** This module defines type and identities used by the OpenConfig telemetry model.
+
+**Listed in 26.2.1 profiles:** `asr1k`, `c8000v`, `c8500`, `cat9200`, `cat9k`, `ess3x00`, `ie3x00`, `ir1101`, `isr1k`, `wireless`.
+
+Profile membership is from the saved module-set snapshots; it does not guarantee support on every device in a named family. Full per-profile revisions and deviation associations are in the [platform applicability CSV](2621-YANG-Platform-Applicability.csv).
+
+</details>
+<details>
+<summary><code>openconfig-telemetry.yang</code> — revision —</summary>
+
+**Purpose:** Data model which creates the configuration for the telemetry systems and functions on the device.
+
+**Listed in 26.2.1 profiles:** `asr1k`, `c8000v`, `c8500`, `cat9200`, `cat9k`, `ess3x00`, `ie3x00`, `ir1101`, `isr1k`, `wireless`.
+
+Profile membership is from the saved module-set snapshots; it does not guarantee support on every device in a named family. Full per-profile revisions and deviation associations are in the [platform applicability CSV](2621-YANG-Platform-Applicability.csv).
+
+</details>
 
 ### Other
 
-- **[Cisco-IOS-XE-ethernet-port-settings-autoneg-deviation.yang](../2621/Cisco-IOS-XE-ethernet-port-settings-autoneg-deviation.yang)** (revision 2026-08-01): Cisco XE Native Ethernet Deviation YANG module for platforms whose IOS auto-negotiation default is platform or media dependent. This removes the fixed YANG default so explicit port-settings auto-negotiation is preserved.
-- **[Cisco-IOS-XE-sdwan-stats-events.yang](../2621/Cisco-IOS-XE-sdwan-stats-events.yang)** (revision 2026-08-01): This module defines the SD-WAN statistics events operational data model and notifications used to report drops and related statistics across SD-WAN subsystems (for example application, QoS, firewall, and system statistics). It provides a single container for event data and a common set of identifiers to classify the statistics source.
-- **[cisco-yang-mgmt-internal.yang](../2621/cisco-yang-mgmt-internal.yang)** (revision 2026-02-01): This module contains a collection of internal definitions for Cisco IOS-XE YANG infra management.
+<details>
+<summary><code>Cisco-IOS-XE-ethernet-port-settings-autoneg-deviation.yang</code> — revision 2026-08-01</summary>
+
+**Purpose:** Cisco XE Native Ethernet Deviation YANG module for platforms whose IOS auto-negotiation default is platform or media dependent. This removes the fixed YANG default so explicit port-settings auto-negotiation is preserved.
+
+**Listed in 26.2.1 profiles:** `asr1k`, `c8500`, `ir1101`, `isr1k`.
+
+Profile membership is from the saved module-set snapshots; it does not guarantee support on every device in a named family. Full per-profile revisions and deviation associations are in the [platform applicability CSV](2621-YANG-Platform-Applicability.csv).
+
+</details>
+<details>
+<summary><code>Cisco-IOS-XE-sdwan-stats-events.yang</code> — revision 2026-08-01</summary>
+
+**Purpose:** This module defines the SD-WAN statistics events operational data model and notifications used to report drops and related statistics across SD-WAN subsystems (for example application, QoS, firewall, and system statistics). It provides a single container for event data and a common set of identifiers to classify the statistics source.
+
+**Declared operations or notifications:** `notification stats-dropped` — Notification emitted when statistics records are dropped..
+
+**Listed in 26.2.1 profiles:** `asr1k`, `c8000v`, `c8500`, `isr1k`.
+
+Profile membership is from the saved module-set snapshots; it does not guarantee support on every device in a named family. Full per-profile revisions and deviation associations are in the [platform applicability CSV](2621-YANG-Platform-Applicability.csv).
+
+</details>
+<details>
+<summary><code>cisco-yang-mgmt-internal.yang</code> — revision 2026-02-01</summary>
+
+**Purpose:** This module contains a collection of internal definitions for Cisco IOS-XE YANG infra management.
+
+**Listed in supplied 26.2.1 profiles:** none.
+
+Profile membership is from the saved module-set snapshots; it does not guarantee support on every device in a named family. Full per-profile revisions and deviation associations are in the [platform applicability CSV](2621-YANG-Platform-Applicability.csv).
+
+</details>
 
 
 ## Removed model
@@ -179,9 +409,9 @@ Import additions can change how a module resolves even when its own node list ap
 
 ## Existing models with tracked schema changes
 
-Counts below are source entries, grouped by model flavor. Open a flavor to see its changed modules; each module row links directly to its YANG file and opens to show the detailed revision note, paths, and schema signals.
+Counts below are source entries, grouped by model flavor. Open a flavor to see its changed modules; expand each module row to see its detailed revision note, changed paths, and schema signals. Source YANG files are not published with this report.
 
-| Flavor | Changed source entries | Browse |
+| Flavor | Existing modules with tracked changes | Browse |
 |---|---:|---|
 | Oper | 60 | [Open Oper changes](#tracked-oper) |
 | RPC | 8 | [Open RPC changes](#tracked-rpc) |
@@ -189,7 +419,7 @@ Counts below are source entries, grouped by model flavor. Open a flavor to see i
 | Config | 65 | [Open Config changes](#tracked-config) |
 | Other | 26 | [Open Other changes](#tracked-other) |
 
-Each flavor and each module can be expanded independently. Use the module link to open the source YANG file.
+Each flavor and each module can be expanded independently. The counts here cover existing modules whose tracked declarations changed; newly added modules are listed separately above.
 
 <a id="tracked-oper"></a>
 
@@ -199,7 +429,7 @@ Each flavor and each module can be expanded independently. Use the module link t
 <summary>Show 60 Oper entries</summary>
 
 <details>
-<summary><a href="../2621/Cisco-IOS-XE-ip-sla-oper.yang">Cisco-IOS-XE-ip-sla-oper.yang</a> — adds/updates 19 reusable grouping(s)</summary>
+<summary>Cisco-IOS-XE-ip-sla-oper.yang — adds/updates 19 reusable grouping(s)</summary>
 
 **26.2.1 revision note:** Deprecated string-typed frame loss ratio leaves (average-frame-loss-ratio, cum-frame-loss-ratio) and added new decimal64-typed leaves with units percent for proper numeric representation. - Updated descriptions of several model elements to clarify their meaning and purpose
 
@@ -210,7 +440,7 @@ Each flavor and each module can be expanded independently. Use the module link t
 </details>
 
 <details>
-<summary><a href="../2621/Cisco-IOS-XE-wireless-urwbnet-oper.yang">Cisco-IOS-XE-wireless-urwbnet-oper.yang</a> — adds 1 declared schema path(s); adds/updates 10 reusable grouping(s); adds/updates 1 reusable type(s)</summary>
+<summary>Cisco-IOS-XE-wireless-urwbnet-oper.yang — adds 1 declared schema path(s); adds/updates 10 reusable grouping(s); adds/updates 1 reusable type(s)</summary>
 
 **26.2.1 revision note:** Added band, slot-id, and radio-profile-name leaves to node interface data. - Added Ethernet MAC address leaf to node data. - Updated descriptions of several model elements to clarify their meaning and purpose. - Added uplink and downlink byte-rate leaves and uplink/downlink MCS-rate leaves to wireless link statistics. - Added URWB network name table oper-data mapping. - Added nw-info container mappings for URWB links/routes/nodes. - Added subnet network-name and network-id operational leaves. - Added connected-device last-update timestamp leaf to URWB network operational data.
 
@@ -230,7 +460,7 @@ Each flavor and each module can be expanded independently. Use the module link t
 </details>
 
 <details>
-<summary><a href="../2621/Cisco-IOS-XE-gnss-oper.yang">Cisco-IOS-XE-gnss-oper.yang</a> — adds/updates 4 reusable grouping(s); adds/updates 6 reusable type(s)</summary>
+<summary>Cisco-IOS-XE-gnss-oper.yang — adds/updates 4 reusable grouping(s); adds/updates 6 reusable type(s)</summary>
 
 **26.2.1 revision note:** Added optional GNSS device information grouping with version details and constellation type - Added Dilution of Precision metrics, major and minor alarm status leaves - Added satellite health, quality leaves - Updated descriptions for several model elements to clarify their meaning and purpose
 
@@ -249,7 +479,7 @@ Each flavor and each module can be expanded independently. Use the module link t
 </details>
 
 <details>
-<summary><a href="../2621/Cisco-IOS-XE-device-hardware-oper.yang">Cisco-IOS-XE-device-hardware-oper.yang</a> — adds 1 declared schema path(s); adds/updates 3 reusable grouping(s); adds/updates 5 reusable type(s)</summary>
+<summary>Cisco-IOS-XE-device-hardware-oper.yang — adds 1 declared schema path(s); adds/updates 3 reusable grouping(s); adds/updates 5 reusable type(s)</summary>
 
 **26.2.1 revision note:** Added XFSU operational data and state change history into the device hardware operational model - Updated description of hardware related elements to clarify their meaning and purpose
 
@@ -267,7 +497,7 @@ Each flavor and each module can be expanded independently. Use the module link t
 </details>
 
 <details>
-<summary><a href="../2621/Cisco-IOS-XE-fwd-oper.yang">Cisco-IOS-XE-fwd-oper.yang</a> — adds 1 declared schema path(s); adds/updates 6 reusable grouping(s); adds/updates 1 reusable type(s)</summary>
+<summary>Cisco-IOS-XE-fwd-oper.yang — adds 1 declared schema path(s); adds/updates 6 reusable grouping(s); adds/updates 1 reusable type(s)</summary>
 
 **26.2.1 revision note:** Added support for AFT Ethernet table. - Updated descriptions of several model elements to clarify their meaning and purpose.
 
@@ -287,7 +517,7 @@ Each flavor and each module can be expanded independently. Use the module link t
 </details>
 
 <details>
-<summary><a href="../2621/Cisco-IOS-XE-wireless-access-point-oper.yang">Cisco-IOS-XE-wireless-access-point-oper.yang</a> — adds/updates 4 reusable grouping(s); adds/updates 3 reusable type(s)</summary>
+<summary>Cisco-IOS-XE-wireless-access-point-oper.yang — adds/updates 4 reusable grouping(s); adds/updates 3 reusable type(s)</summary>
 
 **26.2.1 revision note:** Added support for proximity method - Added support for the Local-MAC capability flag on AP stacks - Added support for auto-MACsec - Added support for SIA serial number - Added AP capability flag ap-idr-capable - Added WAT Wired Testing capability flag - Added AP auto-MACsec capability flag
 
@@ -302,7 +532,7 @@ Each flavor and each module can be expanded independently. Use the module link t
 </details>
 
 <details>
-<summary><a href="../2621/Cisco-IOS-XE-wireless-cisco-spaces-oper.yang">Cisco-IOS-XE-wireless-cisco-spaces-oper.yang</a> — adds 1 declared schema path(s); adds/updates 2 reusable grouping(s); adds/updates 3 reusable type(s)</summary>
+<summary>Cisco-IOS-XE-wireless-cisco-spaces-oper.yang — adds 1 declared schema path(s); adds/updates 2 reusable grouping(s); adds/updates 3 reusable type(s)</summary>
 
 **26.2.1 revision note:** Added IoT Orchestrator operational data - Added IoT Orchestrator auto-configuration reason codes - Deprecated specific failure states of IoT Orchestrator auto-configuration
 
@@ -324,7 +554,7 @@ Each flavor and each module can be expanded independently. Use the module link t
 </details>
 
 <details>
-<summary><a href="../2621/Cisco-IOS-XE-bgp-oper.yang">Cisco-IOS-XE-bgp-oper.yang</a> — adds/updates 5 reusable grouping(s)</summary>
+<summary>Cisco-IOS-XE-bgp-oper.yang — adds/updates 5 reusable grouping(s)</summary>
 
 **26.2.1 revision note:** Updated descriptions of several model elements to clarify their meaning and purpose
 
@@ -335,7 +565,7 @@ Each flavor and each module can be expanded independently. Use the module link t
 </details>
 
 <details>
-<summary><a href="../2621/Cisco-IOS-XE-evpn-oper.yang">Cisco-IOS-XE-evpn-oper.yang</a> — adds 1 declared schema path(s); adds/updates 4 reusable grouping(s)</summary>
+<summary>Cisco-IOS-XE-evpn-oper.yang — adds 1 declared schema path(s); adds/updates 4 reusable grouping(s)</summary>
 
 **26.2.1 revision note:** Updated descriptions for several leaves to better explain their meaning and purpose - Added EVPN statistics list with per-VNI route counters for telemetry support
 
@@ -351,7 +581,7 @@ Each flavor and each module can be expanded independently. Use the module link t
 </details>
 
 <details>
-<summary><a href="../2621/Cisco-IOS-XE-ospf-oper.yang">Cisco-IOS-XE-ospf-oper.yang</a> — adds/updates 5 reusable grouping(s)</summary>
+<summary>Cisco-IOS-XE-ospf-oper.yang — adds/updates 5 reusable grouping(s)</summary>
 
 **26.2.1 revision note:** Updated descriptions of several model elements to clarify their meaning and purpose
 
@@ -362,7 +592,7 @@ Each flavor and each module can be expanded independently. Use the module link t
 </details>
 
 <details>
-<summary><a href="../2621/Cisco-IOS-XE-dhcp-oper.yang">Cisco-IOS-XE-dhcp-oper.yang</a> — adds/updates 4 reusable grouping(s)</summary>
+<summary>Cisco-IOS-XE-dhcp-oper.yang — adds/updates 4 reusable grouping(s)</summary>
 
 **26.2.1 revision note:** Updated description of several DHCP model elements to clarify their meaning and purpose
 
@@ -373,7 +603,7 @@ Each flavor and each module can be expanded independently. Use the module link t
 </details>
 
 <details>
-<summary><a href="../2621/Cisco-IOS-XE-nwpi-oper.yang">Cisco-IOS-XE-nwpi-oper.yang</a> — adds/updates 4 reusable grouping(s)</summary>
+<summary>Cisco-IOS-XE-nwpi-oper.yang — adds/updates 4 reusable grouping(s)</summary>
 
 **26.2.1 revision note:** Updated descriptions of several model elements to clarify their meaning and purpose
 
@@ -384,7 +614,7 @@ Each flavor and each module can be expanded independently. Use the module link t
 </details>
 
 <details>
-<summary><a href="../2621/Cisco-IOS-XE-poe-oper.yang">Cisco-IOS-XE-poe-oper.yang</a> — updates 1 status value(s); adds/updates 3 reusable grouping(s)</summary>
+<summary>Cisco-IOS-XE-poe-oper.yang — updates 1 status value(s); adds/updates 3 reusable grouping(s)</summary>
 
 **26.2.1 revision note:** Updated PoE operational model descriptions for clarity and accuracy. - Marked the legacy poe-port list obsolete in favor of poe-port-detail.
 
@@ -400,7 +630,7 @@ Each flavor and each module can be expanded independently. Use the module link t
 </details>
 
 <details>
-<summary><a href="../2621/Cisco-IOS-XE-stack-info-oper.yang">Cisco-IOS-XE-stack-info-oper.yang</a> — adds/updates 2 reusable grouping(s); adds/updates 2 reusable type(s)</summary>
+<summary>Cisco-IOS-XE-stack-info-oper.yang — adds/updates 2 reusable grouping(s); adds/updates 2 reusable type(s)</summary>
 
 **26.2.1 revision note:** Added stack adapter presence, authentication status, and serial number to stack node info - Updated descriptions of several model elements to improve description quality
 
@@ -417,7 +647,7 @@ Each flavor and each module can be expanded independently. Use the module link t
 </details>
 
 <details>
-<summary><a href="../2621/Cisco-IOS-XE-wireless-client-global-oper.yang">Cisco-IOS-XE-wireless-client-global-oper.yang</a> — adds/updates 4 reusable grouping(s)</summary>
+<summary>Cisco-IOS-XE-wireless-client-global-oper.yang — adds/updates 4 reusable grouping(s)</summary>
 
 **26.2.1 revision note:** Added additional client stats for STA/PMK and anchor request from AP - Updated descriptions of several model elements to clarify their meaning and purpose
 
@@ -428,7 +658,7 @@ Each flavor and each module can be expanded independently. Use the module link t
 </details>
 
 <details>
-<summary><a href="../2621/Cisco-IOS-XE-wireless-mesh-oper.yang">Cisco-IOS-XE-wireless-mesh-oper.yang</a> — adds/updates 4 reusable grouping(s)</summary>
+<summary>Cisco-IOS-XE-wireless-mesh-oper.yang — adds/updates 4 reusable grouping(s)</summary>
 
 **26.2.1 revision note:** Updated descriptions of several model elements to clarify their meaning and purpose
 
@@ -439,7 +669,7 @@ Each flavor and each module can be expanded independently. Use the module link t
 </details>
 
 <details>
-<summary><a href="../2621/Cisco-IOS-XE-wireless-rrm-oper.yang">Cisco-IOS-XE-wireless-rrm-oper.yang</a> — adds 2 declared schema path(s); adds/updates 2 reusable grouping(s)</summary>
+<summary>Cisco-IOS-XE-wireless-rrm-oper.yang — adds 2 declared schema path(s); adds/updates 2 reusable grouping(s)</summary>
 
 **26.2.1 revision note:** Added AP Regulatory Activation File (RAF) information
 
@@ -456,7 +686,7 @@ Each flavor and each module can be expanded independently. Use the module link t
 </details>
 
 <details>
-<summary><a href="../2621/Cisco-IOS-XE-crypto-oper.yang">Cisco-IOS-XE-crypto-oper.yang</a> — adds/updates 2 reusable grouping(s); adds/updates 1 reusable type(s)</summary>
+<summary>Cisco-IOS-XE-crypto-oper.yang — adds/updates 2 reusable grouping(s); adds/updates 1 reusable type(s)</summary>
 
 **26.2.1 revision note:** Added PQC key exchange group type leaf to IKE and IPsec SAs
 
@@ -469,7 +699,7 @@ Each flavor and each module can be expanded independently. Use the module link t
 </details>
 
 <details>
-<summary><a href="../2621/Cisco-IOS-XE-fw-oper.yang">Cisco-IOS-XE-fw-oper.yang</a> — adds/updates 3 reusable grouping(s)</summary>
+<summary>Cisco-IOS-XE-fw-oper.yang — adds/updates 3 reusable grouping(s)</summary>
 
 **26.2.1 revision note:** Updated descriptions for ZBFW operational leaves to include component context and improve specificity
 
@@ -480,7 +710,7 @@ Each flavor and each module can be expanded independently. Use the module link t
 </details>
 
 <details>
-<summary><a href="../2621/Cisco-IOS-XE-install-oper.yang">Cisco-IOS-XE-install-oper.yang</a> — adds/updates 2 reusable grouping(s); adds/updates 1 reusable type(s)</summary>
+<summary>Cisco-IOS-XE-install-oper.yang — adds/updates 2 reusable grouping(s); adds/updates 1 reusable type(s)</summary>
 
 **26.2.1 revision note:** Updated descriptions of several model elements to clarify their meaning and purpose
 
@@ -493,7 +723,7 @@ Each flavor and each module can be expanded independently. Use the module link t
 </details>
 
 <details>
-<summary><a href="../2621/Cisco-IOS-XE-mpls-te-oper.yang">Cisco-IOS-XE-mpls-te-oper.yang</a> — adds/updates 3 reusable grouping(s)</summary>
+<summary>Cisco-IOS-XE-mpls-te-oper.yang — adds/updates 3 reusable grouping(s)</summary>
 
 **26.2.1 revision note:** Refined existing leaf descriptions for clarity and consistency
 
@@ -504,7 +734,7 @@ Each flavor and each module can be expanded independently. Use the module link t
 </details>
 
 <details>
-<summary><a href="../2621/Cisco-IOS-XE-poe-health-oper.yang">Cisco-IOS-XE-poe-health-oper.yang</a> — adds/updates 3 reusable grouping(s)</summary>
+<summary>Cisco-IOS-XE-poe-health-oper.yang — adds/updates 3 reusable grouping(s)</summary>
 
 **26.2.1 revision note:** Updated descriptions of several model elements to clarify their meaning and purpose - Marked poe-meta-data container as obsolete
 
@@ -515,7 +745,7 @@ Each flavor and each module can be expanded independently. Use the module link t
 </details>
 
 <details>
-<summary><a href="../2621/Cisco-IOS-XE-switch-ptp-oper.yang">Cisco-IOS-XE-switch-ptp-oper.yang</a> — adds/updates 3 reusable grouping(s)</summary>
+<summary>Cisco-IOS-XE-switch-ptp-oper.yang — adds/updates 3 reusable grouping(s)</summary>
 
 **26.2.1 revision note:** Updated descriptions of PTP operational model elements to improve clarity and context.
 
@@ -526,7 +756,7 @@ Each flavor and each module can be expanded independently. Use the module link t
 </details>
 
 <details>
-<summary><a href="../2621/Cisco-IOS-XE-uplink-autoconfig-oper.yang">Cisco-IOS-XE-uplink-autoconfig-oper.yang</a> — adds/updates 2 reusable grouping(s); adds/updates 1 reusable type(s)</summary>
+<summary>Cisco-IOS-XE-uplink-autoconfig-oper.yang — adds/updates 2 reusable grouping(s); adds/updates 1 reusable type(s)</summary>
 
 **26.2.1 revision note:** Added a new uplink score enum value and point to point (P2P) indicator leaves for uplink interfaces - Enhanced the descriptions of uplink interface leaves and containers to provide more detailed usage information
 
@@ -539,7 +769,7 @@ Each flavor and each module can be expanded independently. Use the module link t
 </details>
 
 <details>
-<summary><a href="../2621/Cisco-IOS-XE-wireless-urwb-oper.yang">Cisco-IOS-XE-wireless-urwb-oper.yang</a> — adds/updates 3 reusable grouping(s)</summary>
+<summary>Cisco-IOS-XE-wireless-urwb-oper.yang — adds/updates 3 reusable grouping(s)</summary>
 
 **26.2.1 revision note:** Added URWB Ethernet operational data leaves - Added configured URWB network name to operational data - Added learned URWB network name to operational data - Added URWB NAT operational data - Updated descriptions of urwb-oper-data list and urwb-support leaf for clarity, grammar, and consistency
 
@@ -554,7 +784,7 @@ Each flavor and each module can be expanded independently. Use the module link t
 </details>
 
 <details>
-<summary><a href="../2621/Cisco-IOS-XE-app-hosting-oper.yang">Cisco-IOS-XE-app-hosting-oper.yang</a> — adds/updates 2 reusable grouping(s)</summary>
+<summary>Cisco-IOS-XE-app-hosting-oper.yang — adds/updates 2 reusable grouping(s)</summary>
 
 **26.2.1 revision note:** Updated descriptions of several model elements across the model from terse labels to complete English sentences, improving documentation clarity for model consumers. - Added application memory utilization support in the memory utilization container.
 
@@ -565,7 +795,7 @@ Each flavor and each module can be expanded independently. Use the module link t
 </details>
 
 <details>
-<summary><a href="../2621/Cisco-IOS-XE-bgp-rib-oper.yang">Cisco-IOS-XE-bgp-rib-oper.yang</a> — adds/updates 2 reusable grouping(s)</summary>
+<summary>Cisco-IOS-XE-bgp-rib-oper.yang — adds/updates 2 reusable grouping(s)</summary>
 
 **26.2.1 revision note:** Updated descriptions of several model elements to clarify their meaning and purpose
 
@@ -576,7 +806,7 @@ Each flavor and each module can be expanded independently. Use the module link t
 </details>
 
 <details>
-<summary><a href="../2621/Cisco-IOS-XE-bridge-oper.yang">Cisco-IOS-XE-bridge-oper.yang</a> — adds/updates 2 reusable grouping(s)</summary>
+<summary>Cisco-IOS-XE-bridge-oper.yang — adds/updates 2 reusable grouping(s)</summary>
 
 **26.2.1 revision note:** Updated descriptions of several model elements to clarify their meaning and purpose
 
@@ -587,7 +817,7 @@ Each flavor and each module can be expanded independently. Use the module link t
 </details>
 
 <details>
-<summary><a href="../2621/Cisco-IOS-XE-cdp-oper.yang">Cisco-IOS-XE-cdp-oper.yang</a> — adds/updates 2 reusable grouping(s)</summary>
+<summary>Cisco-IOS-XE-cdp-oper.yang — adds/updates 2 reusable grouping(s)</summary>
 
 **26.2.1 revision note:** Changed description of several leaves in CDP neighbor details - Added units for CDP hello payload length and power available leaves
 
@@ -598,7 +828,7 @@ Each flavor and each module can be expanded independently. Use the module link t
 </details>
 
 <details>
-<summary><a href="../2621/Cisco-IOS-XE-cellwan-oper.yang">Cisco-IOS-XE-cellwan-oper.yang</a> — adds 1 declared schema path(s); adds/updates 1 reusable grouping(s)</summary>
+<summary>Cisco-IOS-XE-cellwan-oper.yang — adds 1 declared schema path(s); adds/updates 1 reusable grouping(s)</summary>
 
 **26.2.1 revision note:** Added cellwan-dg list for dying-gasp functionality; when enabled, sends SMS to specified phone number on platform or module power down - Updated descriptions of several model elements to clarify their meaning and purpose
 
@@ -614,7 +844,7 @@ Each flavor and each module can be expanded independently. Use the module link t
 </details>
 
 <details>
-<summary><a href="../2621/Cisco-IOS-XE-interfaces-oper.yang">Cisco-IOS-XE-interfaces-oper.yang</a> — adds/updates 1 reusable grouping(s); adds/updates 1 reusable type(s)</summary>
+<summary>Cisco-IOS-XE-interfaces-oper.yang — adds/updates 1 reusable grouping(s); adds/updates 1 reusable type(s)</summary>
 
 **26.2.1 revision note:** Added port SNR link quality status, fast-retrain event counter, and third-party SFP indicator for Ethernet interfaces - Updated descriptions of several model elements to clarify their meaning and purpose
 
@@ -627,7 +857,7 @@ Each flavor and each module can be expanded independently. Use the module link t
 </details>
 
 <details>
-<summary><a href="../2621/Cisco-IOS-XE-ios-events-oper.yang">Cisco-IOS-XE-ios-events-oper.yang</a> — adds/updates 2 reusable grouping(s)</summary>
+<summary>Cisco-IOS-XE-ios-events-oper.yang — adds/updates 2 reusable grouping(s)</summary>
 
 **26.2.1 revision note:** Added host-name and system-ip to bridge state notifications
 
@@ -638,7 +868,7 @@ Each flavor and each module can be expanded independently. Use the module link t
 </details>
 
 <details>
-<summary><a href="../2621/Cisco-IOS-XE-livetools-oper.yang">Cisco-IOS-XE-livetools-oper.yang</a> — adds/updates 2 reusable grouping(s)</summary>
+<summary>Cisco-IOS-XE-livetools-oper.yang — adds/updates 2 reusable grouping(s)</summary>
 
 **26.2.1 revision note:** Updated descriptions of several model elements to clarify their meaning and purpose.
 
@@ -649,7 +879,7 @@ Each flavor and each module can be expanded independently. Use the module link t
 </details>
 
 <details>
-<summary><a href="../2621/Cisco-IOS-XE-mpls-ldp-oper.yang">Cisco-IOS-XE-mpls-ldp-oper.yang</a> — adds/updates 1 reusable grouping(s); adds/updates 1 reusable type(s)</summary>
+<summary>Cisco-IOS-XE-mpls-ldp-oper.yang — adds/updates 1 reusable grouping(s); adds/updates 1 reusable type(s)</summary>
 
 **26.2.1 revision note:** Refined existing leaf descriptions for clarity and consistency - Deprecated existing password-pending leaf containing pending password state in favor of a new bits type leaf
 
@@ -662,7 +892,7 @@ Each flavor and each module can be expanded independently. Use the module link t
 </details>
 
 <details>
-<summary><a href="../2621/Cisco-IOS-XE-mroute-oper.yang">Cisco-IOS-XE-mroute-oper.yang</a> — adds/updates 2 reusable grouping(s)</summary>
+<summary>Cisco-IOS-XE-mroute-oper.yang — adds/updates 2 reusable grouping(s)</summary>
 
 **26.2.1 revision note:** Updated descriptions of several model elements to clarify their meaning and purpose
 
@@ -673,7 +903,7 @@ Each flavor and each module can be expanded independently. Use the module link t
 </details>
 
 <details>
-<summary><a href="../2621/Cisco-IOS-XE-qfp-appqoe-dp-oper.yang">Cisco-IOS-XE-qfp-appqoe-dp-oper.yang</a> — adds/updates 2 reusable grouping(s)</summary>
+<summary>Cisco-IOS-XE-qfp-appqoe-dp-oper.yang — adds/updates 2 reusable grouping(s)</summary>
 
 **26.2.1 revision note:** Updated descriptions of several model elements to clarify their meaning and purpose
 
@@ -684,7 +914,7 @@ Each flavor and each module can be expanded independently. Use the module link t
 </details>
 
 <details>
-<summary><a href="../2621/Cisco-IOS-XE-wireless-ble-ltx-oper.yang">Cisco-IOS-XE-wireless-ble-ltx-oper.yang</a> — adds/updates 2 reusable grouping(s)</summary>
+<summary>Cisco-IOS-XE-wireless-ble-ltx-oper.yang — adds/updates 2 reusable grouping(s)</summary>
 
 **26.2.1 revision note:** Updated descriptions of several model elements to clarify their meaning and purpose - Added scan config related data
 
@@ -695,7 +925,7 @@ Each flavor and each module can be expanded independently. Use the module link t
 </details>
 
 <details>
-<summary><a href="../2621/Cisco-IOS-XE-wireless-rogue-oper.yang">Cisco-IOS-XE-wireless-rogue-oper.yang</a> — adds/updates 2 reusable grouping(s)</summary>
+<summary>Cisco-IOS-XE-wireless-rogue-oper.yang — adds/updates 2 reusable grouping(s)</summary>
 
 **26.2.1 revision note:** Updated descriptions for several model elements to clarify their meaning and purpose
 
@@ -706,7 +936,7 @@ Each flavor and each module can be expanded independently. Use the module link t
 </details>
 
 <details>
-<summary><a href="../2621/Cisco-IOS-XE-bgp-route-oper.yang">Cisco-IOS-XE-bgp-route-oper.yang</a> — adds/updates 1 reusable grouping(s)</summary>
+<summary>Cisco-IOS-XE-bgp-route-oper.yang — adds/updates 1 reusable grouping(s)</summary>
 
 **26.2.1 revision note:** Updated descriptions of several model elements to clarify their meaning and purpose
 
@@ -717,7 +947,7 @@ Each flavor and each module can be expanded independently. Use the module link t
 </details>
 
 <details>
-<summary><a href="../2621/Cisco-IOS-XE-eigrp-oper.yang">Cisco-IOS-XE-eigrp-oper.yang</a> — adds/updates 1 reusable grouping(s)</summary>
+<summary>Cisco-IOS-XE-eigrp-oper.yang — adds/updates 1 reusable grouping(s)</summary>
 
 **26.2.1 revision note:** Updated descriptions of several model elements to help clarify their meaning and purpose
 
@@ -728,7 +958,7 @@ Each flavor and each module can be expanded independently. Use the module link t
 </details>
 
 <details>
-<summary><a href="../2621/Cisco-IOS-XE-environment-oper.yang">Cisco-IOS-XE-environment-oper.yang</a> — adds/updates 1 reusable grouping(s)</summary>
+<summary>Cisco-IOS-XE-environment-oper.yang — adds/updates 1 reusable grouping(s)</summary>
 
 **26.2.1 revision note:** Added a signed reading leaf for current sensor reading to replace deprecated unsigned current-reading leaf -Updated description of environment related elements to clarify their meaning and purpose
 
@@ -739,7 +969,7 @@ Each flavor and each module can be expanded independently. Use the module link t
 </details>
 
 <details>
-<summary><a href="../2621/Cisco-IOS-XE-fib-oper.yang">Cisco-IOS-XE-fib-oper.yang</a> — adds/updates 1 reusable grouping(s)</summary>
+<summary>Cisco-IOS-XE-fib-oper.yang — adds/updates 1 reusable grouping(s)</summary>
 
 **26.2.1 revision note:** Modified descriptions of several model elements to clarify their meaning and purpose
 
@@ -750,7 +980,7 @@ Each flavor and each module can be expanded independently. Use the module link t
 </details>
 
 <details>
-<summary><a href="../2621/Cisco-IOS-XE-flow-monitor-oper.yang">Cisco-IOS-XE-flow-monitor-oper.yang</a> — adds/updates 1 reusable grouping(s)</summary>
+<summary>Cisco-IOS-XE-flow-monitor-oper.yang — adds/updates 1 reusable grouping(s)</summary>
 
 **26.2.1 revision note:** Refined existing leaf descriptions for clarity and consistency
 
@@ -761,7 +991,7 @@ Each flavor and each module can be expanded independently. Use the module link t
 </details>
 
 <details>
-<summary><a href="../2621/Cisco-IOS-XE-isis-intf-oper.yang">Cisco-IOS-XE-isis-intf-oper.yang</a> — updates 1 status value(s)</summary>
+<summary>Cisco-IOS-XE-isis-intf-oper.yang — updates 1 status value(s)</summary>
 
 **26.2.1 revision note:** This model has been deprecated and replaced by version 2 yang model - Updated descriptions of several model elements to clarify their meaning and purpose
 
@@ -775,7 +1005,7 @@ Each flavor and each module can be expanded independently. Use the module link t
 </details>
 
 <details>
-<summary><a href="../2621/Cisco-IOS-XE-meraki-connect-oper.yang">Cisco-IOS-XE-meraki-connect-oper.yang</a> — adds/updates 1 reusable type(s)</summary>
+<summary>Cisco-IOS-XE-meraki-connect-oper.yang — adds/updates 1 reusable type(s)</summary>
 
 **26.2.1 revision note:** Added new product identifiers for Meraki monitoring support - Added new switching platform identifiers for Cloud monitoring support. - Added product identifiers of industrial switches for Meraki Cloud support. - Updated the virtual switch product identifier description for clarity. - Updated descriptions for clarity and consistency.
 
@@ -786,7 +1016,7 @@ Each flavor and each module can be expanded independently. Use the module link t
 </details>
 
 <details>
-<summary><a href="../2621/Cisco-IOS-XE-mrp-oper.yang">Cisco-IOS-XE-mrp-oper.yang</a> — adds/updates 1 reusable grouping(s)</summary>
+<summary>Cisco-IOS-XE-mrp-oper.yang — adds/updates 1 reusable grouping(s)</summary>
 
 **26.2.1 revision note:** Updated descriptions for several model elements to clarify their meaning and purpose - Added a units annotation to beacon-interval leaf in mrp-ring-hw-stats grouping
 
@@ -797,7 +1027,7 @@ Each flavor and each module can be expanded independently. Use the module link t
 </details>
 
 <details>
-<summary><a href="../2621/Cisco-IOS-XE-ntp-oper.yang">Cisco-IOS-XE-ntp-oper.yang</a> — adds/updates 1 reusable grouping(s)</summary>
+<summary>Cisco-IOS-XE-ntp-oper.yang — adds/updates 1 reusable grouping(s)</summary>
 
 **26.2.1 revision note:** Updated descriptions of several model elements to help clarify their meaning and purpose.
 
@@ -808,7 +1038,7 @@ Each flavor and each module can be expanded independently. Use the module link t
 </details>
 
 <details>
-<summary><a href="../2621/Cisco-IOS-XE-perf-measure-oper.yang">Cisco-IOS-XE-perf-measure-oper.yang</a> — adds/updates 1 reusable grouping(s)</summary>
+<summary>Cisco-IOS-XE-perf-measure-oper.yang — adds/updates 1 reusable grouping(s)</summary>
 
 **26.2.1 revision note:** Improved YANG description quality for better clarity and completeness
 
@@ -819,7 +1049,7 @@ Each flavor and each module can be expanded independently. Use the module link t
 </details>
 
 <details>
-<summary><a href="../2621/Cisco-IOS-XE-platform-software-oper.yang">Cisco-IOS-XE-platform-software-oper.yang</a> — adds/updates 1 reusable grouping(s)</summary>
+<summary>Cisco-IOS-XE-platform-software-oper.yang — adds/updates 1 reusable grouping(s)</summary>
 
 **26.2.1 revision note:** Updated descriptions for load average, memory, CPU, and process statistics leafs to provide more detailed and precise explanations
 
@@ -830,7 +1060,7 @@ Each flavor and each module can be expanded independently. Use the module link t
 </details>
 
 <details>
-<summary><a href="../2621/Cisco-IOS-XE-process-memory-oper.yang">Cisco-IOS-XE-process-memory-oper.yang</a> — adds/updates 1 reusable grouping(s)</summary>
+<summary>Cisco-IOS-XE-process-memory-oper.yang — adds/updates 1 reusable grouping(s)</summary>
 
 **26.2.1 revision note:** Changed description of get-buffers and ret-buffers leaves - Added units for get-buffers and ret-buffers leaves
 
@@ -841,7 +1071,7 @@ Each flavor and each module can be expanded independently. Use the module link t
 </details>
 
 <details>
-<summary><a href="../2621/Cisco-IOS-XE-qfp-dp-cmn-stats-oper.yang">Cisco-IOS-XE-qfp-dp-cmn-stats-oper.yang</a> — adds/updates 1 reusable grouping(s)</summary>
+<summary>Cisco-IOS-XE-qfp-dp-cmn-stats-oper.yang — adds/updates 1 reusable grouping(s)</summary>
 
 **26.2.1 revision note:** Added DHCPv6 Relay Punt Statistics
 
@@ -852,7 +1082,7 @@ Each flavor and each module can be expanded independently. Use the module link t
 </details>
 
 <details>
-<summary><a href="../2621/Cisco-IOS-XE-qfp-stats-oper.yang">Cisco-IOS-XE-qfp-stats-oper.yang</a> — adds/updates 1 reusable grouping(s)</summary>
+<summary>Cisco-IOS-XE-qfp-stats-oper.yang — adds/updates 1 reusable grouping(s)</summary>
 
 **26.2.1 revision note:** Update the counter descriptions.
 
@@ -863,7 +1093,7 @@ Each flavor and each module can be expanded independently. Use the module link t
 </details>
 
 <details>
-<summary><a href="../2621/Cisco-IOS-XE-rawsocket-oper.yang">Cisco-IOS-XE-rawsocket-oper.yang</a> — adds/updates 1 reusable grouping(s)</summary>
+<summary>Cisco-IOS-XE-rawsocket-oper.yang — adds/updates 1 reusable grouping(s)</summary>
 
 **26.2.1 revision note:** Updated descriptions for several model elements to clarify their meaning and purpose
 
@@ -874,7 +1104,7 @@ Each flavor and each module can be expanded independently. Use the module link t
 </details>
 
 <details>
-<summary><a href="../2621/Cisco-IOS-XE-sd-vxlan-oper.yang">Cisco-IOS-XE-sd-vxlan-oper.yang</a> — adds/updates 1 reusable grouping(s)</summary>
+<summary>Cisco-IOS-XE-sd-vxlan-oper.yang — adds/updates 1 reusable grouping(s)</summary>
 
 **26.2.1 revision note:** Updated descriptions for several leaves to better explain their meaning and purpose
 
@@ -885,7 +1115,7 @@ Each flavor and each module can be expanded independently. Use the module link t
 </details>
 
 <details>
-<summary><a href="../2621/Cisco-IOS-XE-stack-oper.yang">Cisco-IOS-XE-stack-oper.yang</a> — adds/updates 1 reusable grouping(s)</summary>
+<summary>Cisco-IOS-XE-stack-oper.yang — adds/updates 1 reusable grouping(s)</summary>
 
 **26.2.1 revision note:** Updated descriptions of several model elements to clarify their meaning and purpose
 
@@ -896,7 +1126,7 @@ Each flavor and each module can be expanded independently. Use the module link t
 </details>
 
 <details>
-<summary><a href="../2621/Cisco-IOS-XE-system-security-oper.yang">Cisco-IOS-XE-system-security-oper.yang</a> — adds 1 declared schema path(s)</summary>
+<summary>Cisco-IOS-XE-system-security-oper.yang — adds 1 declared schema path(s)</summary>
 
 **26.2.1 revision note:** Enhanced index field description for improved clarity - Added operational data support for insecure dynamic warnings.
 
@@ -910,7 +1140,7 @@ Each flavor and each module can be expanded independently. Use the module link t
 </details>
 
 <details>
-<summary><a href="../2621/Cisco-IOS-XE-tunnel-oper.yang">Cisco-IOS-XE-tunnel-oper.yang</a> — adds/updates 1 reusable grouping(s)</summary>
+<summary>Cisco-IOS-XE-tunnel-oper.yang — adds/updates 1 reusable grouping(s)</summary>
 
 **26.2.1 revision note:** Updated descriptions of several model elements to clarify their meaning and purpose
 
@@ -921,7 +1151,7 @@ Each flavor and each module can be expanded independently. Use the module link t
 </details>
 
 <details>
-<summary><a href="../2621/Cisco-IOS-XE-utd-oper.yang">Cisco-IOS-XE-utd-oper.yang</a> — adds/updates 1 reusable grouping(s)</summary>
+<summary>Cisco-IOS-XE-utd-oper.yang — adds/updates 1 reusable grouping(s)</summary>
 
 **26.2.1 revision note:** Updated descriptions for UTD operational leafs to include component context and improve specificity
 
@@ -932,7 +1162,7 @@ Each flavor and each module can be expanded independently. Use the module link t
 </details>
 
 <details>
-<summary><a href="../2621/Cisco-IOS-XE-wireless-mesh-global-oper.yang">Cisco-IOS-XE-wireless-mesh-global-oper.yang</a> — adds/updates 1 reusable grouping(s)</summary>
+<summary>Cisco-IOS-XE-wireless-mesh-global-oper.yang — adds/updates 1 reusable grouping(s)</summary>
 
 **26.2.1 revision note:** Updated descriptions of several model elements to clarify their meaning and purpose
 
@@ -943,7 +1173,7 @@ Each flavor and each module can be expanded independently. Use the module link t
 </details>
 
 <details>
-<summary><a href="../2621/Cisco-IOS-XE-yang-interfaces-oper.yang">Cisco-IOS-XE-yang-interfaces-oper.yang</a> — adds/updates 1 reusable grouping(s)</summary>
+<summary>Cisco-IOS-XE-yang-interfaces-oper.yang — adds/updates 1 reusable grouping(s)</summary>
 
 **26.2.1 revision note:** Refined existing leaf descriptions for clarity and consistency - Added aes128-gcm@openssh.com to Device Management Interface SSH cipher algorithms operational data
 
@@ -957,13 +1187,13 @@ Each flavor and each module can be expanded independently. Use the module link t
 
 <a id="tracked-rpc"></a>
 
-### RPC (8 source entries)
+### RPC (8 existing modules with tracked changes)
 
 <details>
 <summary>Show 8 RPC entries</summary>
 
 <details>
-<summary><a href="../2621/Cisco-IOS-XE-cts-rpc.yang">Cisco-IOS-XE-cts-rpc.yang</a> — adds 8 declared schema path(s); updates 2 type constraint(s)</summary>
+<summary>Cisco-IOS-XE-cts-rpc.yang — adds 8 declared schema path(s); updates 2 type constraint(s)</summary>
 
 **26.2.1 revision note:** Added cts refresh environment-data, policy, policy sgt and pac RPCs
 
@@ -988,7 +1218,7 @@ Each flavor and each module can be expanded independently. Use the module link t
 </details>
 
 <details>
-<summary><a href="../2621/Cisco-IOS-XE-wireless-access-point-cfg-rpc.yang">Cisco-IOS-XE-wireless-access-point-cfg-rpc.yang</a> — adds operation(s) <code>/rpc:clear-ap-country</code>, <code>/rpc:clear-ap-floor</code>, <code>/rpc:set-sniffing-request</code>; adds 3 declared schema path(s); adds/updates 5 reusable grouping(s)</summary>
+<summary>Cisco-IOS-XE-wireless-access-point-cfg-rpc.yang — adds operation(s) <code>/rpc:clear-ap-country</code>, <code>/rpc:clear-ap-floor</code>, <code>/rpc:set-sniffing-request</code>; adds 3 declared schema path(s); adds/updates 5 reusable grouping(s)</summary>
 
 **26.2.1 revision note:** Removed the invalid when constraint for band leaf - Added support to configure URWB network name on Coordinator AP - Added RPC for clearing AP country code - Added support for set-sniffing-request RPC to start and stop the sniffer with required parameters, and deprecated chan and ip-addr leaves in dual-band-role RPC - Added RPC for clearing AP floor ID setting
 
@@ -1007,7 +1237,7 @@ Each flavor and each module can be expanded independently. Use the module link t
 </details>
 
 <details>
-<summary><a href="../2621/Cisco-IOS-XE-sse-actions-rpc.yang">Cisco-IOS-XE-sse-actions-rpc.yang</a> — adds operation(s) <code>/rpc:set-sse-root-ca-bdl-upd</code>; adds 1 declared schema path(s); adds/updates 2 reusable grouping(s); adds/updates 2 reusable type(s)</summary>
+<summary>Cisco-IOS-XE-sse-actions-rpc.yang — adds operation(s) <code>/rpc:set-sse-root-ca-bdl-upd</code>; adds 1 declared schema path(s); adds/updates 2 reusable grouping(s); adds/updates 2 reusable type(s)</summary>
 
 **26.2.1 revision note:** Added an RPC to update the Secure Service Edge (SSE) Root Certificate Authority (CA) bundle path and SHA-256 digest
 
@@ -1026,7 +1256,7 @@ Each flavor and each module can be expanded independently. Use the module link t
 </details>
 
 <details>
-<summary><a href="../2621/Cisco-IOS-XE-crypto-rpc.yang">Cisco-IOS-XE-crypto-rpc.yang</a> — adds/updates 1 reusable grouping(s)</summary>
+<summary>Cisco-IOS-XE-crypto-rpc.yang — adds/updates 1 reusable grouping(s)</summary>
 
 **26.2.1 revision note:** Added ML-DSA key generate command.
 
@@ -1037,7 +1267,7 @@ Each flavor and each module can be expanded independently. Use the module link t
 </details>
 
 <details>
-<summary><a href="../2621/Cisco-IOS-XE-meraki-leds-actions-rpc.yang">Cisco-IOS-XE-meraki-leds-actions-rpc.yang</a> — adds/updates 1 reusable grouping(s)</summary>
+<summary>Cisco-IOS-XE-meraki-leds-actions-rpc.yang — adds/updates 1 reusable grouping(s)</summary>
 
 **26.2.1 revision note:** Added slot-num input to blink LEDs RPC
 
@@ -1048,7 +1278,7 @@ Each flavor and each module can be expanded independently. Use the module link t
 </details>
 
 <details>
-<summary><a href="../2621/Cisco-IOS-XE-port-bounce-rpc.yang">Cisco-IOS-XE-port-bounce-rpc.yang</a> — adds/updates 1 reusable grouping(s)</summary>
+<summary>Cisco-IOS-XE-port-bounce-rpc.yang — adds/updates 1 reusable grouping(s)</summary>
 
 **26.2.1 revision note:** Added length constraint and extended if-name leaf pattern to include 50 Gigabit Ethernet and 400 Gigabit Ethernet interface name formats
 
@@ -1059,7 +1289,7 @@ Each flavor and each module can be expanded independently. Use the module link t
 </details>
 
 <details>
-<summary><a href="../2621/Cisco-IOS-XE-utd-rpc.yang">Cisco-IOS-XE-utd-rpc.yang</a> — adds/updates 1 reusable grouping(s)</summary>
+<summary>Cisco-IOS-XE-utd-rpc.yang — adds/updates 1 reusable grouping(s)</summary>
 
 **26.2.1 revision note:** Add refresh-token authentication
 
@@ -1072,7 +1302,7 @@ Each flavor and each module can be expanded independently. Use the module link t
 </details>
 
 <details>
-<summary><a href="../2621/Cisco-IOS-XE-xcopy-rpc.yang">Cisco-IOS-XE-xcopy-rpc.yang</a> — adds/updates 1 reusable grouping(s)</summary>
+<summary>Cisco-IOS-XE-xcopy-rpc.yang — adds/updates 1 reusable grouping(s)</summary>
 
 **26.2.1 revision note:** Added deprecation warnings to the path leaf for insecure FTP, HTTP, and TFTP protocols. - Added support for the '~' character in URL source and destination path input parameters of express copy RPC
 
@@ -1092,7 +1322,7 @@ Each flavor and each module can be expanded independently. Use the module link t
 <summary>Show 6 Native entries</summary>
 
 <details>
-<summary><a href="../2621/Cisco-IOS-XE-native.yang">Cisco-IOS-XE-native.yang</a> — adds 15 declared schema path(s); updates 25 status value(s), 3 type constraint(s), 3 default value(s)</summary>
+<summary>Cisco-IOS-XE-native.yang — adds 15 declared schema path(s); updates 25 status value(s), 3 type constraint(s), 3 default value(s)</summary>
 
 **26.2.1 revision note:** Added stack-power stack mode container with power-shared and redundant options - Added stack-power switch list for per-switch power stack assignment; stack and standalone leaves are independently configurable; must constraint requires the power stack to exist before switch assignment - Deprecated ip vrf - Added a leaf for ip-forward feature support - Deprecated the nsap leaf - Marked insecure TFTP configuration nodes as deprecated - Deprecated insecure transport options for archive path - Added sla-policy container for SLA Policy configuration - Added default value for mac address-table aging time value, threshold - Added security container inside system for avoiding mode collision - Obsoleted unsupported ciphersuites - Moved deprecated service dhcp leaf to obsolete, use dhcp-config instead - Add vlan container under ethernet module for vlan unlimited command - Added support for subslot 0 to 5 in subslot-number leaf - Added auto secure macsec leaf - Marked archive log config hidekeys as obsolete - Added type 6 support for redundancy authentication text config
 
@@ -1133,7 +1363,7 @@ Each flavor and each module can be expanded independently. Use the module link t
 </details>
 
 <details>
-<summary><a href="../2621/Cisco-IOS-XE-ip.yang">Cisco-IOS-XE-ip.yang</a> — adds/updates 7 reusable grouping(s)</summary>
+<summary>Cisco-IOS-XE-ip.yang — adds/updates 7 reusable grouping(s)</summary>
 
 **26.2.1 revision note:** Obsolete ip prefix-lists sequence-number leaf - Deprecated ip vrf - Obsolete use-bgp leaf - Added strict hostkey support for ssh - Added support for server ssh public key chain - Added DHCP track - Added back Must condition for vlan interface existence in ip route which was removed earlier in version 17.15.1 - Deprecated the nsap leaf - Fixed backslash escape issue in type6 encrypted passwords for ftp, scp, and sftp - Added tag support for ip route dhcp
 
@@ -1148,7 +1378,7 @@ Each flavor and each module can be expanded independently. Use the module link t
 </details>
 
 <details>
-<summary><a href="../2621/Cisco-IOS-XE-interfaces.yang">Cisco-IOS-XE-interfaces.yang</a> — adds/updates 1 reusable grouping(s)</summary>
+<summary>Cisco-IOS-XE-interfaces.yang — adds/updates 1 reusable grouping(s)</summary>
 
 **26.2.1 revision note:** Added uplink extension - Added a leaf for ip-forward feature support - Changed default value of ip proxy-arp to false - Added cloud tracker and uplink priority model support - Updated IPv4/IPv6 tcp adjust-mss ranges - Added ordering for 5Gig main interface and sub interface - Removed cloud tracker support - Added unique constraint of uplink color model.
 
@@ -1159,7 +1389,7 @@ Each flavor and each module can be expanded independently. Use the module link t
 </details>
 
 <details>
-<summary><a href="../2621/Cisco-IOS-XE-ipv6.yang">Cisco-IOS-XE-ipv6.yang</a> — adds/updates 1 reusable grouping(s)</summary>
+<summary>Cisco-IOS-XE-ipv6.yang — adds/updates 1 reusable grouping(s)</summary>
 
 **26.2.1 revision note:** Obsolete ipv6 source-guard policy validate address
 
@@ -1170,7 +1400,7 @@ Each flavor and each module can be expanded independently. Use the module link t
 </details>
 
 <details>
-<summary><a href="../2621/Cisco-IOS-XE-license.yang">Cisco-IOS-XE-license.yang</a> — adds/updates 1 reusable grouping(s)</summary>
+<summary>Cisco-IOS-XE-license.yang — adds/updates 1 reusable grouping(s)</summary>
 
 **26.2.1 revision note:** Added reservation keyword and default for transport. -Added mode container with universal leaf to configure device boot with universal license mode. -Updated license boot essentials and license boot advantage behavior, so remove operations are handled correctly. -Ensured universal mode is set before license boot level essentials during configuration replay. -Ensured universal mode is set before license boot level advantage during configuration replay.
 
@@ -1181,7 +1411,7 @@ Each flavor and each module can be expanded independently. Use the module link t
 </details>
 
 <details>
-<summary><a href="../2621/Cisco-IOS-XE-line.yang">Cisco-IOS-XE-line.yang</a> — adds/updates 1 reusable grouping(s)</summary>
+<summary>Cisco-IOS-XE-line.yang — adds/updates 1 reusable grouping(s)</summary>
 
 **26.2.1 revision note:** Deprecated no-activation-character leaf for line console
 
@@ -1201,7 +1431,7 @@ Each flavor and each module can be expanded independently. Use the module link t
 <summary>Show 65 Config entries</summary>
 
 <details>
-<summary><a href="../2621/Cisco-IOS-XE-bgp.yang">Cisco-IOS-XE-bgp.yang</a> — adds/updates 18 reusable grouping(s)</summary>
+<summary>Cisco-IOS-XE-bgp.yang — adds/updates 18 reusable grouping(s)</summary>
 
 **26.2.1 revision note:** Obsoleted child nodes for Container Scope which is already obsoleted - Add encap SRv6 under l2vpn evpn address-family - Import crypto, neighbor-ao-grouping to delete before key chain - Set maximum length of password to support type 6 encryption - Removed must constraint on redistribute isis under BGP address-family to avoid dmi process crash during BGP sync - Add default value to address-family / neighbor allowas-in as-number - Fixed standard large-community-list action edits to preserve sibling actions
 
@@ -1216,7 +1446,7 @@ Each flavor and each module can be expanded independently. Use the module link t
 </details>
 
 <details>
-<summary><a href="../2621/Cisco-IOS-XE-mdt-cfg.yang">Cisco-IOS-XE-mdt-cfg.yang</a> — adds 2 declared schema path(s); adds/updates 6 reusable grouping(s)</summary>
+<summary>Cisco-IOS-XE-mdt-cfg.yang — adds 2 declared schema path(s); adds/updates 6 reusable grouping(s)</summary>
 
 **26.2.1 revision note:** Updated descriptions of several model elements to clarify their meaning and purpose - Added configuration to support a subscription subscribing to a sensor group. - Added support for gRPC keepalive configuration.
 
@@ -1235,7 +1465,7 @@ Each flavor and each module can be expanded independently. Use the module link t
 </details>
 
 <details>
-<summary><a href="../2621/Cisco-IOS-XE-switch.yang">Cisco-IOS-XE-switch.yang</a> — adds/updates 8 reusable grouping(s)</summary>
+<summary>Cisco-IOS-XE-switch.yang — adds/updates 8 reusable grouping(s)</summary>
 
 **26.2.1 revision note:** Update device classifier cli to suite mac regex for or operation - Update condition as check in device classifier - Added model support for voice vlan - Obsoleted config-network-policy-grouping - Added the model support for voice-signaling vlan - Adding new cli for auto macsec - Moved the must from container mac-move to the redundancy-protocol leaf - Update range for system mtu
 
@@ -1250,7 +1480,7 @@ Each flavor and each module can be expanded independently. Use the module link t
 </details>
 
 <details>
-<summary><a href="../2621/Cisco-IOS-XE-crypto.yang">Cisco-IOS-XE-crypto.yang</a> — adds/updates 6 reusable grouping(s)</summary>
+<summary>Cisco-IOS-XE-crypto.yang — adds/updates 6 reusable grouping(s)</summary>
 
 **26.2.1 revision note:** Added TwoHundredGigE and FourHundredGigE interface support - Added missed cli parameter descriptions for command crypto skip-client server - Added support for certificate hide hex - Added tailf to re-order to detach the keyring from ikev2 profile before deletion - Added tailf:cli-preformatted to handle escape sequence in leaf nodes for key - Added MACsec key chain key-id and key-string validation constraints to align YANG behavior with CLI validation - Added mldsakeypair container under crypto pki trustpoint for ML-DSA key support - Added mldsa-sig leaf under ikev2 profile authentication local and remote
 
@@ -1265,7 +1495,7 @@ Each flavor and each module can be expanded independently. Use the module link t
 </details>
 
 <details>
-<summary><a href="../2621/Cisco-IOS-XE-mdt-oper-v2.yang">Cisco-IOS-XE-mdt-oper-v2.yang</a> — adds 1 declared schema path(s); adds/updates 4 reusable grouping(s); adds/updates 1 reusable type(s)</summary>
+<summary>Cisco-IOS-XE-mdt-oper-v2.yang — adds 1 declared schema path(s); adds/updates 4 reusable grouping(s); adds/updates 1 reusable type(s)</summary>
 
 **26.2.1 revision note:** Added support to allow subscriptions to subscribe to a sensor group - Added backoff receiver state enum and retry tracking leaves - Updated descriptions of several model elements to clarify their meaning and purpose
 
@@ -1285,7 +1515,7 @@ Each flavor and each module can be expanded independently. Use the module link t
 </details>
 
 <details>
-<summary><a href="../2621/Cisco-IOS-XE-rawsocket.yang">Cisco-IOS-XE-rawsocket.yang</a> — adds 4 declared schema path(s); updates 1 <code>when</code> condition(s), 1 status value(s)</summary>
+<summary>Cisco-IOS-XE-rawsocket.yang — adds 4 declared schema path(s); updates 1 <code>when</code> condition(s), 1 status value(s)</summary>
 
 **26.2.1 revision note:** Added support DCE/DTE for RS232 media type
 
@@ -1306,7 +1536,7 @@ Each flavor and each module can be expanded independently. Use the module link t
 </details>
 
 <details>
-<summary><a href="../2621/Cisco-IOS-XE-aaa.yang">Cisco-IOS-XE-aaa.yang</a> — adds/updates 5 reusable grouping(s)</summary>
+<summary>Cisco-IOS-XE-aaa.yang — adds/updates 5 reusable grouping(s)</summary>
 
 **26.2.1 revision note:** removed hidden and cli-ignore-modified from accounting group - removed cli-sequence-commands from accounting network - Added model support for tls version and tls cipher under radius server - Modified the position of MA knobs in radius server-private to be in line with IOS
 
@@ -1317,7 +1547,7 @@ Each flavor and each module can be expanded independently. Use the module link t
 </details>
 
 <details>
-<summary><a href="../2621/Cisco-IOS-XE-flow.yang">Cisco-IOS-XE-flow.yang</a> — adds/updates 5 reusable grouping(s)</summary>
+<summary>Cisco-IOS-XE-flow.yang — adds/updates 5 reusable grouping(s)</summary>
 
 **26.2.1 revision note:** Add interface role support for flow monitor interface bind and flow record - Add flow support for Virtual-Template - Added TwoHundredGigE and FourHundredGigE interface support - Add EVE (Encrypted Visibility Engine) fields for unified logging
 
@@ -1328,7 +1558,7 @@ Each flavor and each module can be expanded independently. Use the module link t
 </details>
 
 <details>
-<summary><a href="../2621/Cisco-IOS-XE-isis.yang">Cisco-IOS-XE-isis.yang</a> — adds 4 declared schema path(s); adds/updates 1 reusable grouping(s)</summary>
+<summary>Cisco-IOS-XE-isis.yang — adds 4 declared schema path(s); adds/updates 1 reusable grouping(s)</summary>
 
 **26.2.1 revision note:** Obsolete nodes deprecated on or before 17.11 - Added TwoHundredGigE and FourHundredGigE interface support
 
@@ -1347,7 +1577,7 @@ Each flavor and each module can be expanded independently. Use the module link t
 </details>
 
 <details>
-<summary><a href="../2621/Cisco-IOS-XE-multicast.yang">Cisco-IOS-XE-multicast.yang</a> — adds/updates 5 reusable grouping(s)</summary>
+<summary>Cisco-IOS-XE-multicast.yang — adds/updates 5 reusable grouping(s)</summary>
 
 **26.2.1 revision note:** Update augmentations to support 200 Gigabit Ethernet and 400 Gigabit Ethernet interfaces - Added new list for IPv4-to-IPv6 service reflect configuration - Added new list for IPv6-to-IPv6 and IPv6-to-IPv4 service reflect configurations - Moved cli-incomplete-command from fec-id leaf to fec list in MLDP configuration - Added a tailf dependency with interface container for register-source config
 
@@ -1362,7 +1592,7 @@ Each flavor and each module can be expanded independently. Use the module link t
 </details>
 
 <details>
-<summary><a href="../2621/Cisco-IOS-XE-wireless-wlan-cfg.yang">Cisco-IOS-XE-wireless-wlan-cfg.yang</a> — adds/updates 5 reusable grouping(s)</summary>
+<summary>Cisco-IOS-XE-wireless-wlan-cfg.yang — adds/updates 5 reusable grouping(s)</summary>
 
 **26.2.1 revision note:** Added GCMP256 cipher support for ft-dot1x, dot1x-sha256 AKMs - Added must constraint to disallow FT Adaptive with FT-dot1X/FT-psk AKMs - Added URWB access capability if radio in URWB mode - Added DHCPv6 configuration support for WLAN policies, including new grouping, container, and validation for DHCPv6 parameters - Obsolete OSEN, CCKM and load balance features - Obsolete ATF feature and related parameters - Added must constraint to restrict 5GHz minimum data rate to 80211a only rates - Removed a `must` constraint from gtk-randomize leaf to allow GTK randomization with WPA3
 
@@ -1377,7 +1607,7 @@ Each flavor and each module can be expanded independently. Use the module link t
 </details>
 
 <details>
-<summary><a href="../2621/Cisco-IOS-XE-device-sensor.yang">Cisco-IOS-XE-device-sensor.yang</a> — adds/updates 4 reusable grouping(s)</summary>
+<summary>Cisco-IOS-XE-device-sensor.yang — adds/updates 4 reusable grouping(s)</summary>
 
 **26.2.1 revision note:** Adding must condition for cdp, lldp, dhcp and dhcpv6 filter list - Deprecated insecure tftp-server option for dhcp filter - Adding support for TwoHundredGigE and FourHundredGigE interfaces
 
@@ -1388,7 +1618,7 @@ Each flavor and each module can be expanded independently. Use the module link t
 </details>
 
 <details>
-<summary><a href="../2621/Cisco-IOS-XE-wireless-rf-cfg.yang">Cisco-IOS-XE-wireless-rf-cfg.yang</a> — updates 2 status value(s); adds/updates 2 reusable grouping(s)</summary>
+<summary>Cisco-IOS-XE-wireless-rf-cfg.yang — updates 2 status value(s); adds/updates 2 reusable grouping(s)</summary>
 
 **26.2.1 revision note:** Obsoleted ATF feature and related leafs - Added support for DBS minimum and maximum channel widths for RF profile - Deprecated rf-dca-chan-width leaf and disallowed its modification - Enhanced descriptions for RF profile leaves including DCA channels, RSSI thresholds, band-select, trap thresholds, HSR, MCS, and Multi-BSSID profile parameters for improved clarity and consistency - Modified the default values of channel-width-min and channel-width-max - Updated channel-width-max validation to allow band-default minimum channel width with 80 MHz maximum channel width
 
@@ -1405,7 +1635,7 @@ Each flavor and each module can be expanded independently. Use the module link t
 </details>
 
 <details>
-<summary><a href="../2621/Cisco-IOS-XE-wireless-wat-cfg.yang">Cisco-IOS-XE-wireless-wat-cfg.yang</a> — adds 2 declared schema path(s); adds/updates 2 reusable grouping(s)</summary>
+<summary>Cisco-IOS-XE-wireless-wat-cfg.yang — adds 2 declared schema path(s); adds/updates 2 reusable grouping(s)</summary>
 
 **26.2.1 revision note:** Updated descriptions for wat-cfg-data container and te-conn-str leaf - Added new WAT profile configuration - Added a 'must' constraint for wat-profile enable leaf to disallow test-wired and test-wireless from being enabled simultaneously
 
@@ -1424,7 +1654,7 @@ Each flavor and each module can be expanded independently. Use the module link t
 </details>
 
 <details>
-<summary><a href="../2621/Cisco-IOS-XE-dhcp.yang">Cisco-IOS-XE-dhcp.yang</a> — adds/updates 3 reusable grouping(s)</summary>
+<summary>Cisco-IOS-XE-dhcp.yang — adds/updates 3 reusable grouping(s)</summary>
 
 **26.2.1 revision note:** Added snooping leaf under dhcp-snoop-conf container to solve the xpath issue - Added support for Address and VRF option after dhcp-server - Added support for match server mac access-list - Added TwoHundredGigE and FourHundredGigE interface support - Added warnings to url leaf for insecure protocols FTP, HTTP, TFTP, RCP
 
@@ -1435,7 +1665,7 @@ Each flavor and each module can be expanded independently. Use the module link t
 </details>
 
 <details>
-<summary><a href="../2621/Cisco-IOS-XE-l2vpn.yang">Cisco-IOS-XE-l2vpn.yang</a> — adds/updates 3 reusable grouping(s)</summary>
+<summary>Cisco-IOS-XE-l2vpn.yang — adds/updates 3 reusable grouping(s)</summary>
 
 **26.2.1 revision note:** Add VPWS SRv6 configure CLI - Separated port channel EVPN segment into platform specific models - Add EVPN subnet slicing - Add telemetry statistics for l2vpn evpn - Fix for context replace issue - Fix l2vpn evpn instance not deleting - Fix l2vpn evpn cedge mode issues - Obsolete ack and keepalive leaves as IOS does not support them - Added TwoHundredGigE and FourHundredGigE interface support
 
@@ -1446,7 +1676,7 @@ Each flavor and each module can be expanded independently. Use the module link t
 </details>
 
 <details>
-<summary><a href="../2621/Cisco-IOS-XE-policy.yang">Cisco-IOS-XE-policy.yang</a> — adds/updates 3 reusable grouping(s)</summary>
+<summary>Cisco-IOS-XE-policy.yang — adds/updates 3 reusable grouping(s)</summary>
 
 **26.2.1 revision note:** Added FQDN list to log-export destination options - Deprecated table, added a new table with type as string under exceed action set-dscp-transmit - Added TwoHundredGigE and FourHundredGigE interface support
 
@@ -1461,7 +1691,7 @@ Each flavor and each module can be expanded independently. Use the module link t
 </details>
 
 <details>
-<summary><a href="../2621/Cisco-IOS-XE-wireless-rlan-cfg.yang">Cisco-IOS-XE-wireless-rlan-cfg.yang</a> — adds/updates 3 reusable grouping(s)</summary>
+<summary>Cisco-IOS-XE-wireless-rlan-cfg.yang — adds/updates 3 reusable grouping(s)</summary>
 
 **26.2.1 revision note:** Deprecated flow monitor ingress and egress for IPv4 and IPv6
 
@@ -1472,7 +1702,7 @@ Each flavor and each module can be expanded independently. Use the module link t
 </details>
 
 <details>
-<summary><a href="../2621/Cisco-IOS-XE-acl.yang">Cisco-IOS-XE-acl.yang</a> — adds/updates 2 reusable grouping(s)</summary>
+<summary>Cisco-IOS-XE-acl.yang — adds/updates 2 reusable grouping(s)</summary>
 
 **26.2.1 revision note:** Deprecated src-eq, dst-eq for role based acl and added src-eq-list, dst-eq-list, and also for not equal case
 
@@ -1483,7 +1713,7 @@ Each flavor and each module can be expanded independently. Use the module link t
 </details>
 
 <details>
-<summary><a href="../2621/Cisco-IOS-XE-cdp.yang">Cisco-IOS-XE-cdp.yang</a> — adds/updates 2 reusable grouping(s)</summary>
+<summary>Cisco-IOS-XE-cdp.yang — adds/updates 2 reusable grouping(s)</summary>
 
 **26.2.1 revision note:** Added all missing TLV options for cdp tlv-list configuration - Added global cdp log mismatch duplex - Added TwoHundredGigE and FourHundredGigE interface support
 
@@ -1498,7 +1728,7 @@ Each flavor and each module can be expanded independently. Use the module link t
 </details>
 
 <details>
-<summary><a href="../2621/Cisco-IOS-XE-mobileip.yang">Cisco-IOS-XE-mobileip.yang</a> — adds/updates 2 reusable grouping(s)</summary>
+<summary>Cisco-IOS-XE-mobileip.yang — adds/updates 2 reusable grouping(s)</summary>
 
 **26.2.1 revision note:** Deprecating container key under auth-option grouping
 
@@ -1509,7 +1739,7 @@ Each flavor and each module can be expanded independently. Use the module link t
 </details>
 
 <details>
-<summary><a href="../2621/Cisco-IOS-XE-ncch-cfg.yang">Cisco-IOS-XE-ncch-cfg.yang</a> — adds/updates 2 reusable grouping(s)</summary>
+<summary>Cisco-IOS-XE-ncch-cfg.yang — adds/updates 2 reusable grouping(s)</summary>
 
 **26.2.1 revision note:** Updated description of NETCONF Call Home local VRF leaf to clarify its meaning. - Made several changes to the remote peer address type choice model element by removing defaults and making leaves mandatory.
 
@@ -1520,7 +1750,7 @@ Each flavor and each module can be expanded independently. Use the module link t
 </details>
 
 <details>
-<summary><a href="../2621/Cisco-IOS-XE-ospf.yang">Cisco-IOS-XE-ospf.yang</a> — adds/updates 2 reusable grouping(s)</summary>
+<summary>Cisco-IOS-XE-ospf.yang — adds/updates 2 reusable grouping(s)</summary>
 
 **26.2.1 revision note:** Updated Must constraint for ip ospf interface config to validate ip VRF - Added support for TwoHundredGigE and FourHundredGigE interface
 
@@ -1531,7 +1761,7 @@ Each flavor and each module can be expanded independently. Use the module link t
 </details>
 
 <details>
-<summary><a href="../2621/Cisco-IOS-XE-spanning-tree.yang">Cisco-IOS-XE-spanning-tree.yang</a> — adds/updates 2 reusable grouping(s)</summary>
+<summary>Cisco-IOS-XE-spanning-tree.yang — adds/updates 2 reusable grouping(s)</summary>
 
 **26.2.1 revision note:** Added global bridge mac leaf under spanning-tree bridge container - Added new mst instance list with tailf:cli-delete-when-empty to support deletion of individual cost or port-priority parameters - Changed instance type from string to unsigned integer with range 1..4094 for proper validation - Added must statement for port-priority to enforce increments of 16 - Deprecated old mst instance list to maintain backward compatibility - Added support for spanning-tree mst simulate pvst [disable] - Added support for spanning-tree sso block-tcn - Added support for spanning-tree queue maxsize
 
@@ -1542,7 +1772,7 @@ Each flavor and each module can be expanded independently. Use the module link t
 </details>
 
 <details>
-<summary><a href="../2621/Cisco-IOS-XE-track.yang">Cisco-IOS-XE-track.yang</a> — adds/updates 2 reusable grouping(s)</summary>
+<summary>Cisco-IOS-XE-track.yang — adds/updates 2 reusable grouping(s)</summary>
 
 **26.2.1 revision note:** added interface virtual router redundancy protocol - added interface cloud-tracker support - added a constraint to ensure object is configurable only when track type is list
 
@@ -1553,7 +1783,7 @@ Each flavor and each module can be expanded independently. Use the module link t
 </details>
 
 <details>
-<summary><a href="../2621/Cisco-IOS-XE-utd.yang">Cisco-IOS-XE-utd.yang</a> — adds/updates 2 reusable grouping(s)</summary>
+<summary>Cisco-IOS-XE-utd.yang — adds/updates 2 reusable grouping(s)</summary>
 
 **26.2.1 revision note:** Updated host length - Add refresh-token authentication - Add tailf:cli-preformatted annotation to password, refresh-token, and api-key to fix Type6 password backslash handling - Added support for TwoHundredGigE and FourHundredGigE interfaces
 
@@ -1568,7 +1798,7 @@ Each flavor and each module can be expanded independently. Use the module link t
 </details>
 
 <details>
-<summary><a href="../2621/Cisco-IOS-XE-voice.yang">Cisco-IOS-XE-voice.yang</a> — adds/updates 2 reusable grouping(s)</summary>
+<summary>Cisco-IOS-XE-voice.yang — adds/updates 2 reusable grouping(s)</summary>
 
 **26.2.1 revision note:** Added deprecated status and warning to wsapi container in UC configuration - Added warning for insecure protocols in play message leaf under call treatment - Added deprecated status and warning to ftp container in gw-accounting - Added warning for insecure protocols in voice class e164-pattern-map URL
 
@@ -1579,7 +1809,7 @@ Each flavor and each module can be expanded independently. Use the module link t
 </details>
 
 <details>
-<summary><a href="../2621/Cisco-IOS-XE-wireless-ap-cfg.yang">Cisco-IOS-XE-wireless-ap-cfg.yang</a> — adds/updates 2 reusable grouping(s)</summary>
+<summary>Cisco-IOS-XE-wireless-ap-cfg.yang — adds/updates 2 reusable grouping(s)</summary>
 
 **26.2.1 revision note:** Added WAT Profile name to static AP and AP filter configuration
 
@@ -1590,7 +1820,7 @@ Each flavor and each module can be expanded independently. Use the module link t
 </details>
 
 <details>
-<summary><a href="../2621/Cisco-IOS-XE-wireless-dot11-cfg.yang">Cisco-IOS-XE-wireless-dot11-cfg.yang</a> — adds/updates 2 reusable grouping(s)</summary>
+<summary>Cisco-IOS-XE-wireless-dot11-cfg.yang — adds/updates 2 reusable grouping(s)</summary>
 
 **26.2.1 revision note:** Updated descriptions for several model elements to clarify their meaning and purpose
 
@@ -1601,7 +1831,7 @@ Each flavor and each module can be expanded independently. Use the module link t
 </details>
 
 <details>
-<summary><a href="../2621/Cisco-IOS-XE-wireless-site-cfg.yang">Cisco-IOS-XE-wireless-site-cfg.yang</a> — adds/updates 2 reusable grouping(s)</summary>
+<summary>Cisco-IOS-XE-wireless-site-cfg.yang — adds/updates 2 reusable grouping(s)</summary>
 
 **26.2.1 revision note:** Added IDR Tetragon configuration - Added WAT Profile name to Site Tag configuration
 
@@ -1612,7 +1842,7 @@ Each flavor and each module can be expanded independently. Use the module link t
 </details>
 
 <details>
-<summary><a href="../2621/Cisco-IOS-XE-wireless-urwb-cfg.yang">Cisco-IOS-XE-wireless-urwb-cfg.yang</a> — adds/updates 2 reusable grouping(s)</summary>
+<summary>Cisco-IOS-XE-wireless-urwb-cfg.yang — adds/updates 2 reusable grouping(s)</summary>
 
 **26.2.1 revision note:** Added URWB Ethernet configuration leaves - Added RADIUS server group configuration for URWB profile - Added URWB NAT configuration support - Updated descriptions for URWB profile configuration leaves and containers - Updated URWB passphrase constraint to allow special characters only for AES encrypted network keys - Updated RADIUS server group must constraint to allow unconfigured state - Added maximum elements constraint for URWB NAT rule list
 
@@ -1627,7 +1857,7 @@ Each flavor and each module can be expanded independently. Use the module link t
 </details>
 
 <details>
-<summary><a href="../2621/Cisco-IOS-XE-yang-interfaces-cfg.yang">Cisco-IOS-XE-yang-interfaces-cfg.yang</a> — updates 1 <code>must</code> constraint(s); adds/updates 1 reusable grouping(s)</summary>
+<summary>Cisco-IOS-XE-yang-interfaces-cfg.yang — updates 1 <code>must</code> constraint(s); adds/updates 1 reusable grouping(s)</summary>
 
 **26.2.1 revision note:** Refined existing leaf descriptions for clarity and consistency - Added aes128-gcm@openssh.com to Device Management Interface SSH cipher algorithms - Disabled diffie-hellman-group14-sha1 key exchange algorithm in FIPS mode
 
@@ -1643,7 +1873,7 @@ Each flavor and each module can be expanded independently. Use the module link t
 </details>
 
 <details>
-<summary><a href="../2621/Cisco-IOS-XE-cip.yang">Cisco-IOS-XE-cip.yang</a> — adds/updates 1 reusable grouping(s)</summary>
+<summary>Cisco-IOS-XE-cip.yang — adds/updates 1 reusable grouping(s)</summary>
 
 **26.2.1 revision note:** Added encryption (type 8) support for password - Marked insecure password leaf as deprecated
 
@@ -1654,7 +1884,7 @@ Each flavor and each module can be expanded independently. Use the module link t
 </details>
 
 <details>
-<summary><a href="../2621/Cisco-IOS-XE-controller.yang">Cisco-IOS-XE-controller.yang</a> — adds/updates 1 reusable grouping(s)</summary>
+<summary>Cisco-IOS-XE-controller.yang — adds/updates 1 reusable grouping(s)</summary>
 
 **26.2.1 revision note:** Deprecated container 'udp' and added new list 'udp-stream' to support multiple NMEA streams - Added require-instance false to data-profile and attach-profile leafrefs to prevent an illegal access error when the profile instance does not exist
 
@@ -1665,7 +1895,7 @@ Each flavor and each module can be expanded independently. Use the module link t
 </details>
 
 <details>
-<summary><a href="../2621/Cisco-IOS-XE-ctrl-mng-cfg.yang">Cisco-IOS-XE-ctrl-mng-cfg.yang</a> — adds/updates 1 reusable grouping(s)</summary>
+<summary>Cisco-IOS-XE-ctrl-mng-cfg.yang — adds/updates 1 reusable grouping(s)</summary>
 
 **26.2.1 revision note:** Improved descriptions for control management configuration leaves
 
@@ -1676,7 +1906,7 @@ Each flavor and each module can be expanded independently. Use the module link t
 </details>
 
 <details>
-<summary><a href="../2621/Cisco-IOS-XE-cts.yang">Cisco-IOS-XE-cts.yang</a> — adds/updates 1 reusable grouping(s)</summary>
+<summary>Cisco-IOS-XE-cts.yang — adds/updates 1 reusable grouping(s)</summary>
 
 **26.2.1 revision note:** Added model support sxp delete-hold-down
 
@@ -1687,7 +1917,7 @@ Each flavor and each module can be expanded independently. Use the module link t
 </details>
 
 <details>
-<summary><a href="../2621/Cisco-IOS-XE-ethernet.yang">Cisco-IOS-XE-ethernet.yang</a> — adds/updates 1 reusable grouping(s)</summary>
+<summary>Cisco-IOS-XE-ethernet.yang — adds/updates 1 reusable grouping(s)</summary>
 
 **26.2.1 revision note:** Consolidate modeling for interface pagp - Added TwoHundredGigE and FourHundredGigE interface support
 
@@ -1700,7 +1930,7 @@ Each flavor and each module can be expanded independently. Use the module link t
 </details>
 
 <details>
-<summary><a href="../2621/Cisco-IOS-XE-gnmi-cfg.yang">Cisco-IOS-XE-gnmi-cfg.yang</a> — adds/updates 1 reusable grouping(s)</summary>
+<summary>Cisco-IOS-XE-gnmi-cfg.yang — adds/updates 1 reusable grouping(s)</summary>
 
 **26.2.1 revision note:** Improve description of top level configuration and server containers - Deprecated insecure gNxI server enable leaf and port leaf
 
@@ -1711,7 +1941,7 @@ Each flavor and each module can be expanded independently. Use the module link t
 </details>
 
 <details>
-<summary><a href="../2621/Cisco-IOS-XE-gnss.yang">Cisco-IOS-XE-gnss.yang</a> — adds/updates 1 reusable grouping(s)</summary>
+<summary>Cisco-IOS-XE-gnss.yang — adds/updates 1 reusable grouping(s)</summary>
 
 **26.2.1 revision note:** Added shutdown leaf to enable or disable GNSS module
 
@@ -1722,7 +1952,7 @@ Each flavor and each module can be expanded independently. Use the module link t
 </details>
 
 <details>
-<summary><a href="../2621/Cisco-IOS-XE-grpc-tunnel-cfg.yang">Cisco-IOS-XE-grpc-tunnel-cfg.yang</a> — adds/updates 1 reusable type(s)</summary>
+<summary>Cisco-IOS-XE-grpc-tunnel-cfg.yang — adds/updates 1 reusable type(s)</summary>
 
 **26.2.1 revision note:** Improve the description of address host type unspecified leaf - Deprecated insecure gNxI gRPC tunnel target type
 
@@ -1733,7 +1963,7 @@ Each flavor and each module can be expanded independently. Use the module link t
 </details>
 
 <details>
-<summary><a href="../2621/Cisco-IOS-XE-http.yang">Cisco-IOS-XE-http.yang</a> — adds/updates 1 reusable grouping(s)</summary>
+<summary>Cisco-IOS-XE-http.yang — adds/updates 1 reusable grouping(s)</summary>
 
 **26.2.1 revision note:** Added support for 'ip http secure-ecdhe-curve' - Updated Max range for 'ip http session-idle-timeout' - Added yang model for 'ip http secure-pqc-type' CLI - Updated ip http server to be set as disabled by default - Updated default value for 'ip http secure-server'
 
@@ -1744,7 +1974,7 @@ Each flavor and each module can be expanded independently. Use the module link t
 </details>
 
 <details>
-<summary><a href="../2621/Cisco-IOS-XE-lisp.yang">Cisco-IOS-XE-lisp.yang</a> — adds/updates 1 reusable grouping(s)</summary>
+<summary>Cisco-IOS-XE-lisp.yang — adds/updates 1 reusable grouping(s)</summary>
 
 **26.2.1 revision note:** Added support for silent-host pre-auth VLAN CLIs under interface <SVI> - Added support for FiftyGigabitEthernet,TwoHundredGigE and FourHundredGigE interfaces
 
@@ -1755,7 +1985,7 @@ Each flavor and each module can be expanded independently. Use the module link t
 </details>
 
 <details>
-<summary><a href="../2621/Cisco-IOS-XE-lte450.yang">Cisco-IOS-XE-lte450.yang</a> — adds/updates 1 reusable grouping(s)</summary>
+<summary>Cisco-IOS-XE-lte450.yang — adds/updates 1 reusable grouping(s)</summary>
 
 **26.2.1 revision note:** Adding password
 
@@ -1766,7 +1996,7 @@ Each flavor and each module can be expanded independently. Use the module link t
 </details>
 
 <details>
-<summary><a href="../2621/Cisco-IOS-XE-mrp.yang">Cisco-IOS-XE-mrp.yang</a> — adds/updates 1 reusable grouping(s)</summary>
+<summary>Cisco-IOS-XE-mrp.yang — adds/updates 1 reusable grouping(s)</summary>
 
 **26.2.1 revision note:** Deprecated 'enable' leaf and added new container 'profinet-enable' with leaf 'profinet' of type boolean - Added tailf cli extensions for profinet container - Changed mrp leaf default to false
 
@@ -1777,7 +2007,7 @@ Each flavor and each module can be expanded independently. Use the module link t
 </details>
 
 <details>
-<summary><a href="../2621/Cisco-IOS-XE-mvrp.yang">Cisco-IOS-XE-mvrp.yang</a> — adds/updates 1 reusable grouping(s)</summary>
+<summary>Cisco-IOS-XE-mvrp.yang — adds/updates 1 reusable grouping(s)</summary>
 
 **26.2.1 revision note:** Deprecated timer containers (join, leave, leave-all) with presence statements - Added new timer leaf nodes without presence (join-timer, leave-timer, leave-all-timer)
 
@@ -1788,7 +2018,7 @@ Each flavor and each module can be expanded independently. Use the module link t
 </details>
 
 <details>
-<summary><a href="../2621/Cisco-IOS-XE-nat.yang">Cisco-IOS-XE-nat.yang</a> — adds/updates 1 reusable grouping(s)</summary>
+<summary>Cisco-IOS-XE-nat.yang — adds/updates 1 reusable grouping(s)</summary>
 
 **26.2.1 revision note:** Added tailf:cli-preformatted annotation to password, username, key, and URL leafs under NAT64 address-resolution-server, api-key, and rule-server containers to fix Type6 password backslash handling - Added TwoHundredGigE and FourHundredGigE interface support - Added VRF create/delete ordering for ip nat inside source list/route-map interface VRF mappings
 
@@ -1799,7 +2029,7 @@ Each flavor and each module can be expanded independently. Use the module link t
 </details>
 
 <details>
-<summary><a href="../2621/Cisco-IOS-XE-nbar.yang">Cisco-IOS-XE-nbar.yang</a> — adds/updates 1 reusable grouping(s)</summary>
+<summary>Cisco-IOS-XE-nbar.yang — adds/updates 1 reusable grouping(s)</summary>
 
 **26.2.1 revision note:** Add delete ordering dependency between custom protocol and class-map match protocol - Add authentication-token (max 4096 chars) to sd-service controller - Add enforce-tls-hostname to sd-service controller - Added TwoHundredGigE and FourHundredGigE interface support
 
@@ -1810,7 +2040,7 @@ Each flavor and each module can be expanded independently. Use the module link t
 </details>
 
 <details>
-<summary><a href="../2621/Cisco-IOS-XE-ntp.yang">Cisco-IOS-XE-ntp.yang</a> — adds/updates 1 reusable grouping(s)</summary>
+<summary>Cisco-IOS-XE-ntp.yang — adds/updates 1 reusable grouping(s)</summary>
 
 **26.2.1 revision note:** Modified ntp allow mode control to be disabled by default - Added TwoHundredGigE and FourHundredGigE interface support
 
@@ -1821,7 +2051,7 @@ Each flavor and each module can be expanded independently. Use the module link t
 </details>
 
 <details>
-<summary><a href="../2621/Cisco-IOS-XE-ospfv3.yang">Cisco-IOS-XE-ospfv3.yang</a> — adds/updates 1 reusable grouping(s)</summary>
+<summary>Cisco-IOS-XE-ospfv3.yang — adds/updates 1 reusable grouping(s)</summary>
 
 **26.2.1 revision note:** Made the must constraint in config-interface-ospfv3-grouping stricter to verify address-family with VRF is configured. - Added support for TwoHundredGigE and FourHundredGigE interfaces
 
@@ -1832,7 +2062,7 @@ Each flavor and each module can be expanded independently. Use the module link t
 </details>
 
 <details>
-<summary><a href="../2621/Cisco-IOS-XE-platform.yang">Cisco-IOS-XE-platform.yang</a> — adds/updates 1 reusable grouping(s)</summary>
+<summary>Cisco-IOS-XE-platform.yang — adds/updates 1 reusable grouping(s)</summary>
 
 **26.2.1 revision note:** Add platform ip reassembly warning - Add platform ip reassembly threshold - Add platform security audit monitor rule sets
 
@@ -1843,7 +2073,7 @@ Each flavor and each module can be expanded independently. Use the module link t
 </details>
 
 <details>
-<summary><a href="../2621/Cisco-IOS-XE-power.yang">Cisco-IOS-XE-power.yang</a> — adds/updates 1 reusable grouping(s)</summary>
+<summary>Cisco-IOS-XE-power.yang — adds/updates 1 reusable grouping(s)</summary>
 
 **26.2.1 revision note:** Added model support for 2-event - Removed presence for power inline - Added FiftyGigabitEthernet, TwoHundredGigE and FourHundredGigE interface support
 
@@ -1854,7 +2084,7 @@ Each flavor and each module can be expanded independently. Use the module link t
 </details>
 
 <details>
-<summary><a href="../2621/Cisco-IOS-XE-prp.yang">Cisco-IOS-XE-prp.yang</a> — adds/updates 1 reusable grouping(s)</summary>
+<summary>Cisco-IOS-XE-prp.yang — adds/updates 1 reusable grouping(s)</summary>
 
 **26.2.1 revision note:** Added logging-interval CLI
 
@@ -1865,7 +2095,7 @@ Each flavor and each module can be expanded independently. Use the module link t
 </details>
 
 <details>
-<summary><a href="../2621/Cisco-IOS-XE-site-manager.yang">Cisco-IOS-XE-site-manager.yang</a> — adds/updates 1 reusable grouping(s)</summary>
+<summary>Cisco-IOS-XE-site-manager.yang — adds/updates 1 reusable grouping(s)</summary>
 
 **26.2.1 revision note:** Add tailf:cli-preformatted annotation to site-manager password
 
@@ -1876,7 +2106,7 @@ Each flavor and each module can be expanded independently. Use the module link t
 </details>
 
 <details>
-<summary><a href="../2621/Cisco-IOS-XE-snmp.yang">Cisco-IOS-XE-snmp.yang</a> — adds/updates 1 reusable grouping(s)</summary>
+<summary>Cisco-IOS-XE-snmp.yang — adds/updates 1 reusable grouping(s)</summary>
 
 **26.2.1 revision note:** Added model for vrf under snmp-server - Added warning message for insecure protocols under file-transfer - Added tailf:cli-ignore-modified for sdwan traps obsolete nodes - Added TwoHundredGigE and FourHundredGigE interface support
 
@@ -1887,7 +2117,7 @@ Each flavor and each module can be expanded independently. Use the module link t
 </details>
 
 <details>
-<summary><a href="../2621/Cisco-IOS-XE-synce.yang">Cisco-IOS-XE-synce.yang</a> — adds/updates 1 reusable grouping(s)</summary>
+<summary>Cisco-IOS-XE-synce.yang — adds/updates 1 reusable grouping(s)</summary>
 
 **26.2.1 revision note:** Added model support for 1hz signal type
 
@@ -1898,7 +2128,7 @@ Each flavor and each module can be expanded independently. Use the module link t
 </details>
 
 <details>
-<summary><a href="../2621/Cisco-IOS-XE-template.yang">Cisco-IOS-XE-template.yang</a> — adds/updates 1 reusable grouping(s)</summary>
+<summary>Cisco-IOS-XE-template.yang — adds/updates 1 reusable grouping(s)</summary>
 
 **26.2.1 revision note:** Deprecated bpduguard container and added bpduguard-v2 for spanning-tree container
 
@@ -1909,7 +2139,7 @@ Each flavor and each module can be expanded independently. Use the module link t
 </details>
 
 <details>
-<summary><a href="../2621/Cisco-IOS-XE-vlan.yang">Cisco-IOS-XE-vlan.yang</a> — adds/updates 1 reusable grouping(s)</summary>
+<summary>Cisco-IOS-XE-vlan.yang — adds/updates 1 reusable grouping(s)</summary>
 
 **26.2.1 revision note:** Added EVPN subnet slicing and host routing features
 
@@ -1920,7 +2150,7 @@ Each flavor and each module can be expanded independently. Use the module link t
 </details>
 
 <details>
-<summary><a href="../2621/Cisco-IOS-XE-wccp.yang">Cisco-IOS-XE-wccp.yang</a> — adds/updates 1 reusable grouping(s)</summary>
+<summary>Cisco-IOS-XE-wccp.yang — adds/updates 1 reusable grouping(s)</summary>
 
 **26.2.1 revision note:** Added TwoHundredGigE and FourHundredGigE interface support
 
@@ -1931,7 +2161,7 @@ Each flavor and each module can be expanded independently. Use the module link t
 </details>
 
 <details>
-<summary><a href="../2621/Cisco-IOS-XE-wireless-cts-sxp-cfg.yang">Cisco-IOS-XE-wireless-cts-sxp-cfg.yang</a> — adds/updates 1 reusable grouping(s)</summary>
+<summary>Cisco-IOS-XE-wireless-cts-sxp-cfg.yang — adds/updates 1 reusable grouping(s)</summary>
 
 **26.2.1 revision note:** Updated descriptions of several model elements to clarify their meaning and purpose
 
@@ -1942,7 +2172,7 @@ Each flavor and each module can be expanded independently. Use the module link t
 </details>
 
 <details>
-<summary><a href="../2621/Cisco-IOS-XE-wireless-general-cfg.yang">Cisco-IOS-XE-wireless-general-cfg.yang</a> — adds/updates 1 reusable grouping(s)</summary>
+<summary>Cisco-IOS-XE-wireless-general-cfg.yang — adds/updates 1 reusable grouping(s)</summary>
 
 **26.2.1 revision note:** Updated the default value of derive-geolocation leaf from 'false' to 'true' - Updated descriptions for several model elements to clarify their meaning and purpose
 
@@ -1953,7 +2183,7 @@ Each flavor and each module can be expanded independently. Use the module link t
 </details>
 
 <details>
-<summary><a href="../2621/Cisco-IOS-XE-wireless-mesh-cfg.yang">Cisco-IOS-XE-wireless-mesh-cfg.yang</a> — adds/updates 1 reusable grouping(s)</summary>
+<summary>Cisco-IOS-XE-wireless-mesh-cfg.yang — adds/updates 1 reusable grouping(s)</summary>
 
 **26.2.1 revision note:** Updated descriptions of several model elements to clarify their meaning and purpose
 
@@ -1964,7 +2194,7 @@ Each flavor and each module can be expanded independently. Use the module link t
 </details>
 
 <details>
-<summary><a href="../2621/Cisco-IOS-XE-wireless-mstream-cfg.yang">Cisco-IOS-XE-wireless-mstream-cfg.yang</a> — adds/updates 1 reusable grouping(s)</summary>
+<summary>Cisco-IOS-XE-wireless-mstream-cfg.yang — adds/updates 1 reusable grouping(s)</summary>
 
 **26.2.1 revision note:** Modified end IP address constraint
 
@@ -1975,7 +2205,7 @@ Each flavor and each module can be expanded independently. Use the module link t
 </details>
 
 <details>
-<summary><a href="../2621/Cisco-IOS-XE-wireless-rogue-cfg.yang">Cisco-IOS-XE-wireless-rogue-cfg.yang</a> — adds/updates 1 reusable grouping(s)</summary>
+<summary>Cisco-IOS-XE-wireless-rogue-cfg.yang — adds/updates 1 reusable grouping(s)</summary>
 
 **26.2.1 revision note:** Updated descriptions for several model elements to clarify their meaning and purpose
 
@@ -1986,7 +2216,7 @@ Each flavor and each module can be expanded independently. Use the module link t
 </details>
 
 <details>
-<summary><a href="../2621/Cisco-IOS-XE-wireless-rrm-cfg.yang">Cisco-IOS-XE-wireless-rrm-cfg.yang</a> — adds/updates 1 reusable grouping(s)</summary>
+<summary>Cisco-IOS-XE-wireless-rrm-cfg.yang — adds/updates 1 reusable grouping(s)</summary>
 
 **26.2.1 revision note:** Deprecated chan-width-cap leaf and disallowed its modification
 
@@ -1997,7 +2227,7 @@ Each flavor and each module can be expanded independently. Use the module link t
 </details>
 
 <details>
-<summary><a href="../2621/Cisco-IOS-XE-wsma.yang">Cisco-IOS-XE-wsma.yang</a> — adds/updates 1 reusable grouping(s)</summary>
+<summary>Cisco-IOS-XE-wsma.yang — adds/updates 1 reusable grouping(s)</summary>
 
 **26.2.1 revision note:** Deprecated insecure transport options for WSMA listener
 
@@ -2017,7 +2247,7 @@ Each flavor and each module can be expanded independently. Use the module link t
 <summary>Show 26 Other entries</summary>
 
 <details>
-<summary><a href="../2621/Cisco-IOS-XE-interfaces-deviation.yang">Cisco-IOS-XE-interfaces-deviation.yang</a> — adds 43 platform deviation(s)</summary>
+<summary>Cisco-IOS-XE-interfaces-deviation.yang — adds 43 platform deviation(s)</summary>
 
 **26.2.1 revision note:** Added interface deviations for ip-forward feature
 
@@ -2030,7 +2260,7 @@ Each flavor and each module can be expanded independently. Use the module link t
 </details>
 
 <details>
-<summary><a href="../2621/Cisco-IOS-XE-ngfw-events.yang">Cisco-IOS-XE-ngfw-events.yang</a> — adds 4 declared schema path(s); adds/updates 4 reusable grouping(s); adds/updates 5 reusable type(s)</summary>
+<summary>Cisco-IOS-XE-ngfw-events.yang — adds 4 declared schema path(s); adds/updates 4 reusable grouping(s); adds/updates 5 reusable type(s)</summary>
 
 **26.2.1 revision note:** Added NGFW IPS alert notifications. - Added NGFW version notification. - Added NGFW update notification - Added NGFW FQDN destination status change alarm notification.
 
@@ -2047,7 +2277,7 @@ Each flavor and each module can be expanded independently. Use the module link t
 </details>
 
 <details>
-<summary><a href="../2621/Cisco-IOS-XE-port-channel-unsupported-deviation.yang">Cisco-IOS-XE-port-channel-unsupported-deviation.yang</a> — adds 6 platform deviation(s)</summary>
+<summary>Cisco-IOS-XE-port-channel-unsupported-deviation.yang — adds 6 platform deviation(s)</summary>
 
 **26.2.1 revision note:** Added TwoHundredGigE and FourHundredGigE interface support
 
@@ -2060,7 +2290,7 @@ Each flavor and each module can be expanded independently. Use the module link t
 </details>
 
 <details>
-<summary><a href="../2621/Cisco-IOS-XE-wireless-ap-types.yang">Cisco-IOS-XE-wireless-ap-types.yang</a> — adds/updates 5 reusable grouping(s); adds/updates 1 reusable type(s)</summary>
+<summary>Cisco-IOS-XE-wireless-ap-types.yang — adds/updates 5 reusable grouping(s); adds/updates 1 reusable type(s)</summary>
 
 **26.2.1 revision note:** Added support for AP auto-MACsec configuration - Added IDR Tetragon configuration - Added NTP trust-key length validation constraints - Added new AP Filter Type for Wireless Active Testing (WAT) - Updated descriptions of several model elements to clarify their meaning and purpose
 
@@ -2077,7 +2307,7 @@ Each flavor and each module can be expanded independently. Use the module link t
 </details>
 
 <details>
-<summary><a href="../2621/Cisco-IOS-XE-wireless-enum-types.yang">Cisco-IOS-XE-wireless-enum-types.yang</a> — adds/updates 6 reusable type(s)</summary>
+<summary>Cisco-IOS-XE-wireless-enum-types.yang — adds/updates 6 reusable type(s)</summary>
 
 **26.2.1 revision note:** Added URWB egress point enumerated type - Added enumeration for Wireless Active Testing (WAT) VLAN source - Added enumeration for URWB NAT protocol types (TCP/UDP)
 
@@ -2088,7 +2318,7 @@ Each flavor and each module can be expanded independently. Use the module link t
 </details>
 
 <details>
-<summary><a href="../2621/Cisco-IOS-XE-wireless-urwb-common-types.yang">Cisco-IOS-XE-wireless-urwb-common-types.yang</a> — adds/updates 6 reusable grouping(s)</summary>
+<summary>Cisco-IOS-XE-wireless-urwb-common-types.yang — adds/updates 6 reusable grouping(s)</summary>
 
 **26.2.1 revision note:** Added URWB LAN ID Ethernet configuration leaf - Added URWB LAN PoE Ethernet configuration leaf - Added URWB traffic egress point leaf - Moved URWB NAT configuration grouping from cfg module to common types - Added URWB NAT rule key grouping - Updated descriptions for URWB mobility and MPLS leaves - Updated descriptions for chan and c-width leaves in st-urwb-chan-list-entry grouping - Updated descriptions of several model elements for clarity, grammar, and consistency
 
@@ -2103,7 +2333,7 @@ Each flavor and each module can be expanded independently. Use the module link t
 </details>
 
 <details>
-<summary><a href="../2621/Cisco-IOS-XE-system-security-types.yang">Cisco-IOS-XE-system-security-types.yang</a> — adds/updates 5 reusable type(s)</summary>
+<summary>Cisco-IOS-XE-system-security-types.yang — adds/updates 5 reusable type(s)</summary>
 
 **26.2.1 revision note:** Added an enumeration value for TFTP server configuration command - Added enum for Tool Command Line module. - Added reason, remedy and description enums for Tool Command Language and Logging. - Added description enums for Parser module. - Added reason, remedy and description enums for SNMP File transfer. - Added enum value for Device Sensor module. - Added submode enum value for Device Sensor DHCP filter list configuration. - Added an enumeration for SSH EC weak host key - Added reason, remedy, description, and submode enums for AAA weak password/key - Added description enum for boot system insecure file transfer protocol - Added module enum for IFS module - Added module enum for Crypto PKI Trustpoint module - Added description enum for Crypto PKI insecure file transfer protocol - Added submode enum for crypto-ca-trustpoint - Added dedicated remedy enum for generic secure protocol usage - Added module enum for DHCP snooping module - Added enum for DHCP module - Added remedy and description enums for DHCP - Added module enums for voice configuration contexts - Added remedy enum for insecure real-time streaming transport usage - Added description enums for insecure voice URL and transport configurations - Added submode enums for voice configuration contexts - Added reason, remediation and description enums for service password-encryption. - Added module enum for macro command and description enum for macro auto execute CLI. - Added reason, remedy, and description enums for RADIUS Message Authenticator warnings - Added description enums for RADIUS, TACACS, and LDAP without TLS warnings - Added description enum for Tool Command Language encoding directory - Added reason for SNMP group and remediation for SNMP group and cipher AES - Added module enums for IVR, gateway accounting, call leg, application monitor, and web service - Added description enums for IVR voice prompts, gateway accounting, call leg, event log, and web service configurations - Added submode enums for gateway accounting and application monitor configurations - Added reason, remedy and description enums for NTP allow mode control - Added description enum for NTP without authentication - Added module, description, and submode enums for IP SLA insecure protocol - Added submode enums for IP SLA LSR path echo and jitter configuration - Added module, reason, remediation and description enums for the insecure gNxI server - Updated SNMP no ACL reason and remedy descriptions - Added module and description enums for Crimson Function Tracking (CRFT) collect-on-reload insecure protocol
 
@@ -2114,7 +2344,7 @@ Each flavor and each module can be expanded independently. Use the module link t
 </details>
 
 <details>
-<summary><a href="../2621/Cisco-IOS-XE-ospf-deviation.yang">Cisco-IOS-XE-ospf-deviation.yang</a> — adds 4 platform deviation(s)</summary>
+<summary>Cisco-IOS-XE-ospf-deviation.yang — adds 4 platform deviation(s)</summary>
 
 **26.2.1 revision note:** Adding deviation for the TwoHundredGigE and FourHundredGigE interfaces
 
@@ -2127,7 +2357,7 @@ Each flavor and each module can be expanded independently. Use the module link t
 </details>
 
 <details>
-<summary><a href="../2621/Cisco-IOS-XE-utd-events.yang">Cisco-IOS-XE-utd-events.yang</a> — adds 1 declared schema path(s); adds/updates 1 reusable grouping(s); adds/updates 2 reusable type(s)</summary>
+<summary>Cisco-IOS-XE-utd-events.yang — adds 1 declared schema path(s); adds/updates 1 reusable grouping(s); adds/updates 2 reusable type(s)</summary>
 
 **26.2.1 revision note:** Added UTD FQDN destination status change alarm notification.
 
@@ -2144,7 +2374,7 @@ Each flavor and each module can be expanded independently. Use the module link t
 </details>
 
 <details>
-<summary><a href="../2621/Cisco-IOS-XE-wireless-afc-types.yang">Cisco-IOS-XE-wireless-afc-types.yang</a> — adds/updates 4 reusable grouping(s)</summary>
+<summary>Cisco-IOS-XE-wireless-afc-types.yang — adds/updates 4 reusable grouping(s)</summary>
 
 **26.2.1 revision note:** Updated descriptions for clarity and accuracy
 
@@ -2155,7 +2385,7 @@ Each flavor and each module can be expanded independently. Use the module link t
 </details>
 
 <details>
-<summary><a href="../2621/Cisco-IOS-XE-interface-common.yang">Cisco-IOS-XE-interface-common.yang</a> — adds/updates 3 reusable grouping(s)</summary>
+<summary>Cisco-IOS-XE-interface-common.yang — adds/updates 3 reusable grouping(s)</summary>
 
 **26.2.1 revision note:** Added TwoHundredGigE and FourHundredGigE interface support
 
@@ -2166,7 +2396,7 @@ Each flavor and each module can be expanded independently. Use the module link t
 </details>
 
 <details>
-<summary><a href="../2621/Cisco-IOS-XE-port-channel-deviation.yang">Cisco-IOS-XE-port-channel-deviation.yang</a> — adds 3 platform deviation(s)</summary>
+<summary>Cisco-IOS-XE-port-channel-deviation.yang — adds 3 platform deviation(s)</summary>
 
 **26.2.1 revision note:** Added TwoHundredGigE and FourHundredGigE interface support
 
@@ -2179,7 +2409,7 @@ Each flavor and each module can be expanded independently. Use the module link t
 </details>
 
 <details>
-<summary><a href="../2621/Cisco-IOS-XE-wireless-types.yang">Cisco-IOS-XE-wireless-types.yang</a> — adds/updates 1 reusable grouping(s); adds/updates 2 reusable type(s)</summary>
+<summary>Cisco-IOS-XE-wireless-types.yang — adds/updates 1 reusable grouping(s); adds/updates 2 reusable type(s)</summary>
 
 **26.2.1 revision note:** Added new AP reboot reason enumerations - Added default value for AP proxy configuration password type leaf - Added new band-default enumeration value to dca-ewlc-chan-width-cap typedef - Added the validation for hostname and no-proxy-list - Modified hostname regex pattern to support HTTP and HTTPS - Modified description for the dca-ewlc-chan-width-cap-band-default enum
 
@@ -2192,7 +2422,7 @@ Each flavor and each module can be expanded independently. Use the module link t
 </details>
 
 <details>
-<summary><a href="../2621/Cisco-IOS-XE-cdp-deviation.yang">Cisco-IOS-XE-cdp-deviation.yang</a> — adds 2 platform deviation(s)</summary>
+<summary>Cisco-IOS-XE-cdp-deviation.yang — adds 2 platform deviation(s)</summary>
 
 **26.2.1 revision note:** Added TwoHundredGigE and FourHundredGigE interface support
 
@@ -2205,7 +2435,7 @@ Each flavor and each module can be expanded independently. Use the module link t
 </details>
 
 <details>
-<summary><a href="../2621/Cisco-IOS-XE-device-tracking-cat9k-deviation.yang">Cisco-IOS-XE-device-tracking-cat9k-deviation.yang</a> — adds 2 platform deviation(s)</summary>
+<summary>Cisco-IOS-XE-device-tracking-cat9k-deviation.yang — adds 2 platform deviation(s)</summary>
 
 **26.2.1 revision note:** Added TwoHundredGigE and FourHundredGigE interface support
 
@@ -2218,7 +2448,7 @@ Each flavor and each module can be expanded independently. Use the module link t
 </details>
 
 <details>
-<summary><a href="../2621/Cisco-IOS-XE-dhcp-deviation.yang">Cisco-IOS-XE-dhcp-deviation.yang</a> — adds 2 platform deviation(s)</summary>
+<summary>Cisco-IOS-XE-dhcp-deviation.yang — adds 2 platform deviation(s)</summary>
 
 **26.2.1 revision note:** Added TwoHundredGigE and FourHundredGigE interface support
 
@@ -2231,7 +2461,7 @@ Each flavor and each module can be expanded independently. Use the module link t
 </details>
 
 <details>
-<summary><a href="../2621/Cisco-IOS-XE-features.yang">Cisco-IOS-XE-features.yang</a> — YANG schema declarations changed</summary>
+<summary>Cisco-IOS-XE-features.yang — YANG schema declarations changed</summary>
 
 **26.2.1 revision note:** Added feature ip-forward
 
@@ -2242,7 +2472,7 @@ Each flavor and each module can be expanded independently. Use the module link t
 </details>
 
 <details>
-<summary><a href="../2621/Cisco-IOS-XE-mdt-common-defs.yang">Cisco-IOS-XE-mdt-common-defs.yang</a> — adds/updates 1 reusable grouping(s); adds/updates 1 reusable type(s)</summary>
+<summary>Cisco-IOS-XE-mdt-common-defs.yang — adds/updates 1 reusable grouping(s); adds/updates 1 reusable type(s)</summary>
 
 **26.2.1 revision note:** Added support for sensor group type filter - Removed defaults for no-synch-on-start-v2 and dampening-period - Updated descriptions of several model elements to clarify their meaning and purpose
 
@@ -2255,7 +2485,7 @@ Each flavor and each module can be expanded independently. Use the module link t
 </details>
 
 <details>
-<summary><a href="../2621/Cisco-IOS-XE-switch-deviation.yang">Cisco-IOS-XE-switch-deviation.yang</a> — YANG schema declarations changed</summary>
+<summary>Cisco-IOS-XE-switch-deviation.yang — YANG schema declarations changed</summary>
 
 **26.2.1 revision note:** Update version for igmp to <1-3>
 
@@ -2266,7 +2496,7 @@ Each flavor and each module can be expanded independently. Use the module link t
 </details>
 
 <details>
-<summary><a href="../2621/Cisco-IOS-XE-wireless-client-types.yang">Cisco-IOS-XE-wireless-client-types.yang</a> — adds/updates 2 reusable type(s)</summary>
+<summary>Cisco-IOS-XE-wireless-client-types.yang — adds/updates 2 reusable type(s)</summary>
 
 **26.2.1 revision note:** Added new enum value Zebra to sta-type - Added new wired client connected through URWB backhaul - Updated descriptions of several model elements to clarify their meaning and purpose
 
@@ -2277,7 +2507,7 @@ Each flavor and each module can be expanded independently. Use the module link t
 </details>
 
 <details>
-<summary><a href="../2621/Cisco-IOS-XE-controller-shdsl-common.yang">Cisco-IOS-XE-controller-shdsl-common.yang</a> — adds/updates 1 reusable grouping(s)</summary>
+<summary>Cisco-IOS-XE-controller-shdsl-common.yang — adds/updates 1 reusable grouping(s)</summary>
 
 **26.2.1 revision note:** Updated descriptions of several model elements to clarify their meaning and purpose
 
@@ -2288,7 +2518,7 @@ Each flavor and each module can be expanded independently. Use the module link t
 </details>
 
 <details>
-<summary><a href="../2621/Cisco-IOS-XE-ethernet-radium-deviation.yang">Cisco-IOS-XE-ethernet-radium-deviation.yang</a> — adds 1 platform deviation(s)</summary>
+<summary>Cisco-IOS-XE-ethernet-radium-deviation.yang — adds 1 platform deviation(s)</summary>
 
 **26.2.1 revision note:** Add deviation file to restrict LACP min-bundle and max-bundle range for radium platforms (4-port limit)
 
@@ -2301,7 +2531,7 @@ Each flavor and each module can be expanded independently. Use the module link t
 </details>
 
 <details>
-<summary><a href="../2621/Cisco-IOS-XE-install-event-types.yang">Cisco-IOS-XE-install-event-types.yang</a> — adds/updates 1 reusable type(s)</summary>
+<summary>Cisco-IOS-XE-install-event-types.yang — adds/updates 1 reusable type(s)</summary>
 
 **26.2.1 revision note:** Added install-sub-state enum value for xFSU pre-check failure when an external packet buffer is enabled on the node - Added install status for Live Patching Service (LPS) conflict with existing LPS on device - Added install sub status for one-shot install rejection during APSP SMU installation
 
@@ -2312,7 +2542,7 @@ Each flavor and each module can be expanded independently. Use the module link t
 </details>
 
 <details>
-<summary><a href="../2621/Cisco-IOS-XE-nwpi-types.yang">Cisco-IOS-XE-nwpi-types.yang</a> — adds/updates 1 reusable grouping(s)</summary>
+<summary>Cisco-IOS-XE-nwpi-types.yang — adds/updates 1 reusable grouping(s)</summary>
 
 **26.2.1 revision note:** Updated descriptions of several model elements to clarify their meaning and purpose
 
@@ -2323,7 +2553,7 @@ Each flavor and each module can be expanded independently. Use the module link t
 </details>
 
 <details>
-<summary><a href="../2621/Cisco-IOS-XE-wireless-mobility-types.yang">Cisco-IOS-XE-wireless-mobility-types.yang</a> — adds/updates 1 reusable type(s)</summary>
+<summary>Cisco-IOS-XE-wireless-mobility-types.yang — adds/updates 1 reusable type(s)</summary>
 
 **26.2.1 revision note:** Added URWB telemetry message
 
@@ -2334,7 +2564,7 @@ Each flavor and each module can be expanded independently. Use the module link t
 </details>
 
 <details>
-<summary><a href="../2621/Cisco-IOS-XE-xcopy-events.yang">Cisco-IOS-XE-xcopy-events.yang</a> — adds/updates 1 reusable grouping(s)</summary>
+<summary>Cisco-IOS-XE-xcopy-events.yang — adds/updates 1 reusable grouping(s)</summary>
 
 **26.2.1 revision note:** Added file-size leaf (bytes) to express-copy-event-fields grouping and deprecated file size leaf (megabytes) in the same grouping
 
@@ -2356,189 +2586,189 @@ These files differ byte-for-byte between releases, but the comparison found no c
 
 ### Oper (118 changed source entries)
 
-- [Cisco-IOS-XE-aaa-oper.yang](../2621/Cisco-IOS-XE-aaa-oper.yang) — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
-- [Cisco-IOS-XE-acl-oper.yang](../2621/Cisco-IOS-XE-acl-oper.yang) — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
-- [Cisco-IOS-XE-app-cflowd-oper.yang](../2621/Cisco-IOS-XE-app-cflowd-oper.yang) — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
-- [Cisco-IOS-XE-arp-oper.yang](../2621/Cisco-IOS-XE-arp-oper.yang) — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
-- [Cisco-IOS-XE-aws-common-oper.yang](../2621/Cisco-IOS-XE-aws-common-oper.yang) — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
-- [Cisco-IOS-XE-aws-cw-oper.yang](../2621/Cisco-IOS-XE-aws-cw-oper.yang) — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
-- [Cisco-IOS-XE-aws-s3-oper.yang](../2621/Cisco-IOS-XE-aws-s3-oper.yang) — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
-- [Cisco-IOS-XE-bbu-oper.yang](../2621/Cisco-IOS-XE-bbu-oper.yang) — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
-- [Cisco-IOS-XE-bfd-oper.yang](../2621/Cisco-IOS-XE-bfd-oper.yang) — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
-- [Cisco-IOS-XE-bgp-nbr-oper.yang](../2621/Cisco-IOS-XE-bgp-nbr-oper.yang) — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
-- [Cisco-IOS-XE-boot-integrity-oper.yang](../2621/Cisco-IOS-XE-boot-integrity-oper.yang) — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
-- [Cisco-IOS-XE-cable-diag-oper.yang](../2621/Cisco-IOS-XE-cable-diag-oper.yang) — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
-- [Cisco-IOS-XE-cfm-oper.yang](../2621/Cisco-IOS-XE-cfm-oper.yang) — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
-- [Cisco-IOS-XE-checkpoint-archive-oper.yang](../2621/Cisco-IOS-XE-checkpoint-archive-oper.yang) — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
-- [Cisco-IOS-XE-cloud-services-oper.yang](../2621/Cisco-IOS-XE-cloud-services-oper.yang) — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
-- [Cisco-IOS-XE-controller-shdsl-oper.yang](../2621/Cisco-IOS-XE-controller-shdsl-oper.yang) — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
-- [Cisco-IOS-XE-controller-t1e1-oper.yang](../2621/Cisco-IOS-XE-controller-t1e1-oper.yang) — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
-- [Cisco-IOS-XE-controller-vdsl-oper.yang](../2621/Cisco-IOS-XE-controller-vdsl-oper.yang) — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
-- [Cisco-IOS-XE-crypto-pki-oper.yang](../2621/Cisco-IOS-XE-crypto-pki-oper.yang) — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
-- [Cisco-IOS-XE-dhcp-security-track-server-oper.yang](../2621/Cisco-IOS-XE-dhcp-security-track-server-oper.yang) — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
-- [Cisco-IOS-XE-digital-io-oper.yang](../2621/Cisco-IOS-XE-digital-io-oper.yang) — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
-- [Cisco-IOS-XE-dlr-oper.yang](../2621/Cisco-IOS-XE-dlr-oper.yang) — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
-- [Cisco-IOS-XE-dns-oper.yang](../2621/Cisco-IOS-XE-dns-oper.yang) — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
-- [Cisco-IOS-XE-eem-oper.yang](../2621/Cisco-IOS-XE-eem-oper.yang) — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
-- [Cisco-IOS-XE-embedded-ap-oper.yang](../2621/Cisco-IOS-XE-embedded-ap-oper.yang) — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
-- [Cisco-IOS-XE-endpoint-tracker-oper.yang](../2621/Cisco-IOS-XE-endpoint-tracker-oper.yang) — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
-- [Cisco-IOS-XE-gir-oper.yang](../2621/Cisco-IOS-XE-gir-oper.yang) — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
-- [Cisco-IOS-XE-gnss-dr-oper.yang](../2621/Cisco-IOS-XE-gnss-dr-oper.yang) — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
-- [Cisco-IOS-XE-group-policy-oper.yang](../2621/Cisco-IOS-XE-group-policy-oper.yang) — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
-- [Cisco-IOS-XE-ha-oper.yang](../2621/Cisco-IOS-XE-ha-oper.yang) — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
-- [Cisco-IOS-XE-hsr-oper.yang](../2621/Cisco-IOS-XE-hsr-oper.yang) — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
-- [Cisco-IOS-XE-hsrp-oper.yang](../2621/Cisco-IOS-XE-hsrp-oper.yang) — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
-- [Cisco-IOS-XE-iad-oper.yang](../2621/Cisco-IOS-XE-iad-oper.yang) — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
-- [Cisco-IOS-XE-identity-oper.yang](../2621/Cisco-IOS-XE-identity-oper.yang) — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
-- [Cisco-IOS-XE-ignition-oper.yang](../2621/Cisco-IOS-XE-ignition-oper.yang) — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
-- [Cisco-IOS-XE-ip-arp-oper.yang](../2621/Cisco-IOS-XE-ip-arp-oper.yang) — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
-- [Cisco-IOS-XE-ipv6-nd-oper.yang](../2621/Cisco-IOS-XE-ipv6-nd-oper.yang) — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
-- [Cisco-IOS-XE-ipv6-oper.yang](../2621/Cisco-IOS-XE-ipv6-oper.yang) — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
-- [Cisco-IOS-XE-isdn-oper.yang](../2621/Cisco-IOS-XE-isdn-oper.yang) — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
-- [Cisco-IOS-XE-l2nat-oper.yang](../2621/Cisco-IOS-XE-l2nat-oper.yang) — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
-- [Cisco-IOS-XE-l2tp-oper.yang](../2621/Cisco-IOS-XE-l2tp-oper.yang) — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
-- [Cisco-IOS-XE-l2vpn-oper.yang](../2621/Cisco-IOS-XE-l2vpn-oper.yang) — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
-- [Cisco-IOS-XE-lacp-oper.yang](../2621/Cisco-IOS-XE-lacp-oper.yang) — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
-- [Cisco-IOS-XE-line-oper.yang](../2621/Cisco-IOS-XE-line-oper.yang) — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
-- [Cisco-IOS-XE-lisp-oper.yang](../2621/Cisco-IOS-XE-lisp-oper.yang) — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
-- [Cisco-IOS-XE-lldp-oper.yang](../2621/Cisco-IOS-XE-lldp-oper.yang) — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
-- [Cisco-IOS-XE-lorawan-oper.yang](../2621/Cisco-IOS-XE-lorawan-oper.yang) — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
-- [Cisco-IOS-XE-lte450-oper.yang](../2621/Cisco-IOS-XE-lte450-oper.yang) — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
-- [Cisco-IOS-XE-macsec-oper.yang](../2621/Cisco-IOS-XE-macsec-oper.yang) — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
-- [Cisco-IOS-XE-matm-oper.yang](../2621/Cisco-IOS-XE-matm-oper.yang) — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
-- [Cisco-IOS-XE-mdt-capabilities-oper.yang](../2621/Cisco-IOS-XE-mdt-capabilities-oper.yang) — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
-- [Cisco-IOS-XE-mdt-oper.yang](../2621/Cisco-IOS-XE-mdt-oper.yang) — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
-- [Cisco-IOS-XE-mdt-stats-oper.yang](../2621/Cisco-IOS-XE-mdt-stats-oper.yang) — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
-- [Cisco-IOS-XE-mka-oper.yang](../2621/Cisco-IOS-XE-mka-oper.yang) — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
-- [Cisco-IOS-XE-mlppp-oper.yang](../2621/Cisco-IOS-XE-mlppp-oper.yang) — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
-- [Cisco-IOS-XE-mpls-forwarding-oper.yang](../2621/Cisco-IOS-XE-mpls-forwarding-oper.yang) — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
-- [Cisco-IOS-XE-msdp-oper.yang](../2621/Cisco-IOS-XE-msdp-oper.yang) — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
-- [Cisco-IOS-XE-nat-oper.yang](../2621/Cisco-IOS-XE-nat-oper.yang) — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
-- [Cisco-IOS-XE-ncch-oper.yang](../2621/Cisco-IOS-XE-ncch-oper.yang) — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
-- [Cisco-IOS-XE-netconf-diag-oper.yang](../2621/Cisco-IOS-XE-netconf-diag-oper.yang) — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
-- [Cisco-IOS-XE-nve-oper.yang](../2621/Cisco-IOS-XE-nve-oper.yang) — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
-- [Cisco-IOS-XE-omp-oper.yang](../2621/Cisco-IOS-XE-omp-oper.yang) — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
-- [Cisco-IOS-XE-pim-oper.yang](../2621/Cisco-IOS-XE-pim-oper.yang) — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
-- [Cisco-IOS-XE-platform-oper.yang](../2621/Cisco-IOS-XE-platform-oper.yang) — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
-- [Cisco-IOS-XE-policymap-target-oper.yang](../2621/Cisco-IOS-XE-policymap-target-oper.yang) — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
-- [Cisco-IOS-XE-ppp-oper.yang](../2621/Cisco-IOS-XE-ppp-oper.yang) — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
-- [Cisco-IOS-XE-process-cpu-oper.yang](../2621/Cisco-IOS-XE-process-cpu-oper.yang) — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
-- [Cisco-IOS-XE-prp-oper.yang](../2621/Cisco-IOS-XE-prp-oper.yang) — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
-- [Cisco-IOS-XE-psecure-oper.yang](../2621/Cisco-IOS-XE-psecure-oper.yang) — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
-- [Cisco-IOS-XE-qfp-classification-oper.yang](../2621/Cisco-IOS-XE-qfp-classification-oper.yang) — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
-- [Cisco-IOS-XE-qfp-crypto-dp-oper.yang](../2621/Cisco-IOS-XE-qfp-crypto-dp-oper.yang) — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
-- [Cisco-IOS-XE-qfp-resource-utilization-oper.yang](../2621/Cisco-IOS-XE-qfp-resource-utilization-oper.yang) — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
-- [Cisco-IOS-XE-rg-oper.yang](../2621/Cisco-IOS-XE-rg-oper.yang) — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
-- [Cisco-IOS-XE-rib-oper.yang](../2621/Cisco-IOS-XE-rib-oper.yang) — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
-- [Cisco-IOS-XE-scada-gw-oper.yang](../2621/Cisco-IOS-XE-scada-gw-oper.yang) — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
-- [Cisco-IOS-XE-sdwan-ipsec-oper.yang](../2621/Cisco-IOS-XE-sdwan-ipsec-oper.yang) — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
-- [Cisco-IOS-XE-service-chain-oper.yang](../2621/Cisco-IOS-XE-service-chain-oper.yang) — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
-- [Cisco-IOS-XE-spanning-tree-oper.yang](../2621/Cisco-IOS-XE-spanning-tree-oper.yang) — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
-- [Cisco-IOS-XE-sr-oper.yang](../2621/Cisco-IOS-XE-sr-oper.yang) — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
-- [Cisco-IOS-XE-sse-oper.yang](../2621/Cisco-IOS-XE-sse-oper.yang) — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
-- [Cisco-IOS-XE-stack-member-oper.yang](../2621/Cisco-IOS-XE-stack-member-oper.yang) — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
-- [Cisco-IOS-XE-stacking-oper.yang](../2621/Cisco-IOS-XE-stacking-oper.yang) — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
-- [Cisco-IOS-XE-steering-policy-oper.yang](../2621/Cisco-IOS-XE-steering-policy-oper.yang) — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
-- [Cisco-IOS-XE-switch-dp-mac-learning-oper.yang](../2621/Cisco-IOS-XE-switch-dp-mac-learning-oper.yang) — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
-- [Cisco-IOS-XE-switch-dp-resources-oper.yang](../2621/Cisco-IOS-XE-switch-dp-resources-oper.yang) — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
-- [Cisco-IOS-XE-switchport-oper.yang](../2621/Cisco-IOS-XE-switchport-oper.yang) — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
-- [Cisco-IOS-XE-system-integrity-oper.yang](../2621/Cisco-IOS-XE-system-integrity-oper.yang) — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
-- [Cisco-IOS-XE-tcam-oper.yang](../2621/Cisco-IOS-XE-tcam-oper.yang) — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
-- [Cisco-IOS-XE-transceiver-oper.yang](../2621/Cisco-IOS-XE-transceiver-oper.yang) — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
-- [Cisco-IOS-XE-trustsec-oper.yang](../2621/Cisco-IOS-XE-trustsec-oper.yang) — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
-- [Cisco-IOS-XE-ucse-oper.yang](../2621/Cisco-IOS-XE-ucse-oper.yang) — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
-- [Cisco-IOS-XE-udld-oper.yang](../2621/Cisco-IOS-XE-udld-oper.yang) — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
-- [Cisco-IOS-XE-umbrella-oper.yang](../2621/Cisco-IOS-XE-umbrella-oper.yang) — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
-- [Cisco-IOS-XE-vdsp-oper.yang](../2621/Cisco-IOS-XE-vdsp-oper.yang) — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
-- [Cisco-IOS-XE-vlan-oper.yang](../2621/Cisco-IOS-XE-vlan-oper.yang) — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
-- [Cisco-IOS-XE-voice-oper.yang](../2621/Cisco-IOS-XE-voice-oper.yang) — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
-- [Cisco-IOS-XE-vrrp-oper.yang](../2621/Cisco-IOS-XE-vrrp-oper.yang) — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
-- [Cisco-IOS-XE-wireless-afc-cloud-oper.yang](../2621/Cisco-IOS-XE-wireless-afc-cloud-oper.yang) — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
-- [Cisco-IOS-XE-wireless-afc-oper.yang](../2621/Cisco-IOS-XE-wireless-afc-oper.yang) — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
-- [Cisco-IOS-XE-wireless-awips-oper.yang](../2621/Cisco-IOS-XE-wireless-awips-oper.yang) — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
-- [Cisco-IOS-XE-wireless-ble-mgmt-oper.yang](../2621/Cisco-IOS-XE-wireless-ble-mgmt-oper.yang) — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
-- [Cisco-IOS-XE-wireless-cts-sxp-oper.yang](../2621/Cisco-IOS-XE-wireless-cts-sxp-oper.yang) — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
-- [Cisco-IOS-XE-wireless-general-oper.yang](../2621/Cisco-IOS-XE-wireless-general-oper.yang) — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
-- [Cisco-IOS-XE-wireless-geolocation-oper.yang](../2621/Cisco-IOS-XE-wireless-geolocation-oper.yang) — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
-- [Cisco-IOS-XE-wireless-hyperlocation-oper.yang](../2621/Cisco-IOS-XE-wireless-hyperlocation-oper.yang) — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
-- [Cisco-IOS-XE-wireless-lisp-agent-oper.yang](../2621/Cisco-IOS-XE-wireless-lisp-agent-oper.yang) — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
-- [Cisco-IOS-XE-wireless-location-oper.yang](../2621/Cisco-IOS-XE-wireless-location-oper.yang) — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
-- [Cisco-IOS-XE-wireless-mcast-oper.yang](../2621/Cisco-IOS-XE-wireless-mcast-oper.yang) — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
-- [Cisco-IOS-XE-wireless-mdns-oper.yang](../2621/Cisco-IOS-XE-wireless-mdns-oper.yang) — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
-- [Cisco-IOS-XE-wireless-nmsp-oper.yang](../2621/Cisco-IOS-XE-wireless-nmsp-oper.yang) — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
-- [Cisco-IOS-XE-wireless-rfid-global-oper.yang](../2621/Cisco-IOS-XE-wireless-rfid-global-oper.yang) — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
-- [Cisco-IOS-XE-wireless-rfid-oper.yang](../2621/Cisco-IOS-XE-wireless-rfid-oper.yang) — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
-- [Cisco-IOS-XE-wireless-rrm-global-oper.yang](../2621/Cisco-IOS-XE-wireless-rrm-global-oper.yang) — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
-- [Cisco-IOS-XE-wireless-rule-mdns-oper.yang](../2621/Cisco-IOS-XE-wireless-rule-mdns-oper.yang) — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
-- [Cisco-IOS-XE-wireless-sdavc-oper.yang](../2621/Cisco-IOS-XE-wireless-sdavc-oper.yang) — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
-- [Cisco-IOS-XE-wireless-sisf-global-oper.yang](../2621/Cisco-IOS-XE-wireless-sisf-global-oper.yang) — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
-- [Cisco-IOS-XE-wireless-tunnel-oper.yang](../2621/Cisco-IOS-XE-wireless-tunnel-oper.yang) — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
-- [Cisco-IOS-XE-wpan-oper.yang](../2621/Cisco-IOS-XE-wpan-oper.yang) — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
+- Cisco-IOS-XE-aaa-oper.yang — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
+- Cisco-IOS-XE-acl-oper.yang — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
+- Cisco-IOS-XE-app-cflowd-oper.yang — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
+- Cisco-IOS-XE-arp-oper.yang — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
+- Cisco-IOS-XE-aws-common-oper.yang — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
+- Cisco-IOS-XE-aws-cw-oper.yang — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
+- Cisco-IOS-XE-aws-s3-oper.yang — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
+- Cisco-IOS-XE-bbu-oper.yang — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
+- Cisco-IOS-XE-bfd-oper.yang — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
+- Cisco-IOS-XE-bgp-nbr-oper.yang — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
+- Cisco-IOS-XE-boot-integrity-oper.yang — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
+- Cisco-IOS-XE-cable-diag-oper.yang — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
+- Cisco-IOS-XE-cfm-oper.yang — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
+- Cisco-IOS-XE-checkpoint-archive-oper.yang — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
+- Cisco-IOS-XE-cloud-services-oper.yang — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
+- Cisco-IOS-XE-controller-shdsl-oper.yang — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
+- Cisco-IOS-XE-controller-t1e1-oper.yang — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
+- Cisco-IOS-XE-controller-vdsl-oper.yang — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
+- Cisco-IOS-XE-crypto-pki-oper.yang — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
+- Cisco-IOS-XE-dhcp-security-track-server-oper.yang — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
+- Cisco-IOS-XE-digital-io-oper.yang — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
+- Cisco-IOS-XE-dlr-oper.yang — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
+- Cisco-IOS-XE-dns-oper.yang — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
+- Cisco-IOS-XE-eem-oper.yang — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
+- Cisco-IOS-XE-embedded-ap-oper.yang — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
+- Cisco-IOS-XE-endpoint-tracker-oper.yang — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
+- Cisco-IOS-XE-gir-oper.yang — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
+- Cisco-IOS-XE-gnss-dr-oper.yang — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
+- Cisco-IOS-XE-group-policy-oper.yang — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
+- Cisco-IOS-XE-ha-oper.yang — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
+- Cisco-IOS-XE-hsr-oper.yang — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
+- Cisco-IOS-XE-hsrp-oper.yang — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
+- Cisco-IOS-XE-iad-oper.yang — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
+- Cisco-IOS-XE-identity-oper.yang — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
+- Cisco-IOS-XE-ignition-oper.yang — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
+- Cisco-IOS-XE-ip-arp-oper.yang — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
+- Cisco-IOS-XE-ipv6-nd-oper.yang — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
+- Cisco-IOS-XE-ipv6-oper.yang — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
+- Cisco-IOS-XE-isdn-oper.yang — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
+- Cisco-IOS-XE-l2nat-oper.yang — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
+- Cisco-IOS-XE-l2tp-oper.yang — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
+- Cisco-IOS-XE-l2vpn-oper.yang — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
+- Cisco-IOS-XE-lacp-oper.yang — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
+- Cisco-IOS-XE-line-oper.yang — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
+- Cisco-IOS-XE-lisp-oper.yang — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
+- Cisco-IOS-XE-lldp-oper.yang — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
+- Cisco-IOS-XE-lorawan-oper.yang — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
+- Cisco-IOS-XE-lte450-oper.yang — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
+- Cisco-IOS-XE-macsec-oper.yang — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
+- Cisco-IOS-XE-matm-oper.yang — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
+- Cisco-IOS-XE-mdt-capabilities-oper.yang — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
+- Cisco-IOS-XE-mdt-oper.yang — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
+- Cisco-IOS-XE-mdt-stats-oper.yang — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
+- Cisco-IOS-XE-mka-oper.yang — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
+- Cisco-IOS-XE-mlppp-oper.yang — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
+- Cisco-IOS-XE-mpls-forwarding-oper.yang — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
+- Cisco-IOS-XE-msdp-oper.yang — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
+- Cisco-IOS-XE-nat-oper.yang — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
+- Cisco-IOS-XE-ncch-oper.yang — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
+- Cisco-IOS-XE-netconf-diag-oper.yang — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
+- Cisco-IOS-XE-nve-oper.yang — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
+- Cisco-IOS-XE-omp-oper.yang — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
+- Cisco-IOS-XE-pim-oper.yang — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
+- Cisco-IOS-XE-platform-oper.yang — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
+- Cisco-IOS-XE-policymap-target-oper.yang — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
+- Cisco-IOS-XE-ppp-oper.yang — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
+- Cisco-IOS-XE-process-cpu-oper.yang — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
+- Cisco-IOS-XE-prp-oper.yang — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
+- Cisco-IOS-XE-psecure-oper.yang — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
+- Cisco-IOS-XE-qfp-classification-oper.yang — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
+- Cisco-IOS-XE-qfp-crypto-dp-oper.yang — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
+- Cisco-IOS-XE-qfp-resource-utilization-oper.yang — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
+- Cisco-IOS-XE-rg-oper.yang — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
+- Cisco-IOS-XE-rib-oper.yang — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
+- Cisco-IOS-XE-scada-gw-oper.yang — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
+- Cisco-IOS-XE-sdwan-ipsec-oper.yang — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
+- Cisco-IOS-XE-service-chain-oper.yang — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
+- Cisco-IOS-XE-spanning-tree-oper.yang — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
+- Cisco-IOS-XE-sr-oper.yang — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
+- Cisco-IOS-XE-sse-oper.yang — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
+- Cisco-IOS-XE-stack-member-oper.yang — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
+- Cisco-IOS-XE-stacking-oper.yang — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
+- Cisco-IOS-XE-steering-policy-oper.yang — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
+- Cisco-IOS-XE-switch-dp-mac-learning-oper.yang — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
+- Cisco-IOS-XE-switch-dp-resources-oper.yang — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
+- Cisco-IOS-XE-switchport-oper.yang — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
+- Cisco-IOS-XE-system-integrity-oper.yang — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
+- Cisco-IOS-XE-tcam-oper.yang — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
+- Cisco-IOS-XE-transceiver-oper.yang — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
+- Cisco-IOS-XE-trustsec-oper.yang — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
+- Cisco-IOS-XE-ucse-oper.yang — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
+- Cisco-IOS-XE-udld-oper.yang — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
+- Cisco-IOS-XE-umbrella-oper.yang — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
+- Cisco-IOS-XE-vdsp-oper.yang — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
+- Cisco-IOS-XE-vlan-oper.yang — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
+- Cisco-IOS-XE-voice-oper.yang — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
+- Cisco-IOS-XE-vrrp-oper.yang — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
+- Cisco-IOS-XE-wireless-afc-cloud-oper.yang — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
+- Cisco-IOS-XE-wireless-afc-oper.yang — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
+- Cisco-IOS-XE-wireless-awips-oper.yang — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
+- Cisco-IOS-XE-wireless-ble-mgmt-oper.yang — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
+- Cisco-IOS-XE-wireless-cts-sxp-oper.yang — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
+- Cisco-IOS-XE-wireless-general-oper.yang — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
+- Cisco-IOS-XE-wireless-geolocation-oper.yang — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
+- Cisco-IOS-XE-wireless-hyperlocation-oper.yang — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
+- Cisco-IOS-XE-wireless-lisp-agent-oper.yang — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
+- Cisco-IOS-XE-wireless-location-oper.yang — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
+- Cisco-IOS-XE-wireless-mcast-oper.yang — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
+- Cisco-IOS-XE-wireless-mdns-oper.yang — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
+- Cisco-IOS-XE-wireless-nmsp-oper.yang — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
+- Cisco-IOS-XE-wireless-rfid-global-oper.yang — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
+- Cisco-IOS-XE-wireless-rfid-oper.yang — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
+- Cisco-IOS-XE-wireless-rrm-global-oper.yang — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
+- Cisco-IOS-XE-wireless-rule-mdns-oper.yang — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
+- Cisco-IOS-XE-wireless-sdavc-oper.yang — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
+- Cisco-IOS-XE-wireless-sisf-global-oper.yang — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
+- Cisco-IOS-XE-wireless-tunnel-oper.yang — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
+- Cisco-IOS-XE-wpan-oper.yang — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
 
 ### RPC (5 changed source entries)
 
-- [Cisco-IOS-XE-cloud-services-rpc.yang](../2621/Cisco-IOS-XE-cloud-services-rpc.yang) — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
-- [Cisco-IOS-XE-install-rpc.yang](../2621/Cisco-IOS-XE-install-rpc.yang) — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
-- [Cisco-IOS-XE-nwpi-rpc.yang](../2621/Cisco-IOS-XE-nwpi-rpc.yang) — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
-- [Cisco-IOS-XE-rpc.yang](../2621/Cisco-IOS-XE-rpc.yang) — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
-- [Cisco-IOS-XE-verify-rpc.yang](../2621/Cisco-IOS-XE-verify-rpc.yang) — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
+- Cisco-IOS-XE-cloud-services-rpc.yang — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
+- Cisco-IOS-XE-install-rpc.yang — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
+- Cisco-IOS-XE-nwpi-rpc.yang — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
+- Cisco-IOS-XE-rpc.yang — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
+- Cisco-IOS-XE-verify-rpc.yang — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
 
 ### Config (38 changed source entries)
 
-- [Cisco-IOS-XE-app-hosting-cfg.yang](../2621/Cisco-IOS-XE-app-hosting-cfg.yang) — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
-- [Cisco-IOS-XE-aws-common-cfg.yang](../2621/Cisco-IOS-XE-aws-common-cfg.yang) — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
-- [Cisco-IOS-XE-aws-cw-cfg.yang](../2621/Cisco-IOS-XE-aws-cw-cfg.yang) — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
-- [Cisco-IOS-XE-aws-s3-cfg.yang](../2621/Cisco-IOS-XE-aws-s3-cfg.yang) — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
-- [Cisco-IOS-XE-bfd.yang](../2621/Cisco-IOS-XE-bfd.yang) — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
-- [Cisco-IOS-XE-cloud-services-cfg.yang](../2621/Cisco-IOS-XE-cloud-services-cfg.yang) — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
-- [Cisco-IOS-XE-dot1x.yang](../2621/Cisco-IOS-XE-dot1x.yang) — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
-- [Cisco-IOS-XE-eigrp.yang](../2621/Cisco-IOS-XE-eigrp.yang) — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
-- [Cisco-IOS-XE-eta.yang](../2621/Cisco-IOS-XE-eta.yang) — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
-- [Cisco-IOS-XE-group-policy.yang](../2621/Cisco-IOS-XE-group-policy.yang) — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
-- [Cisco-IOS-XE-icmp.yang](../2621/Cisco-IOS-XE-icmp.yang) — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
-- [Cisco-IOS-XE-igmp.yang](../2621/Cisco-IOS-XE-igmp.yang) — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
-- [Cisco-IOS-XE-isg.yang](../2621/Cisco-IOS-XE-isg.yang) — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
-- [Cisco-IOS-XE-lldp.yang](../2621/Cisco-IOS-XE-lldp.yang) — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
-- [Cisco-IOS-XE-loop-detect.yang](../2621/Cisco-IOS-XE-loop-detect.yang) — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
-- [Cisco-IOS-XE-mdns-gateway.yang](../2621/Cisco-IOS-XE-mdns-gateway.yang) — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
-- [Cisco-IOS-XE-mka.yang](../2621/Cisco-IOS-XE-mka.yang) — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
-- [Cisco-IOS-XE-mld.yang](../2621/Cisco-IOS-XE-mld.yang) — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
-- [Cisco-IOS-XE-mpls.yang](../2621/Cisco-IOS-XE-mpls.yang) — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
-- [Cisco-IOS-XE-nd.yang](../2621/Cisco-IOS-XE-nd.yang) — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
-- [Cisco-IOS-XE-pnp.yang](../2621/Cisco-IOS-XE-pnp.yang) — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
-- [Cisco-IOS-XE-ppp.yang](../2621/Cisco-IOS-XE-ppp.yang) — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
-- [Cisco-IOS-XE-ptp.yang](../2621/Cisco-IOS-XE-ptp.yang) — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
-- [Cisco-IOS-XE-rip.yang](../2621/Cisco-IOS-XE-rip.yang) — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
-- [Cisco-IOS-XE-rsvp.yang](../2621/Cisco-IOS-XE-rsvp.yang) — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
-- [Cisco-IOS-XE-sanet.yang](../2621/Cisco-IOS-XE-sanet.yang) — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
-- [Cisco-IOS-XE-scada-gw.yang](../2621/Cisco-IOS-XE-scada-gw.yang) — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
-- [Cisco-IOS-XE-udld.yang](../2621/Cisco-IOS-XE-udld.yang) — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
-- [Cisco-IOS-XE-umbrella.yang](../2621/Cisco-IOS-XE-umbrella.yang) — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
-- [Cisco-IOS-XE-uplink-autoconfig.yang](../2621/Cisco-IOS-XE-uplink-autoconfig.yang) — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
-- [Cisco-IOS-XE-voice-class.yang](../2621/Cisco-IOS-XE-voice-class.yang) — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
-- [Cisco-IOS-XE-vrrp.yang](../2621/Cisco-IOS-XE-vrrp.yang) — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
-- [Cisco-IOS-XE-vtp.yang](../2621/Cisco-IOS-XE-vtp.yang) — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
-- [Cisco-IOS-XE-wireless-dot15-cfg.yang](../2621/Cisco-IOS-XE-wireless-dot15-cfg.yang) — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
-- [Cisco-IOS-XE-wireless-fabric-cfg.yang](../2621/Cisco-IOS-XE-wireless-fabric-cfg.yang) — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
-- [Cisco-IOS-XE-wireless-location-cfg.yang](../2621/Cisco-IOS-XE-wireless-location-cfg.yang) — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
-- [Cisco-IOS-XE-wireless-rfid-cfg.yang](../2621/Cisco-IOS-XE-wireless-rfid-cfg.yang) — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
-- [Cisco-IOS-XE-wireless-rule-cfg.yang](../2621/Cisco-IOS-XE-wireless-rule-cfg.yang) — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
+- Cisco-IOS-XE-app-hosting-cfg.yang — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
+- Cisco-IOS-XE-aws-common-cfg.yang — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
+- Cisco-IOS-XE-aws-cw-cfg.yang — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
+- Cisco-IOS-XE-aws-s3-cfg.yang — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
+- Cisco-IOS-XE-bfd.yang — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
+- Cisco-IOS-XE-cloud-services-cfg.yang — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
+- Cisco-IOS-XE-dot1x.yang — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
+- Cisco-IOS-XE-eigrp.yang — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
+- Cisco-IOS-XE-eta.yang — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
+- Cisco-IOS-XE-group-policy.yang — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
+- Cisco-IOS-XE-icmp.yang — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
+- Cisco-IOS-XE-igmp.yang — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
+- Cisco-IOS-XE-isg.yang — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
+- Cisco-IOS-XE-lldp.yang — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
+- Cisco-IOS-XE-loop-detect.yang — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
+- Cisco-IOS-XE-mdns-gateway.yang — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
+- Cisco-IOS-XE-mka.yang — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
+- Cisco-IOS-XE-mld.yang — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
+- Cisco-IOS-XE-mpls.yang — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
+- Cisco-IOS-XE-nd.yang — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
+- Cisco-IOS-XE-pnp.yang — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
+- Cisco-IOS-XE-ppp.yang — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
+- Cisco-IOS-XE-ptp.yang — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
+- Cisco-IOS-XE-rip.yang — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
+- Cisco-IOS-XE-rsvp.yang — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
+- Cisco-IOS-XE-sanet.yang — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
+- Cisco-IOS-XE-scada-gw.yang — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
+- Cisco-IOS-XE-udld.yang — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
+- Cisco-IOS-XE-umbrella.yang — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
+- Cisco-IOS-XE-uplink-autoconfig.yang — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
+- Cisco-IOS-XE-voice-class.yang — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
+- Cisco-IOS-XE-vrrp.yang — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
+- Cisco-IOS-XE-vtp.yang — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
+- Cisco-IOS-XE-wireless-dot15-cfg.yang — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
+- Cisco-IOS-XE-wireless-fabric-cfg.yang — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
+- Cisco-IOS-XE-wireless-location-cfg.yang — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
+- Cisco-IOS-XE-wireless-rfid-cfg.yang — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
+- Cisco-IOS-XE-wireless-rule-cfg.yang — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
 
 ### OpenConfig (1 changed source entries)
 
-- [cisco-xe-openconfig-access-points-deviation.yang](../2621/cisco-xe-openconfig-access-points-deviation.yang) — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
+- cisco-xe-openconfig-access-points-deviation.yang — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
 
 ### Other (9 changed source entries)
 
-- [Cisco-IOS-XE-common-types.yang](../2621/Cisco-IOS-XE-common-types.yang) — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
-- [Cisco-IOS-XE-event-history-types.yang](../2621/Cisco-IOS-XE-event-history-types.yang) — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
-- [Cisco-IOS-XE-tunnel-types.yang](../2621/Cisco-IOS-XE-tunnel-types.yang) — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
-- [Cisco-IOS-XE-types.yang](../2621/Cisco-IOS-XE-types.yang) — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
-- [Cisco-IOS-XE-vlan-ewlc-deviation.yang](../2621/Cisco-IOS-XE-vlan-ewlc-deviation.yang) — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
-- [Cisco-IOS-XE-wireless-geolocation-types.yang](../2621/Cisco-IOS-XE-wireless-geolocation-types.yang) — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
-- [Cisco-IOS-XE-wireless-rogue-types.yang](../2621/Cisco-IOS-XE-wireless-rogue-types.yang) — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
-- [tailf-cli-extensions.yang](../2621/tailf-cli-extensions.yang) — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
-- [tailf-common.yang](../2621/tailf-common.yang) — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
+- Cisco-IOS-XE-common-types.yang — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
+- Cisco-IOS-XE-event-history-types.yang — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
+- Cisco-IOS-XE-tunnel-types.yang — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
+- Cisco-IOS-XE-types.yang — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
+- Cisco-IOS-XE-vlan-ewlc-deviation.yang — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
+- Cisco-IOS-XE-wireless-geolocation-types.yang — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
+- Cisco-IOS-XE-wireless-rogue-types.yang — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
+- tailf-cli-extensions.yang — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
+- tailf-common.yang — no tracked node, grouping, typedef, deviation, feature, identity, RPC/action, or notification signature change detected.
 
 </details>
 
@@ -2556,12 +2786,12 @@ These files differ byte-for-byte between releases, but the comparison found no c
 - Input provenance is based on the supplied folder names and files; the source URL/archive, retrieval date, and checksums are not recorded. For a release-support claim, record those along with the exact hardware PID and software build, and confirm the saved platform profile against the device.
 - A file-level deletion or module presence does not establish runtime feature availability. The platform table describes the supplied profile inventories, not a guarantee that a feature is enabled or supported by every product in a family.
 - The release inventory reports modules and submodules separately. Change and unchanged counts are source files; submodule changes are assigned to the parent module flavor. These counts are not resolved schema-node totals or unique feature-family totals.
-- Module links are relative to the local source folders supplied for this comparison. If the report is moved or published without `2611/` and `2621/` alongside it, adjust those links to the source repository paths.
+- Source YANG files are input artifacts and are not published with this report. Module names expand to show report details; supporting CSVs provide row-level changes and profile evidence.
 
 ## Reproducibility
 
-- Older source folder: [`2611/`](../2611/)
-- Newer source folder: [`2621/`](../2621/)
+- Older source folder used for this comparison: `2611/` (input files are not published here).
+- Newer source folder used for this comparison: `2621/` (input files are not published here).
 - Comparison filename follows the release-comparison convention: `2621-YANG-Model-Overview.md`.
 - Grouping statement deltas: [2621-YANG-Model-Grouping-Deltas.csv](2621-YANG-Model-Grouping-Deltas.csv).
 - Deviation targets and statement deltas: [2621-YANG-Model-Deviation-Deltas.csv](2621-YANG-Model-Deviation-Deltas.csv).

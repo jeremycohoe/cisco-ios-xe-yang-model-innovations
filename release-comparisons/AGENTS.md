@@ -6,7 +6,7 @@ This folder contains Cisco IOS XE YANG release comparisons. Read `NEXT-RELEASE-H
 
 - Keep comparison documents focused on YANG modules, schema declarations, revisions, dependencies, deviations, and saved platform module-set profiles. Keep device-call workflows separate and do not link them from a YANG comparison.
 - Explain YANG terms in plain language when first used. A `grouping` is a reusable definition and contributes schema nodes only where it is referenced with `uses`; grouping-change counts are not effective-schema-node counts.
-- Organize changed modules by model flavor. Use a short index, collapsible flavor sections, collapsible per-module details, and direct source links.
+- Organize changed modules by model flavor. Use a short index, collapsible flavor sections, collapsible per-module details, and module names should link only to verifiable public sources; otherwise keep them as plain text and link to report details.
 - Label model flavors and platform profiles with their evidence and limits. Do not imply an exact hardware SKU from a family profile without evidence.
 - Prefer clear before/after descriptions and searchable CSVs over dense source-signature strings.
 
@@ -16,4 +16,4 @@ This folder contains Cisco IOS XE YANG release comparisons. Read `NEXT-RELEASE-H
 - Overview: `2621-YANG-Model-Overview.md`.
 - Supporting files: `2621-YANG-Model-Grouping-Deltas.csv`, `2621-YANG-Model-Deviation-Deltas.csv`, and `2621-YANG-Platform-Applicability.csv`.
 
-The current report is a static source/profile audit, not a compiled schema comparison. Its limitations and input-provenance gaps are documented in the report and must remain visible unless resolved with evidence.
+Do not publish or bundle the source YANG files. The current report is a static source/profile audit, not a compiled schema comparison. Its limitations and input-provenance gaps are documented in the report and must remain visible unless resolved with evidence.
