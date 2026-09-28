@@ -1,5 +1,7 @@
 # YANG Release Comparison Project Plan
 
+> **Historical plan:** This document’s status, release roadmap, and workflow reflect the original May 2026 planning state and are no longer current. For the completed 26.1.1 → 26.2.1 comparison and instructions for the next release audit, use [NEXT-RELEASE-HANDOFF.md](NEXT-RELEASE-HANDOFF.md). The handoff is the current operating guide.
+
 **Project:** Generate comprehensive YANG model comparison documentation for all IOS-XE releases  
 **Created:** May 6, 2026  
 **Status:** In Progress - Phase 1 (Sample Generation)

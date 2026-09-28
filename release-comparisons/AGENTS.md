@@ -9,10 +9,11 @@ This folder contains Cisco IOS XE YANG release comparisons. Read `NEXT-RELEASE-H
 - Organize changed modules by model flavor. Use a short index, collapsible flavor sections, collapsible per-module details, and module names should link only to verifiable public sources; otherwise keep them as plain text and link to report details.
 - Label model flavors and platform profiles with their evidence and limits. Do not imply an exact hardware SKU from a family profile without evidence.
 - Prefer clear before/after descriptions and searchable CSVs over dense source-signature strings.
+- Include an at-a-glance summary by model flavor. Reconcile module, changed-source, tracked-schema, grouping, and RPC-entry counts; distinguish new modules from changed existing modules.
 
 ## Current comparison
 
-- Baseline folders: `../2611/` (26.1.1) and `../2621/` (26.2.1).
+- Baseline folders, when supplied locally: `../2611/` (26.1.1) and `../2621/` (26.2.1); these source folders are not committed to this repository.
 - Overview: `2621-YANG-Model-Overview.md`.
 - Supporting files: `2621-YANG-Model-Grouping-Deltas.csv`, `2621-YANG-Model-Deviation-Deltas.csv`, and `2621-YANG-Platform-Applicability.csv`.
 

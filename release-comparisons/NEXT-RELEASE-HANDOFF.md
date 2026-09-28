@@ -52,7 +52,9 @@ Compare the YANG statement trees and report declaration-level changes. Separate 
 
 Do not label declaration counts as counts of a fully resolved schema tree. Description-only and metadata changes should be distinguished from changes that can alter schema shape or validation rules.
 
-### 3. Explain grouping changes
+### 3. Explain grouping changes and reconcile counts
+
+Reconcile grouping-definition counts to the row-level delta file. Report new definitions, changed definitions, path/property/uses/refine deltas, and source-only reorderings separately.
 
 A `grouping` is a reusable schema definition. A `uses` statement applies it at a particular location. The grouping itself is not a data node; a changed grouping can affect one or many use sites, and an unused grouping may not affect the effective schema.
 
@@ -80,7 +82,7 @@ When a YANG compiler/resolver is available and the complete dependencies are sup
 
 Use this order:
 
-1. Scope, releases, evidence basis, and a short executive summary.
+1. Scope, releases, evidence basis, and a short executive summary. Include an at-a-glance count table by flavor; reconcile added/removed modules, changed source files, tracked schema signals, and operation entry points.
 2. Navigation and release inventory by model flavor.
 3. Platform applicability summary with a searchable CSV.
 4. Key changes and high-priority YANG semantics.
