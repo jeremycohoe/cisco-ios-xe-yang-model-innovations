@@ -2,7 +2,7 @@
 
 **Comparison scope:** `2611/` (26.1.1) against `2621/` (26.2.1)
 
-**Updated:** 2026-09-28
+**Updated:** 2026-10-08
 
 **Model flavors:** Oper, RPC, Native, Config, OpenConfig, IETF, Other
 
@@ -234,311 +234,88 @@ The source archive URL, retrieval date, and file checksums were not captured for
 
 ## Added models
 
-<details>
-<summary>Jump to one of the 24 new modules</summary>
+The 24 numbers below are **new source modules**, not 24 new data trees. Ten declare data trees, four declare RPCs, three augment existing Native paths, two declare deviations, three provide reusable types or identities, one declares a notification, and one contains only module metadata. Each entry selects the most useful paths, operations, or fields; it is not an exhaustive schema listing. For advertised module membership by saved platform profile, use the [platform applicability CSV](2621-YANG-Platform-Applicability.csv); a profile listing alone is not a device-support guarantee.
 
-- **Oper (7):** [Cisco-IOS-XE-dp-tcam-usage-oper.yang](#module-cisco-ios-xe-dp-tcam-usage-oper) · [Cisco-IOS-XE-iiot-pwr-mgmt-oper.yang](#module-cisco-ios-xe-iiot-pwr-mgmt-oper) · [Cisco-IOS-XE-isis-operv2-oper.yang](#module-cisco-ios-xe-isis-operv2-oper) · [Cisco-IOS-XE-live-protect-oper.yang](#module-cisco-ios-xe-live-protect-oper) · [Cisco-IOS-XE-ngfw-common-oper.yang](#module-cisco-ios-xe-ngfw-common-oper) · [Cisco-IOS-XE-ngfw-oper.yang](#module-cisco-ios-xe-ngfw-oper) · [Cisco-IOS-XE-wireless-wat-oper.yang](#module-cisco-ios-xe-wireless-wat-oper)
-- **RPC (4):** [Cisco-IOS-XE-config-mgmt-rpc.yang](#module-cisco-ios-xe-config-mgmt-rpc) · [Cisco-IOS-XE-ngfw-actions-rpc.yang](#module-cisco-ios-xe-ngfw-actions-rpc) · [Cisco-IOS-XE-ngfw-ctrl-actions-rpc.yang](#module-cisco-ios-xe-ngfw-ctrl-actions-rpc) · [Cisco-IOS-XE-wireless-raf-cfg-rpc.yang](#module-cisco-ios-xe-wireless-raf-cfg-rpc)
-- **Config (6):** [Cisco-IOS-XE-audit-cfg.yang](#module-cisco-ios-xe-audit-cfg) · [Cisco-IOS-XE-live-protect-cfg.yang](#module-cisco-ios-xe-live-protect-cfg) · [Cisco-IOS-XE-ngfw.yang](#module-cisco-ios-xe-ngfw) · [Cisco-IOS-XE-sla-policy.yang](#module-cisco-ios-xe-sla-policy) · [Cisco-IOS-XE-webauth-banner-internal.yang](#module-cisco-ios-xe-webauth-banner-internal) · [Cisco-IOS-XE-wireless-ld-cfg.yang](#module-cisco-ios-xe-wireless-ld-cfg)
-- **OpenConfig (4):** [cisco-xe-openconfig-telemetry-deviation.yang](#module-cisco-xe-openconfig-telemetry-deviation) · [cisco-xe-openconfig-telemetry-ext.yang](#module-cisco-xe-openconfig-telemetry-ext) · [openconfig-telemetry-types.yang](#module-openconfig-telemetry-types) · [openconfig-telemetry.yang](#module-openconfig-telemetry)
-- **Other (3):** [Cisco-IOS-XE-ethernet-port-settings-autoneg-deviation.yang](#module-cisco-ios-xe-ethernet-port-settings-autoneg-deviation) · [Cisco-IOS-XE-sdwan-stats-events.yang](#module-cisco-ios-xe-sdwan-stats-events) · [cisco-yang-mgmt-internal.yang](#module-cisco-yang-mgmt-internal)
+[Oper (1–7)](#added-oper) · [RPC (8–11)](#added-rpc) · [Config (12–17)](#added-config) · [OpenConfig (18–21)](#added-openconfig) · [Other (22–24)](#added-other)
+
+<details>
+<summary>Jump to a specific new module</summary>
+
+- **Oper:** [1 TCAM usage](#module-cisco-ios-xe-dp-tcam-usage-oper) · [2 IIoT power](#module-cisco-ios-xe-iiot-pwr-mgmt-oper) · [3 IS-IS v2](#module-cisco-ios-xe-isis-operv2-oper) · [4 Live Protect state](#module-cisco-ios-xe-live-protect-oper) · [5 NGFW shared types](#module-cisco-ios-xe-ngfw-common-oper) · [6 NGFW state](#module-cisco-ios-xe-ngfw-oper) · [7 wireless WAT](#module-cisco-ios-xe-wireless-wat-oper)
+- **RPC:** [8 configuration management](#module-cisco-ios-xe-config-mgmt-rpc) · [9 NGFW actions](#module-cisco-ios-xe-ngfw-actions-rpc) · [10 NGFW controller update](#module-cisco-ios-xe-ngfw-ctrl-actions-rpc) · [11 wireless RAF](#module-cisco-ios-xe-wireless-raf-cfg-rpc)
+- **Config:** [12 audit monitor](#module-cisco-ios-xe-audit-cfg) · [13 Live Protect configuration](#module-cisco-ios-xe-live-protect-cfg) · [14 NGFW configuration](#module-cisco-ios-xe-ngfw) · [15 SLA policy](#module-cisco-ios-xe-sla-policy) · [16 web authentication banner](#module-cisco-ios-xe-webauth-banner-internal) · [17 wireless Live-Detect](#module-cisco-ios-xe-wireless-ld-cfg)
+- **OpenConfig:** [18 telemetry deviations](#module-cisco-xe-openconfig-telemetry-deviation) · [19 Cisco telemetry identities](#module-cisco-xe-openconfig-telemetry-ext) · [20 telemetry base identities](#module-openconfig-telemetry-types) · [21 telemetry data tree](#module-openconfig-telemetry)
+- **Other:** [22 auto-negotiation default deviation](#module-cisco-ios-xe-ethernet-port-settings-autoneg-deviation) · [23 SD-WAN drop event](#module-cisco-ios-xe-sdwan-stats-events) · [24 internal metadata](#module-cisco-yang-mgmt-internal)
 
 </details>
 
-### Oper
+<a id="added-oper"></a>
 
-<a id="module-cisco-ios-xe-dp-tcam-usage-oper"></a>
-<details>
-<summary><code>Cisco-IOS-XE-dp-tcam-usage-oper.yang</code> — revision 2026-08-01</summary>
+### Oper — operational data and shared definitions
 
-**Purpose:** This module contains a collection of YANG definitions for Datapath TCAM classification operational data.
+1. <a id="module-cisco-ios-xe-dp-tcam-usage-oper"></a> **`Cisco-IOS-XE-dp-tcam-usage-oper.yang` — datapath TCAM use.** Adds `/dp-tcam-usage-oper-data/location`, keyed by hardware location. Each location has a `tcam-usage` list keyed by `feature-id`, with client name, 160/320-bit VMR entry counts, total TCAM cells, and use percentage.
 
-**Listed in 26.2.1 profiles:** `asr1k`, `c8500`.
+2. <a id="module-cisco-ios-xe-iiot-pwr-mgmt-oper"></a> **`Cisco-IOS-XE-iiot-pwr-mgmt-oper.yang` — IIoT power state and history.** Adds `/iiot-pwr-mgmt-oper-data` with `pwr-mgmt-history` (hourly averages and a last-31-day list) and `pwr-mgmt-reg` (input voltage, hardware/software power state, power mode, sensing thresholds, and sleep or shutdown timing). The source describes this as Industrial IoT power management; the saved profile evidence is separate.
 
-Profile membership is from the saved module-set snapshots; it does not guarantee support on every device in a named family. Full per-profile revisions and deviation associations are in the [platform applicability CSV](2621-YANG-Platform-Applicability.csv).
+3. <a id="module-cisco-ios-xe-isis-operv2-oper"></a> **`Cisco-IOS-XE-isis-operv2-oper.yang` — IS-IS instance state.** Adds `/isis-operv2-oper-data/isis-inst-rec`, keyed by instance `tag`. Each instance organizes levels and LSP database records, interface state, and neighbors; neighbor records include system ID, level, interface, addresses, and adjacency state.
 
-</details>
-<a id="module-cisco-ios-xe-iiot-pwr-mgmt-oper"></a>
-<details>
-<summary><code>Cisco-IOS-XE-iiot-pwr-mgmt-oper.yang</code> — revision 2026-08-01</summary>
+4. <a id="module-cisco-ios-xe-live-protect-oper"></a> **`Cisco-IOS-XE-live-protect-oper.yang` — Live Protect shield state.** Adds `/live-protect-oper-data` with shield entries keyed by `id` and hardware-location entries containing member shields. Shield records expose mode and total, enforcement, and monitoring hit counters.
 
-**Purpose:** This module provides YANG operational data definitions for Power Management. It is platform-specific and supported only on Cisco IOS-XE Industrial IoT rugged routers which supports other power management features (sense, low power mode, etc.), not supported on other Industrial IoT Routers.
+5. <a id="module-cisco-ios-xe-ngfw-common-oper"></a> **`Cisco-IOS-XE-ngfw-common-oper.yang` — NGFW update types.** Defines two reusable enumerations: update type (LSP or VDB, plus unknown) and update result (success, failure, no update, or unknown). It declares **no top-level operational data path**; the NGFW action module imports these types.
 
-**Listed in 26.2.1 profiles:** `isr1k`.
+6. <a id="module-cisco-ios-xe-ngfw-oper"></a> **`Cisco-IOS-XE-ngfw-oper.yang` — NGFW status.** Adds `/ngfw-oper-data` with five branches: version/support information, LSP update status, VDB update status, engine status, and custom-signature status. Engine data includes version, profile, memory condition, and per-instance state; signature data is organized globally and by profile.
 
-Profile membership is from the saved module-set snapshots; it does not guarantee support on every device in a named family. Full per-profile revisions and deviation associations are in the [platform applicability CSV](2621-YANG-Platform-Applicability.csv).
+7. <a id="module-cisco-ios-xe-wireless-wat-oper"></a> **`Cisco-IOS-XE-wireless-wat-oper.yang` — Wireless Active Testing state.** Adds `/wat-oper-data` with AP entries keyed by `wtp-mac`, a wired-test request container, and wired-client entries keyed by `wtp-mac`. The AP records carry test/profile status and test-engine state; request and client records carry MAC addresses, timing, WLAN/VLAN context, and installation state.
 
-</details>
-<a id="module-cisco-ios-xe-isis-operv2-oper"></a>
-<details>
-<summary><code>Cisco-IOS-XE-isis-operv2-oper.yang</code> — revision 2026-08-01</summary>
+<a id="added-rpc"></a>
 
-**Purpose:** This module contains a collection of YANG definitions for ISIS operational data.
+### RPC — operations and their declared inputs
 
-**Listed in 26.2.1 profiles:** `c8000v`, `cat9k`.
+8. <a id="module-cisco-ios-xe-config-mgmt-rpc"></a> **`Cisco-IOS-XE-config-mgmt-rpc.yang` — configuration erase.** Declares one operation, `erase-config`. The RPC has **no explicit `input` or `output` statements** in this module. This is an operation declaration, not a new data tree or a claim about device execution.
 
-Profile membership is from the saved module-set snapshots; it does not guarantee support on every device in a named family. Full per-profile revisions and deviation associations are in the [platform applicability CSV](2621-YANG-Platform-Applicability.csv).
+9. <a id="module-cisco-ios-xe-ngfw-actions-rpc"></a> **`Cisco-IOS-XE-ngfw-actions-rpc.yang` — six NGFW file and signature operations.** `ngfw-upd-file` takes update type and filename. Profile-scoped signature apply/load take profile name and filename; validation and global apply/load take a filename. The module defines three reusable input groupings and no explicit RPC output statements.
 
-</details>
-<a id="module-cisco-ios-xe-live-protect-oper"></a>
-<details>
-<summary><code>Cisco-IOS-XE-live-protect-oper.yang</code> — revision 2026-08-01</summary>
+10. <a id="module-cisco-ios-xe-ngfw-ctrl-actions-rpc"></a> **`Cisco-IOS-XE-ngfw-ctrl-actions-rpc.yang` — controller-initiated NGFW update.** Declares `ngfw-upd` with `json` and `dwnld-timeout` input leaves and a `resp-msg` output leaf. Its two groupings define the request and response shapes.
 
-**Purpose:** This module contains a collection of YANG definitions for Live Protect operational data.
+11. <a id="module-cisco-ios-xe-wireless-raf-cfg-rpc"></a> **`Cisco-IOS-XE-wireless-raf-cfg-rpc.yang` — Regulatory Activation File operations.** Declares four RPCs: `set-raf-name` takes a filename; `apply-raf-config` has no explicit input; `clear-country-map-all-ap` has no explicit input; and `clear-country-ap-map` takes an AP MAC address. No explicit output statements are declared.
 
-**Listed in 26.2.1 profiles:** `cat9k`.
+<a id="added-config"></a>
 
-Profile membership is from the saved module-set snapshots; it does not guarantee support on every device in a named family. Full per-profile revisions and deviation associations are in the [platform applicability CSV](2621-YANG-Platform-Applicability.csv).
+### Config — configuration data and Native augments
 
-</details>
-<a id="module-cisco-ios-xe-ngfw-common-oper"></a>
-<details>
-<summary><code>Cisco-IOS-XE-ngfw-common-oper.yang</code> — revision 2026-08-01</summary>
+12. <a id="module-cisco-ios-xe-audit-cfg"></a> **`Cisco-IOS-XE-audit-cfg.yang` — Audit Monitor switches.** Adds the presence container `/audit-cfg-data/audit-cfg` and an `audit-rls-list` beneath it. Six boolean leaves, all defaulting to false, control monitoring for DNS client files, kernel modules, system software, user/group files, user privileges, and Guest Shell.
 
-**Purpose:** This module contains a collection of YANG definitions common for all NGFW operational data.
+13. <a id="module-cisco-ios-xe-live-protect-cfg"></a> **`Cisco-IOS-XE-live-protect-cfg.yang` — shield configuration.** Adds `/live-protect-cfg-data/lp-shield-configs/lp-shield-cfg`, a list keyed by `shield-id`. Its `is-enf` boolean defaults to false: the model distinguishes monitoring from enforcement for each configured shield.
 
-**Listed in 26.2.1 profiles:** `asr1k`, `c8000v`, `c8500`, `cat9k`, `ess3x00`, `ie3x00`, `ir1101`, `isr1k`, `wireless`.
+14. <a id="module-cisco-ios-xe-ngfw"></a> **`Cisco-IOS-XE-ngfw.yang` — Native NGFW configuration.** Uses three augments rather than a standalone root: one under `/ios:native`, and two under the Native `inspect` and `inspect-global` parameter-map branches. The Native branch provides NGFW global logging/update settings, encrypted-visibility exemptions, threat-inspection profiles, and policies; the parameter-map branches attach a policy by `policy-name` leafref.
 
-Profile membership is from the saved module-set snapshots; it does not guarantee support on every device in a named family. Full per-profile revisions and deviation associations are in the [platform applicability CSV](2621-YANG-Platform-Applicability.csv).
+15. <a id="module-cisco-ios-xe-sla-policy"></a> **`Cisco-IOS-XE-sla-policy.yang` — SLA global preference.** Augments `/ios:native/ios:sla-policy` with a `global-preference` presence container. It defines `failover` (graceful or immediate; default graceful) and `load-balance` (enable or disable; default enable). It does not create a separate top-level tree.
 
-</details>
-<a id="module-cisco-ios-xe-ngfw-oper"></a>
-<details>
-<summary><code>Cisco-IOS-XE-ngfw-oper.yang</code> — revision 2026-08-01</summary>
+16. <a id="module-cisco-ios-xe-webauth-banner-internal"></a> **`Cisco-IOS-XE-webauth-banner-internal.yang` — internal web-authentication banners.** Two augments attach the same grouping to global and per-parameter-map web authentication banner locations. Each location gains `webauth-internal-banner-text` and `webauth-internal-banner-title` leaves. This source file is not listed in the supplied 26.2.1 profile snapshots.
 
-**Purpose:** This module contains a collection of YANG definitions for Next-Generation Firewall (NGFW).
+17. <a id="module-cisco-ios-xe-wireless-ld-cfg"></a> **`Cisco-IOS-XE-wireless-ld-cfg.yang` — global Live-Detect settings.** Adds `/ld-cfg-data/ld-config` as a presence container. It contains `sensor-ip` for communication with the Ultra-Sensor and `dnld-url` for the DDN agent container download endpoint, with defaults and URL validation declared in the source.
 
-**Listed in 26.2.1 profiles:** `asr1k`, `c8000v`, `c8500`, `isr1k`.
+<a id="added-openconfig"></a>
 
-Profile membership is from the saved module-set snapshots; it does not guarantee support on every device in a named family. Full per-profile revisions and deviation associations are in the [platform applicability CSV](2621-YANG-Platform-Applicability.csv).
+### OpenConfig — telemetry tree, identities, and deviations
 
-</details>
-<a id="module-cisco-ios-xe-wireless-wat-oper"></a>
-<details>
-<summary><code>Cisco-IOS-XE-wireless-wat-oper.yang</code> — revision 2026-08-01</summary>
+18. <a id="module-cisco-xe-openconfig-telemetry-deviation"></a> **`cisco-xe-openconfig-telemetry-deviation.yang` — telemetry restrictions.** Declares 13 `not-supported` deviations under OpenConfig `telemetry-system` subscriptions. They target selected dynamic/persistent subscription fields, including heartbeat and redundant-update controls, QoS marking, source address, protocol/encoding, and an exclude filter. This module adds **no data nodes**; its effect depends on deviation association.
 
-**Purpose:** This module contains a collection of YANG definitions for Wireless Active Testing (WAT) operational data.
+19. <a id="module-cisco-xe-openconfig-telemetry-ext"></a> **`cisco-xe-openconfig-telemetry-ext.yang` — Cisco telemetry identity values.** Adds four identities: gNMI and gRPC-TLS stream protocols, an unspecified stream value, and KVGPB encoding. Despite the “ext” name, this file contains **no `augment` statement or top-level data tree**.
 
-**Listed in 26.2.1 profiles:** `cat9k`, `ir1101`, `wireless`.
+20. <a id="module-openconfig-telemetry-types"></a> **`openconfig-telemetry-types.yang` — base telemetry identities.** Defines ten identities: bases for data encoding and stream protocol, with encoding values such as XML, JSON-IETF, and Proto3, and stream values such as SSH, gRPC, JSON-RPC, Thrift, and WebSocket. It is a type/identity module with **no data tree**.
 
-Profile membership is from the saved module-set snapshots; it does not guarantee support on every device in a named family. Full per-profile revisions and deviation associations are in the [platform applicability CSV](2621-YANG-Platform-Applicability.csv).
+21. <a id="module-openconfig-telemetry"></a> **`openconfig-telemetry.yang` — telemetry system data tree.** A top-level `uses telemetry-top` creates `/telemetry-system`. Its main branches are sensor groups and paths, destination groups and destinations, and persistent or dynamic subscriptions. The 18 groupings define reusable settings such as sample interval, heartbeat, redundant-update suppression, destination address/port, and stream protocol/encoding; the deviation module above may remove selected fields.
 
-</details>
+<a id="added-other"></a>
 
-### RPC
+### Other — deviations, notification, and internal metadata
 
-<a id="module-cisco-ios-xe-config-mgmt-rpc"></a>
-<details>
-<summary><code>Cisco-IOS-XE-config-mgmt-rpc.yang</code> — revision 2026-08-01</summary>
+22. <a id="module-cisco-ios-xe-ethernet-port-settings-autoneg-deviation"></a> **`Cisco-IOS-XE-ethernet-port-settings-autoneg-deviation.yang` — auto-negotiation default.** Declares 20 deviations across interface types, each deleting the YANG `default "enable"` statement from `port-settings/auto-negotiation`. This **does not remove the leaf**; it avoids imposing that fixed model default where the deviation applies.
 
-This is a **new module**. It belongs in this Added models list; the “8 RPC” count in the existing-model section refers to eight previously present RPC modules with tracked changes.
+23. <a id="module-cisco-ios-xe-sdwan-stats-events"></a> **`Cisco-IOS-XE-sdwan-stats-events.yang` — dropped-statistics notification.** Declares `stats-dropped`, not a persistent data root. Its payload includes severity, host/system IP, and a list of dropped-statistics records with table ID/name, time interval, drop reason, and count.
 
-**Revision metadata:** YANG revision `2026-08-01`; Cisco module version `1.0.0`.
-
-**Operation shape:** `erase-config` is declared without `input` or `output` statements in this module. This reports the YANG declaration only; it does not establish device behavior or runtime support.
-
-**Purpose:** This module contains a collection of YANG definitions for device configuration management RPCs.
-
-**Declared operations or notifications:** `rpc erase-config` — Erase device configuration action RPC.
-
-**Listed in 26.2.1 profiles:** `asr1k`, `c8000v`, `c8500`, `cat9k`, `ess3x00`, `ie3x00`, `ir1101`, `isr1k`, `wireless`.
-
-Profile membership is from the saved module-set snapshots; it does not guarantee support on every device in a named family. Full per-profile revisions and deviation associations are in the [platform applicability CSV](2621-YANG-Platform-Applicability.csv).
-
-</details>
-<a id="module-cisco-ios-xe-ngfw-actions-rpc"></a>
-<details>
-<summary><code>Cisco-IOS-XE-ngfw-actions-rpc.yang</code> — revision 2026-08-01</summary>
-
-**Purpose:** This module contains a collection of YANG definitions for Next-Generation Firewall (NGFW) RPC.
-
-**Declared operations or notifications:** `rpc ngfw-upd-file` — Next-Generation Firewall (NGFW) update file action RPC; `rpc ngfw-cust-sig-apply` — Applies a custom-signature file to an NGFW profile; `rpc ngfw-cust-sig-load` — Loads a custom-signature file for an NGFW profile; `rpc ngfw-cust-sig-valdt` — Validates a custom-signature file for NGFW; `rpc ngfw-cust-sig-glbl-apply` — Applies a custom-signature file globally in NGFW; `rpc ngfw-cust-sig-glbl-load` — Loads a custom-signature file globally in NGFW.
-
-**Listed in 26.2.1 profiles:** `asr1k`, `c8000v`, `c8500`, `cat9k`, `ess3x00`, `ie3x00`, `ir1101`, `isr1k`, `wireless`.
-
-Profile membership is from the saved module-set snapshots; it does not guarantee support on every device in a named family. Full per-profile revisions and deviation associations are in the [platform applicability CSV](2621-YANG-Platform-Applicability.csv).
-
-</details>
-<a id="module-cisco-ios-xe-ngfw-ctrl-actions-rpc"></a>
-<details>
-<summary><code>Cisco-IOS-XE-ngfw-ctrl-actions-rpc.yang</code> — revision 2026-08-01</summary>
-
-**Purpose:** This module contains a collection of YANG definitions for Next-Generation Firewall (NGFW) controller-initiated update RPCs.
-
-**Declared operations or notifications:** `rpc ngfw-upd` — NGFW periodic update action (controller-initiated).
-
-**Listed in 26.2.1 profiles:** `c8000v`, `isr1k`.
-
-Profile membership is from the saved module-set snapshots; it does not guarantee support on every device in a named family. Full per-profile revisions and deviation associations are in the [platform applicability CSV](2621-YANG-Platform-Applicability.csv).
-
-</details>
-<a id="module-cisco-ios-xe-wireless-raf-cfg-rpc"></a>
-<details>
-<summary><code>Cisco-IOS-XE-wireless-raf-cfg-rpc.yang</code> — revision 2026-08-01</summary>
-
-**Purpose:** This module contains a collection of YANG definitions for processing Regulatory Activation File(RAF).
-
-**Declared operations or notifications:** `rpc set-raf-name` — Configures regulatory activation file name; `rpc apply-raf-config` — Apply regulatory activation file mapping; `rpc clear-country-map-all-ap` — Clear regulatory activation country code mappings for all APs; `rpc clear-country-ap-map` — Clear regulatory activation mapping for AP.
-
-**Listed in 26.2.1 profiles:** `cat9k`, `ir1101`, `wireless`.
-
-Profile membership is from the saved module-set snapshots; it does not guarantee support on every device in a named family. Full per-profile revisions and deviation associations are in the [platform applicability CSV](2621-YANG-Platform-Applicability.csv).
-
-</details>
-
-### Config
-
-<a id="module-cisco-ios-xe-audit-cfg"></a>
-<details>
-<summary><code>Cisco-IOS-XE-audit-cfg.yang</code> — revision 2026-08-01</summary>
-
-**Purpose:** This module contains a collection of YANG definitions for Audit Monitor configuration data.
-
-**Listed in 26.2.1 profiles:** `asr1k`, `c8000v`, `c8500`, `cat9k`, `ess3x00`, `ie3x00`, `ir1101`, `isr1k`, `wireless`.
-
-Profile membership is from the saved module-set snapshots; it does not guarantee support on every device in a named family. Full per-profile revisions and deviation associations are in the [platform applicability CSV](2621-YANG-Platform-Applicability.csv).
-
-</details>
-<a id="module-cisco-ios-xe-live-protect-cfg"></a>
-<details>
-<summary><code>Cisco-IOS-XE-live-protect-cfg.yang</code> — revision 2026-08-01</summary>
-
-**Purpose:** This module contains a collection of YANG definitions for Live Protect shield configuration.
-
-**Listed in 26.2.1 profiles:** `cat9k`.
-
-Profile membership is from the saved module-set snapshots; it does not guarantee support on every device in a named family. Full per-profile revisions and deviation associations are in the [platform applicability CSV](2621-YANG-Platform-Applicability.csv).
-
-</details>
-<a id="module-cisco-ios-xe-ngfw"></a>
-<details>
-<summary><code>Cisco-IOS-XE-ngfw.yang</code> — revision 2026-08-01</summary>
-
-**Purpose:** Cisco XE Native Next-Generation Firewall (NGFW) Yang model.
-
-**Listed in 26.2.1 profiles:** `asr1k`, `c8000v`, `c8500`, `ir1101`, `isr1k`.
-
-Profile membership is from the saved module-set snapshots; it does not guarantee support on every device in a named family. Full per-profile revisions and deviation associations are in the [platform applicability CSV](2621-YANG-Platform-Applicability.csv).
-
-</details>
-<a id="module-cisco-ios-xe-sla-policy"></a>
-<details>
-<summary><code>Cisco-IOS-XE-sla-policy.yang</code> — revision 2026-08-01</summary>
-
-**Purpose:** Cisco XE Native SLA Policy YANG model.
-
-**Listed in 26.2.1 profiles:** `asr1k`, `c8000v`, `c8500`, `ir1101`, `isr1k`.
-
-Profile membership is from the saved module-set snapshots; it does not guarantee support on every device in a named family. Full per-profile revisions and deviation associations are in the [platform applicability CSV](2621-YANG-Platform-Applicability.csv).
-
-</details>
-<a id="module-cisco-ios-xe-webauth-banner-internal"></a>
-<details>
-<summary><code>Cisco-IOS-XE-webauth-banner-internal.yang</code> — revision 2025-03-01</summary>
-
-**Purpose:** NED YANG module for IOS-XE.
-
-**Listed in supplied 26.2.1 profiles:** none.
-
-Profile membership is from the saved module-set snapshots; it does not guarantee support on every device in a named family. Full per-profile revisions and deviation associations are in the [platform applicability CSV](2621-YANG-Platform-Applicability.csv).
-
-</details>
-<a id="module-cisco-ios-xe-wireless-ld-cfg"></a>
-<details>
-<summary><code>Cisco-IOS-XE-wireless-ld-cfg.yang</code> — revision 2026-08-01</summary>
-
-**Purpose:** This module contains a collection of YANG definitions for global Live-Detect (LD) configurational data.
-
-**Listed in 26.2.1 profiles:** `cat9k`, `ir1101`, `wireless`.
-
-Profile membership is from the saved module-set snapshots; it does not guarantee support on every device in a named family. Full per-profile revisions and deviation associations are in the [platform applicability CSV](2621-YANG-Platform-Applicability.csv).
-
-</details>
-
-### OpenConfig
-
-<a id="module-cisco-xe-openconfig-telemetry-deviation"></a>
-<details>
-<summary><code>cisco-xe-openconfig-telemetry-deviation.yang</code> — revision 2026-08-01</summary>
-
-**Purpose:** This module defines deviation statements for openconfig-telemetry module.
-
-**Listed in 26.2.1 profiles:** `asr1k`, `c8000v`, `c8500`, `cat9200`, `cat9k`, `ess3x00`, `ie3x00`, `ir1101`, `isr1k`, `wireless`.
-
-Profile membership is from the saved module-set snapshots; it does not guarantee support on every device in a named family. Full per-profile revisions and deviation associations are in the [platform applicability CSV](2621-YANG-Platform-Applicability.csv).
-
-</details>
-<a id="module-cisco-xe-openconfig-telemetry-ext"></a>
-<details>
-<summary><code>cisco-xe-openconfig-telemetry-ext.yang</code> — revision 2026-08-01</summary>
-
-**Purpose:** Cisco augmentation to the oc-telemetry model.
-
-**Listed in 26.2.1 profiles:** `asr1k`, `c8000v`, `c8500`, `cat9200`, `cat9k`, `ess3x00`, `ie3x00`, `ir1101`, `isr1k`, `wireless`.
-
-Profile membership is from the saved module-set snapshots; it does not guarantee support on every device in a named family. Full per-profile revisions and deviation associations are in the [platform applicability CSV](2621-YANG-Platform-Applicability.csv).
-
-</details>
-<a id="module-openconfig-telemetry-types"></a>
-<details>
-<summary><code>openconfig-telemetry-types.yang</code> — revision —</summary>
-
-**Purpose:** This module defines type and identities used by the OpenConfig telemetry model.
-
-**Listed in 26.2.1 profiles:** `asr1k`, `c8000v`, `c8500`, `cat9200`, `cat9k`, `ess3x00`, `ie3x00`, `ir1101`, `isr1k`, `wireless`.
-
-Profile membership is from the saved module-set snapshots; it does not guarantee support on every device in a named family. Full per-profile revisions and deviation associations are in the [platform applicability CSV](2621-YANG-Platform-Applicability.csv).
-
-</details>
-<a id="module-openconfig-telemetry"></a>
-<details>
-<summary><code>openconfig-telemetry.yang</code> — revision —</summary>
-
-**Purpose:** Data model which creates the configuration for the telemetry systems and functions on the device.
-
-**Listed in 26.2.1 profiles:** `asr1k`, `c8000v`, `c8500`, `cat9200`, `cat9k`, `ess3x00`, `ie3x00`, `ir1101`, `isr1k`, `wireless`.
-
-Profile membership is from the saved module-set snapshots; it does not guarantee support on every device in a named family. Full per-profile revisions and deviation associations are in the [platform applicability CSV](2621-YANG-Platform-Applicability.csv).
-
-</details>
-
-### Other
-
-<a id="module-cisco-ios-xe-ethernet-port-settings-autoneg-deviation"></a>
-<details>
-<summary><code>Cisco-IOS-XE-ethernet-port-settings-autoneg-deviation.yang</code> — revision 2026-08-01</summary>
-
-**Purpose:** Cisco XE Native Ethernet Deviation YANG module for platforms whose IOS auto-negotiation default is platform or media dependent. This removes the fixed YANG default so explicit port-settings auto-negotiation is preserved.
-
-**Listed in 26.2.1 profiles:** `asr1k`, `c8500`, `ir1101`, `isr1k`.
-
-Profile membership is from the saved module-set snapshots; it does not guarantee support on every device in a named family. Full per-profile revisions and deviation associations are in the [platform applicability CSV](2621-YANG-Platform-Applicability.csv).
-
-</details>
-<a id="module-cisco-ios-xe-sdwan-stats-events"></a>
-<details>
-<summary><code>Cisco-IOS-XE-sdwan-stats-events.yang</code> — revision 2026-08-01</summary>
-
-**Purpose:** This module defines the SD-WAN statistics events operational data model and notifications used to report drops and related statistics across SD-WAN subsystems (for example application, QoS, firewall, and system statistics). It provides a single container for event data and a common set of identifiers to classify the statistics source.
-
-**Declared operations or notifications:** `notification stats-dropped` — Notification emitted when statistics records are dropped.
-
-**Listed in 26.2.1 profiles:** `asr1k`, `c8000v`, `c8500`, `isr1k`.
-
-Profile membership is from the saved module-set snapshots; it does not guarantee support on every device in a named family. Full per-profile revisions and deviation associations are in the [platform applicability CSV](2621-YANG-Platform-Applicability.csv).
-
-</details>
-<a id="module-cisco-yang-mgmt-internal"></a>
-<details>
-<summary><code>cisco-yang-mgmt-internal.yang</code> — revision 2026-02-01</summary>
-
-**Purpose:** This module contains a collection of internal definitions for Cisco IOS-XE YANG infra management.
-
-**Listed in supplied 26.2.1 profiles:** none.
-
-Profile membership is from the saved module-set snapshots; it does not guarantee support on every device in a named family. Full per-profile revisions and deviation associations are in the [platform applicability CSV](2621-YANG-Platform-Applicability.csv).
-
-</details>
+24. <a id="module-cisco-yang-mgmt-internal"></a> **`cisco-yang-mgmt-internal.yang` — internal module metadata.** Contains a module declaration, description, and revision but **no data nodes, groupings, RPCs, notifications, augments, or deviations**. Its presence increases the file/module inventory; the source alone adds no callable operation or data path. It is not listed in the supplied profile snapshots.
 
 
 ## Removed model
