@@ -15,12 +15,13 @@ The completed baseline compares `2611/` (26.1.1) with `2621/` (26.2.1):
 - Deviation deltas: [2621-YANG-Model-Deviation-Deltas.csv](2621-YANG-Model-Deviation-Deltas.csv)
 - Augment declarations and nested `uses` deltas: [2621-YANG-Model-Augment-Deltas.csv](2621-YANG-Model-Augment-Deltas.csv)
 - Platform applicability: [2621-YANG-Platform-Applicability.csv](2621-YANG-Platform-Applicability.csv)
+- Modules newly listed by each saved profile: [2621-YANG-Platform-Newly-Listed.csv](2621-YANG-Platform-Newly-Listed.csv)
 - Advertised profile feature deltas: [2621-YANG-Platform-Feature-Deltas.csv](2621-YANG-Platform-Feature-Deltas.csv)
 - Changed deviation targets by saved profile: [2621-YANG-Platform-Deviation-Targets.csv](2621-YANG-Platform-Deviation-Targets.csv)
 
 These filenames and counts are examples for the completed comparison. Recompute all values for the next release pair.
 
-**Generator status:** `scripts/generate_markdown.py`, `scripts/compare_releases.py`, and `scripts/count_xpaths.py` are historical tools for earlier report formats. They do not reproduce this baseline report or its six supporting CSVs. The 26.2.1 report was assembled from static source/profile analyses and reviewed CSVs; a maintained end-to-end generator is still future work.
+**Generator status:** `scripts/generate_markdown.py`, `scripts/compare_releases.py`, and `scripts/count_xpaths.py` are historical tools for earlier report formats. They do not reproduce this baseline report or its seven supporting CSVs. The 26.2.1 report was assembled from static source/profile analyses and reviewed CSVs; a maintained end-to-end generator is still future work.
 
 ## Scope
 
@@ -75,7 +76,7 @@ If the full use graph is not resolved, say so and do not convert grouping counts
 
 ### 4. Compare platform profiles
 
-Parse each supplied `yang-set-<profile>.xml` inventory. For each source module/profile pair, record release presence, revision, conformance type, advertised features, and deviation associations. Summarize newly listed modules, no-longer-listed modules, revision changes, feature-list changes, and deviation-association changes by profile and flavor. Join changed deviation targets to associated modules, but label them as candidate effects until the schema is resolved.
+Parse each supplied `yang-set-<profile>.xml` inventory. For each source module/profile pair, record release presence, revision, conformance type, advertised features, and deviation associations. Summarize newly listed modules, no-longer-listed modules, revision changes, feature-list changes, and deviation-association changes by profile and flavor. Split each profile's newly listed modules into those newly added to the source release and those present in the older source release but absent from that profile's older snapshot. Join changed deviation targets to associated modules, but label them as candidate effects until the schema is resolved.
 
 Make the comparison denominator explicit: if the table covers only source modules supplied in the two folders, say that it is not the complete module inventory of the profile. Treat a profile-to-product mapping as family-level unless exact model evidence is available.
 
@@ -107,6 +108,7 @@ Create release-named artifacts in `release-comparisons/`:
 - A deviation-delta CSV with target, action, and before/after details.
 - An augment-delta CSV with target, condition, nested `uses`, and direct-node changes.
 - A platform-applicability CSV with one row per source module/profile and release values.
+- A focused per-profile newly listed module CSV that distinguishes globally new modules from older modules newly listed for a profile.
 - A profile feature-delta CSV and a profile deviation-target CSV when matching saved snapshots are available.
 
 Keep relative links valid in both the directory layout and any generated ZIP. Include only the comparison materials needed to support the YANG report.

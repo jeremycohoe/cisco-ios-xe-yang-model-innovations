@@ -2,7 +2,7 @@
 
 **Comparison scope:** `2611/` (26.1.1) against `2621/` (26.2.1)
 
-**Updated:** 2026-10-08
+**Updated:** 2026-10-09
 
 **Model flavors:** Oper, RPC, Native, Config, OpenConfig, IETF, Other
 
@@ -14,6 +14,7 @@
 - [At-a-glance change summary](#at-a-glance-change-summary)
 - [Release inventory by model flavor](#release-inventory-by-model-flavor)
 - [Platform applicability](#platform-applicability)
+- [Newly listed modules by platform profile](#newly-listed-modules-by-platform-profile)
 - [Advertised feature and deviation changes](#advertised-feature-and-deviation-changes)
 - [Structural change signals](#structural-change-signals)
 - [Expanded augment audit](#expanded-augment-audit)
@@ -79,26 +80,220 @@ Flavor is assigned once per source module for this inventory. Submodules inherit
 
 ## Platform applicability
 
-The release folders contain YANG Library module-set snapshots (`yang-set-<profile>.xml`) for ten platform profiles. The CSV compares source modules with each profile in both releases. It includes source file status, profile presence, advertised revision and conformance type, and deviations associated with each module. Advertised feature changes are in the separate [feature-delta CSV](2621-YANG-Platform-Feature-Deltas.csv). Filter `profile` to narrow the report, then `model_flavor` or `module` to find relevant model changes.
+The release folders contain YANG Library module-set snapshots (`yang-set-<profile>.xml`) for ten platform profiles. The [platform applicability CSV](2621-YANG-Platform-Applicability.csv) compares source modules with each profile in both releases. It includes source file status, profile presence, advertised revision and conformance type, and deviations associated with each module. Advertised feature changes are in the separate [feature-delta CSV](2621-YANG-Platform-Feature-Deltas.csv). Filter `profile` to narrow the CSV, then `model_flavor` or `module` to find relevant model changes.
 
 | Profile | Modules from these source folders listed (26.1.1 → 26.2.1) | Newly listed | No longer listed | Existing module revisions changed | Deviation associations changed |
 |---|---:|---:|---:|---:|---:|
-| `cat9k` | 606 → 620 | 15 | 1 | 251 | 4 |
-| `cat9200` | 321 → 326 | 5 | 0 | 62 | 3 |
-| `wireless` | 530 → 540 | 11 | 1 | 203 | 2 |
-| `asr1k` | 501 → 525 | 24 | 0 | 171 | 4 |
-| `c8500` | 501 → 525 | 24 | 0 | 171 | 4 |
-| `isr1k` | 539 → 558 | 19 | 0 | 194 | 3 |
-| `c8000v` | 505 → 526 | 21 | 0 | 175 | 6 |
-| `ir1101` | 564 → 577 | 14 | 1 | 224 | 3 |
-| `ie3x00` | 447 → 459 | 12 | 0 | 154 | 2 |
-| `ess3x00` | 447 → 459 | 12 | 0 | 154 | 2 |
+| [`cat9k`](#newly-listed-cat9k) | 606 → 620 | 15 (14 + 1) | 1 | 251 | 4 |
+| [`cat9200`](#newly-listed-cat9200) | 321 → 326 | 5 (4 + 1) | 0 | 62 | 3 |
+| [`wireless`](#newly-listed-wireless) | 530 → 540 | 11 (11 + 0) | 1 | 203 | 2 |
+| [`asr1k`](#newly-listed-asr1k) | 501 → 525 | 24 (14 + 10) | 0 | 171 | 4 |
+| [`c8500`](#newly-listed-c8500) | 501 → 525 | 24 (14 + 10) | 0 | 171 | 4 |
+| [`isr1k`](#newly-listed-isr1k) | 539 → 558 | 19 (15 + 4) | 0 | 194 | 3 |
+| [`c8000v`](#newly-listed-c8000v) | 505 → 526 | 21 (14 + 7) | 0 | 175 | 6 |
+| [`ir1101`](#newly-listed-ir1101) | 564 → 577 | 14 (14 + 0) | 1 | 224 | 3 |
+| [`ie3x00`](#newly-listed-ie3x00) | 447 → 459 | 12 (8 + 4) | 0 | 154 | 2 |
+| [`ess3x00`](#newly-listed-ess3x00) | 447 → 459 | 12 (8 + 4) | 0 | 154 | 2 |
 
-Counts cover modules present in the supplied source folders; they are not total modules in each device's full YANG Library. “Newly listed” and “no longer listed” mean profile membership changed between the two saved snapshots. Revision and deviation counts are separate because a module may remain listed while its advertised revision or effective schema changes. For example, `cat9k` newly lists `Cisco-IOS-XE-wireless-wat-oper`, `Cisco-IOS-XE-isis-operv2-oper`, and telemetry modules; it no longer lists `Cisco-IOS-XE-wireless-rrm-emul-oper`. See exact rows and revision/deviation values in the CSV.
+**Newly listed breakdown:** The total is followed by **new 26.2.1 source modules + modules already present in the 26.1.1 source folder**. Click a profile for exact names. Counts cover modules present in the supplied source folders; they are not total modules in each device's full YANG Library. “Newly listed” and “no longer listed” mean profile membership changed between the two saved snapshots. Revision and deviation counts are separate because a module may remain listed while its advertised revision or effective schema changes. See exact rows and revision/deviation values in the CSV.
 
 **Choosing a profile:** use `cat9k` as a family-level starting point for a Catalyst 9300; use `wireless` for the wireless profile; and select the relevant router family (`asr1k`, `c8500`, `isr1k`, `c8000v`, or another listed profile) for routing platforms. “Routing” is not a single profile in these files. The profile names do not identify an exact PID, line card, software image, enabled feature, or license. Confirm a candidate on the target device by querying its YANG Library and then validate the operation itself.
 
 **Evidence level:** these are saved per-profile release snapshots, not a live query to a device. The `module-set-id` identifies a snapshot but does not identify the exact PID or IOS XE image that produced it. The `cat9k` → Catalyst 9300 association is a family-level starting assumption, not a per-SKU guarantee. Profile presence means the module/revision appears in that saved set. The CSV records deviation associations but does not compile and resolve each complete schema set into its effective YANG schema tree.
+
+### Newly listed modules by platform profile
+
+The **Newly listed** total above compares saved 26.1.1 and 26.2.1 YANG Library profile snapshots. It combines modules newly present in the 26.2.1 source folder with modules already in the 26.1.1 source folder that this profile did not list before. For example, `c8500` has **24 newly listed: 14 from new YANG files and 10 from previously existing YANG files**. These are profile-listing changes, not proof of support on every device in the family.
+
+For `c8500`, the snapshot labels **22 of the 24 as `implement` and 2 as `import`**. The import-only entries are `Cisco-IOS-XE-ngfw-common-oper` and `Cisco-IOS-XE-livetools-common-types`. An `import` listing makes a module's definitions available to other modules; it does not claim that module's data tree is implemented. Import-only names are marked in every profile list below.
+
+Of the 24 modules new to the source folder, **22 appear in at least one supplied 26.2.1 profile**. `Cisco-IOS-XE-webauth-banner-internal` and `cisco-yang-mgmt-internal` appear in none of the ten saved profiles.
+
+Open a profile below for exact names, grouped by model flavor. New-source names link to their [Added models](#added-models) descriptions; older modules link to existing report details where available. The focused [newly listed modules CSV](2621-YANG-Platform-Newly-Listed.csv) has one row per profile/module listing, including revision, conformance, and source-file status.
+
+<a id="newly-listed-cat9k"></a>
+<details>
+<summary><code>cat9k</code> — 15 newly listed (14 new files, 1 existing file)</summary>
+
+**New in the 26.2.1 source folder (14):**
+
+- **Oper (4):** [`Cisco-IOS-XE-isis-operv2-oper.yang`](#module-cisco-ios-xe-isis-operv2-oper), [`Cisco-IOS-XE-live-protect-oper.yang`](#module-cisco-ios-xe-live-protect-oper), [`Cisco-IOS-XE-ngfw-common-oper.yang`](#module-cisco-ios-xe-ngfw-common-oper) (import only), [`Cisco-IOS-XE-wireless-wat-oper.yang`](#module-cisco-ios-xe-wireless-wat-oper).
+- **RPC (3):** [`Cisco-IOS-XE-config-mgmt-rpc.yang`](#module-cisco-ios-xe-config-mgmt-rpc), [`Cisco-IOS-XE-ngfw-actions-rpc.yang`](#module-cisco-ios-xe-ngfw-actions-rpc), [`Cisco-IOS-XE-wireless-raf-cfg-rpc.yang`](#module-cisco-ios-xe-wireless-raf-cfg-rpc).
+- **Config (3):** [`Cisco-IOS-XE-audit-cfg.yang`](#module-cisco-ios-xe-audit-cfg), [`Cisco-IOS-XE-live-protect-cfg.yang`](#module-cisco-ios-xe-live-protect-cfg), [`Cisco-IOS-XE-wireless-ld-cfg.yang`](#module-cisco-ios-xe-wireless-ld-cfg).
+- **OpenConfig (4):** [`cisco-xe-openconfig-telemetry-deviation.yang`](#module-cisco-xe-openconfig-telemetry-deviation), [`cisco-xe-openconfig-telemetry-ext.yang`](#module-cisco-xe-openconfig-telemetry-ext), [`openconfig-telemetry.yang`](#module-openconfig-telemetry), [`openconfig-telemetry-types.yang`](#module-openconfig-telemetry-types).
+
+**Already in the 26.1.1 source folder, newly listed by this profile (1):**
+
+- **Other (1):** `Cisco-IOS-XE-vlan-ewlc-deviation.yang`.
+
+</details>
+
+<a id="newly-listed-cat9200"></a>
+<details>
+<summary><code>cat9200</code> — 5 newly listed (4 new files, 1 existing file)</summary>
+
+**New in the 26.2.1 source folder (4):**
+
+- **OpenConfig (4):** [`cisco-xe-openconfig-telemetry-deviation.yang`](#module-cisco-xe-openconfig-telemetry-deviation), [`cisco-xe-openconfig-telemetry-ext.yang`](#module-cisco-xe-openconfig-telemetry-ext), [`openconfig-telemetry.yang`](#module-openconfig-telemetry), [`openconfig-telemetry-types.yang`](#module-openconfig-telemetry-types).
+
+**Already in the 26.1.1 source folder, newly listed by this profile (1):**
+
+- **Other (1):** `Cisco-IOS-XE-vlan-ewlc-deviation.yang`.
+
+</details>
+
+<a id="newly-listed-wireless"></a>
+<details>
+<summary><code>wireless</code> — 11 newly listed (11 new files, 0 existing files)</summary>
+
+**New in the 26.2.1 source folder (11):**
+
+- **Oper (2):** [`Cisco-IOS-XE-ngfw-common-oper.yang`](#module-cisco-ios-xe-ngfw-common-oper) (import only), [`Cisco-IOS-XE-wireless-wat-oper.yang`](#module-cisco-ios-xe-wireless-wat-oper).
+- **RPC (3):** [`Cisco-IOS-XE-config-mgmt-rpc.yang`](#module-cisco-ios-xe-config-mgmt-rpc), [`Cisco-IOS-XE-ngfw-actions-rpc.yang`](#module-cisco-ios-xe-ngfw-actions-rpc), [`Cisco-IOS-XE-wireless-raf-cfg-rpc.yang`](#module-cisco-ios-xe-wireless-raf-cfg-rpc).
+- **Config (2):** [`Cisco-IOS-XE-audit-cfg.yang`](#module-cisco-ios-xe-audit-cfg), [`Cisco-IOS-XE-wireless-ld-cfg.yang`](#module-cisco-ios-xe-wireless-ld-cfg).
+- **OpenConfig (4):** [`cisco-xe-openconfig-telemetry-deviation.yang`](#module-cisco-xe-openconfig-telemetry-deviation), [`cisco-xe-openconfig-telemetry-ext.yang`](#module-cisco-xe-openconfig-telemetry-ext), [`openconfig-telemetry.yang`](#module-openconfig-telemetry), [`openconfig-telemetry-types.yang`](#module-openconfig-telemetry-types).
+
+**Already in the 26.1.1 source folder, newly listed by this profile (0):**
+
+None.
+
+</details>
+
+<a id="newly-listed-asr1k"></a>
+<details>
+<summary><code>asr1k</code> — 24 newly listed (14 new files, 10 existing files)</summary>
+
+**New in the 26.2.1 source folder (14):**
+
+- **Oper (3):** [`Cisco-IOS-XE-dp-tcam-usage-oper.yang`](#module-cisco-ios-xe-dp-tcam-usage-oper), [`Cisco-IOS-XE-ngfw-common-oper.yang`](#module-cisco-ios-xe-ngfw-common-oper) (import only), [`Cisco-IOS-XE-ngfw-oper.yang`](#module-cisco-ios-xe-ngfw-oper).
+- **RPC (2):** [`Cisco-IOS-XE-config-mgmt-rpc.yang`](#module-cisco-ios-xe-config-mgmt-rpc), [`Cisco-IOS-XE-ngfw-actions-rpc.yang`](#module-cisco-ios-xe-ngfw-actions-rpc).
+- **Config (3):** [`Cisco-IOS-XE-audit-cfg.yang`](#module-cisco-ios-xe-audit-cfg), [`Cisco-IOS-XE-ngfw.yang`](#module-cisco-ios-xe-ngfw), [`Cisco-IOS-XE-sla-policy.yang`](#module-cisco-ios-xe-sla-policy).
+- **OpenConfig (4):** [`cisco-xe-openconfig-telemetry-deviation.yang`](#module-cisco-xe-openconfig-telemetry-deviation), [`cisco-xe-openconfig-telemetry-ext.yang`](#module-cisco-xe-openconfig-telemetry-ext), [`openconfig-telemetry.yang`](#module-openconfig-telemetry), [`openconfig-telemetry-types.yang`](#module-openconfig-telemetry-types).
+- **Other (2):** [`Cisco-IOS-XE-ethernet-port-settings-autoneg-deviation.yang`](#module-cisco-ios-xe-ethernet-port-settings-autoneg-deviation), [`Cisco-IOS-XE-sdwan-stats-events.yang`](#module-cisco-ios-xe-sdwan-stats-events).
+
+**Already in the 26.1.1 source folder, newly listed by this profile (10):**
+
+- **Oper (4):** [`Cisco-IOS-XE-livetools-oper.yang`](#module-cisco-ios-xe-livetools-oper), [`Cisco-IOS-XE-meraki-connect-oper.yang`](#module-cisco-ios-xe-meraki-connect-oper), `Cisco-IOS-XE-sse-oper.yang`, [`Cisco-IOS-XE-uplink-autoconfig-oper.yang`](#module-cisco-ios-xe-uplink-autoconfig-oper).
+- **RPC (2):** `Cisco-IOS-XE-livetools-actions-rpc.yang`, [`Cisco-IOS-XE-sse-actions-rpc.yang`](#module-cisco-ios-xe-sse-actions-rpc).
+- **Config (1):** `Cisco-IOS-XE-uplink-autoconfig.yang`.
+- **Other (3):** `Cisco-IOS-XE-autovpn-events.yang`, `Cisco-IOS-XE-livetools-common-types.yang` (import only), `Cisco-IOS-XE-sse-events.yang`.
+
+</details>
+
+<a id="newly-listed-c8500"></a>
+<details>
+<summary><code>c8500</code> — 24 newly listed (14 new files, 10 existing files)</summary>
+
+**New in the 26.2.1 source folder (14):**
+
+- **Oper (3):** [`Cisco-IOS-XE-dp-tcam-usage-oper.yang`](#module-cisco-ios-xe-dp-tcam-usage-oper), [`Cisco-IOS-XE-ngfw-common-oper.yang`](#module-cisco-ios-xe-ngfw-common-oper) (import only), [`Cisco-IOS-XE-ngfw-oper.yang`](#module-cisco-ios-xe-ngfw-oper).
+- **RPC (2):** [`Cisco-IOS-XE-config-mgmt-rpc.yang`](#module-cisco-ios-xe-config-mgmt-rpc), [`Cisco-IOS-XE-ngfw-actions-rpc.yang`](#module-cisco-ios-xe-ngfw-actions-rpc).
+- **Config (3):** [`Cisco-IOS-XE-audit-cfg.yang`](#module-cisco-ios-xe-audit-cfg), [`Cisco-IOS-XE-ngfw.yang`](#module-cisco-ios-xe-ngfw), [`Cisco-IOS-XE-sla-policy.yang`](#module-cisco-ios-xe-sla-policy).
+- **OpenConfig (4):** [`cisco-xe-openconfig-telemetry-deviation.yang`](#module-cisco-xe-openconfig-telemetry-deviation), [`cisco-xe-openconfig-telemetry-ext.yang`](#module-cisco-xe-openconfig-telemetry-ext), [`openconfig-telemetry.yang`](#module-openconfig-telemetry), [`openconfig-telemetry-types.yang`](#module-openconfig-telemetry-types).
+- **Other (2):** [`Cisco-IOS-XE-ethernet-port-settings-autoneg-deviation.yang`](#module-cisco-ios-xe-ethernet-port-settings-autoneg-deviation), [`Cisco-IOS-XE-sdwan-stats-events.yang`](#module-cisco-ios-xe-sdwan-stats-events).
+
+**Already in the 26.1.1 source folder, newly listed by this profile (10):**
+
+- **Oper (4):** [`Cisco-IOS-XE-livetools-oper.yang`](#module-cisco-ios-xe-livetools-oper), [`Cisco-IOS-XE-meraki-connect-oper.yang`](#module-cisco-ios-xe-meraki-connect-oper), `Cisco-IOS-XE-sse-oper.yang`, [`Cisco-IOS-XE-uplink-autoconfig-oper.yang`](#module-cisco-ios-xe-uplink-autoconfig-oper).
+- **RPC (2):** `Cisco-IOS-XE-livetools-actions-rpc.yang`, [`Cisco-IOS-XE-sse-actions-rpc.yang`](#module-cisco-ios-xe-sse-actions-rpc).
+- **Config (1):** `Cisco-IOS-XE-uplink-autoconfig.yang`.
+- **Other (3):** `Cisco-IOS-XE-autovpn-events.yang`, `Cisco-IOS-XE-livetools-common-types.yang` (import only), `Cisco-IOS-XE-sse-events.yang`.
+
+</details>
+
+<a id="newly-listed-isr1k"></a>
+<details>
+<summary><code>isr1k</code> — 19 newly listed (15 new files, 4 existing files)</summary>
+
+**New in the 26.2.1 source folder (15):**
+
+- **Oper (3):** [`Cisco-IOS-XE-iiot-pwr-mgmt-oper.yang`](#module-cisco-ios-xe-iiot-pwr-mgmt-oper), [`Cisco-IOS-XE-ngfw-common-oper.yang`](#module-cisco-ios-xe-ngfw-common-oper) (import only), [`Cisco-IOS-XE-ngfw-oper.yang`](#module-cisco-ios-xe-ngfw-oper).
+- **RPC (3):** [`Cisco-IOS-XE-config-mgmt-rpc.yang`](#module-cisco-ios-xe-config-mgmt-rpc), [`Cisco-IOS-XE-ngfw-actions-rpc.yang`](#module-cisco-ios-xe-ngfw-actions-rpc), [`Cisco-IOS-XE-ngfw-ctrl-actions-rpc.yang`](#module-cisco-ios-xe-ngfw-ctrl-actions-rpc).
+- **Config (3):** [`Cisco-IOS-XE-audit-cfg.yang`](#module-cisco-ios-xe-audit-cfg), [`Cisco-IOS-XE-ngfw.yang`](#module-cisco-ios-xe-ngfw), [`Cisco-IOS-XE-sla-policy.yang`](#module-cisco-ios-xe-sla-policy).
+- **OpenConfig (4):** [`cisco-xe-openconfig-telemetry-deviation.yang`](#module-cisco-xe-openconfig-telemetry-deviation), [`cisco-xe-openconfig-telemetry-ext.yang`](#module-cisco-xe-openconfig-telemetry-ext), [`openconfig-telemetry.yang`](#module-openconfig-telemetry), [`openconfig-telemetry-types.yang`](#module-openconfig-telemetry-types).
+- **Other (2):** [`Cisco-IOS-XE-ethernet-port-settings-autoneg-deviation.yang`](#module-cisco-ios-xe-ethernet-port-settings-autoneg-deviation), [`Cisco-IOS-XE-sdwan-stats-events.yang`](#module-cisco-ios-xe-sdwan-stats-events).
+
+**Already in the 26.1.1 source folder, newly listed by this profile (4):**
+
+- **Oper (2):** `Cisco-IOS-XE-sse-oper.yang`, `Cisco-IOS-XE-vlan-oper.yang`.
+- **RPC (1):** [`Cisco-IOS-XE-sse-actions-rpc.yang`](#module-cisco-ios-xe-sse-actions-rpc).
+- **Other (1):** `Cisco-IOS-XE-sse-events.yang`.
+
+</details>
+
+<a id="newly-listed-c8000v"></a>
+<details>
+<summary><code>c8000v</code> — 21 newly listed (14 new files, 7 existing files)</summary>
+
+**New in the 26.2.1 source folder (14):**
+
+- **Oper (3):** [`Cisco-IOS-XE-isis-operv2-oper.yang`](#module-cisco-ios-xe-isis-operv2-oper), [`Cisco-IOS-XE-ngfw-common-oper.yang`](#module-cisco-ios-xe-ngfw-common-oper) (import only), [`Cisco-IOS-XE-ngfw-oper.yang`](#module-cisco-ios-xe-ngfw-oper).
+- **RPC (3):** [`Cisco-IOS-XE-config-mgmt-rpc.yang`](#module-cisco-ios-xe-config-mgmt-rpc), [`Cisco-IOS-XE-ngfw-actions-rpc.yang`](#module-cisco-ios-xe-ngfw-actions-rpc), [`Cisco-IOS-XE-ngfw-ctrl-actions-rpc.yang`](#module-cisco-ios-xe-ngfw-ctrl-actions-rpc).
+- **Config (3):** [`Cisco-IOS-XE-audit-cfg.yang`](#module-cisco-ios-xe-audit-cfg), [`Cisco-IOS-XE-ngfw.yang`](#module-cisco-ios-xe-ngfw), [`Cisco-IOS-XE-sla-policy.yang`](#module-cisco-ios-xe-sla-policy).
+- **OpenConfig (4):** [`cisco-xe-openconfig-telemetry-deviation.yang`](#module-cisco-xe-openconfig-telemetry-deviation), [`cisco-xe-openconfig-telemetry-ext.yang`](#module-cisco-xe-openconfig-telemetry-ext), [`openconfig-telemetry.yang`](#module-openconfig-telemetry), [`openconfig-telemetry-types.yang`](#module-openconfig-telemetry-types).
+- **Other (1):** [`Cisco-IOS-XE-sdwan-stats-events.yang`](#module-cisco-ios-xe-sdwan-stats-events).
+
+**Already in the 26.1.1 source folder, newly listed by this profile (7):**
+
+- **Oper (2):** `Cisco-IOS-XE-sse-oper.yang`, `Cisco-IOS-XE-vlan-oper.yang`.
+- **RPC (1):** [`Cisco-IOS-XE-sse-actions-rpc.yang`](#module-cisco-ios-xe-sse-actions-rpc).
+- **Config (1):** [`Cisco-IOS-XE-gnmi-cfg.yang`](#module-cisco-ios-xe-gnmi-cfg).
+- **OpenConfig (2):** `cisco-xe-openconfig-system-grpc-deviation.yang`, `openconfig-system-grpc.yang`.
+- **Other (1):** `Cisco-IOS-XE-sse-events.yang`.
+
+</details>
+
+<a id="newly-listed-ir1101"></a>
+<details>
+<summary><code>ir1101</code> — 14 newly listed (14 new files, 0 existing files)</summary>
+
+**New in the 26.2.1 source folder (14):**
+
+- **Oper (2):** [`Cisco-IOS-XE-ngfw-common-oper.yang`](#module-cisco-ios-xe-ngfw-common-oper) (import only), [`Cisco-IOS-XE-wireless-wat-oper.yang`](#module-cisco-ios-xe-wireless-wat-oper).
+- **RPC (3):** [`Cisco-IOS-XE-config-mgmt-rpc.yang`](#module-cisco-ios-xe-config-mgmt-rpc), [`Cisco-IOS-XE-ngfw-actions-rpc.yang`](#module-cisco-ios-xe-ngfw-actions-rpc), [`Cisco-IOS-XE-wireless-raf-cfg-rpc.yang`](#module-cisco-ios-xe-wireless-raf-cfg-rpc).
+- **Config (4):** [`Cisco-IOS-XE-audit-cfg.yang`](#module-cisco-ios-xe-audit-cfg), [`Cisco-IOS-XE-ngfw.yang`](#module-cisco-ios-xe-ngfw), [`Cisco-IOS-XE-sla-policy.yang`](#module-cisco-ios-xe-sla-policy), [`Cisco-IOS-XE-wireless-ld-cfg.yang`](#module-cisco-ios-xe-wireless-ld-cfg).
+- **OpenConfig (4):** [`cisco-xe-openconfig-telemetry-deviation.yang`](#module-cisco-xe-openconfig-telemetry-deviation), [`cisco-xe-openconfig-telemetry-ext.yang`](#module-cisco-xe-openconfig-telemetry-ext), [`openconfig-telemetry.yang`](#module-openconfig-telemetry), [`openconfig-telemetry-types.yang`](#module-openconfig-telemetry-types).
+- **Other (1):** [`Cisco-IOS-XE-ethernet-port-settings-autoneg-deviation.yang`](#module-cisco-ios-xe-ethernet-port-settings-autoneg-deviation).
+
+**Already in the 26.1.1 source folder, newly listed by this profile (0):**
+
+None.
+
+</details>
+
+<a id="newly-listed-ie3x00"></a>
+<details>
+<summary><code>ie3x00</code> — 12 newly listed (8 new files, 4 existing files)</summary>
+
+**New in the 26.2.1 source folder (8):**
+
+- **Oper (1):** [`Cisco-IOS-XE-ngfw-common-oper.yang`](#module-cisco-ios-xe-ngfw-common-oper) (import only).
+- **RPC (2):** [`Cisco-IOS-XE-config-mgmt-rpc.yang`](#module-cisco-ios-xe-config-mgmt-rpc), [`Cisco-IOS-XE-ngfw-actions-rpc.yang`](#module-cisco-ios-xe-ngfw-actions-rpc).
+- **Config (1):** [`Cisco-IOS-XE-audit-cfg.yang`](#module-cisco-ios-xe-audit-cfg).
+- **OpenConfig (4):** [`cisco-xe-openconfig-telemetry-deviation.yang`](#module-cisco-xe-openconfig-telemetry-deviation), [`cisco-xe-openconfig-telemetry-ext.yang`](#module-cisco-xe-openconfig-telemetry-ext), [`openconfig-telemetry.yang`](#module-openconfig-telemetry), [`openconfig-telemetry-types.yang`](#module-openconfig-telemetry-types).
+
+**Already in the 26.1.1 source folder, newly listed by this profile (4):**
+
+- **Oper (4):** `Cisco-IOS-XE-dhcp-security-track-server-oper.yang`, `Cisco-IOS-XE-lacp-oper.yang`, `Cisco-IOS-XE-matm-oper.yang`, `Cisco-IOS-XE-udld-oper.yang`.
+
+</details>
+
+<a id="newly-listed-ess3x00"></a>
+<details>
+<summary><code>ess3x00</code> — 12 newly listed (8 new files, 4 existing files)</summary>
+
+**New in the 26.2.1 source folder (8):**
+
+- **Oper (1):** [`Cisco-IOS-XE-ngfw-common-oper.yang`](#module-cisco-ios-xe-ngfw-common-oper) (import only).
+- **RPC (2):** [`Cisco-IOS-XE-config-mgmt-rpc.yang`](#module-cisco-ios-xe-config-mgmt-rpc), [`Cisco-IOS-XE-ngfw-actions-rpc.yang`](#module-cisco-ios-xe-ngfw-actions-rpc).
+- **Config (1):** [`Cisco-IOS-XE-audit-cfg.yang`](#module-cisco-ios-xe-audit-cfg).
+- **OpenConfig (4):** [`cisco-xe-openconfig-telemetry-deviation.yang`](#module-cisco-xe-openconfig-telemetry-deviation), [`cisco-xe-openconfig-telemetry-ext.yang`](#module-cisco-xe-openconfig-telemetry-ext), [`openconfig-telemetry.yang`](#module-openconfig-telemetry), [`openconfig-telemetry-types.yang`](#module-openconfig-telemetry-types).
+
+**Already in the 26.1.1 source folder, newly listed by this profile (4):**
+
+- **Oper (4):** `Cisco-IOS-XE-dhcp-security-track-server-oper.yang`, `Cisco-IOS-XE-lacp-oper.yang`, `Cisco-IOS-XE-matm-oper.yang`, `Cisco-IOS-XE-udld-oper.yang`.
+
+</details>
 
 ### Advertised feature and deviation changes
 
@@ -3283,5 +3478,6 @@ These files differ byte-for-byte between releases, but the comparison found no c
 - Deviation targets and statement deltas: [2621-YANG-Model-Deviation-Deltas.csv](2621-YANG-Model-Deviation-Deltas.csv).
 - Augment targets and nested `uses` deltas: [2621-YANG-Model-Augment-Deltas.csv](2621-YANG-Model-Augment-Deltas.csv).
 - Platform module-set applicability by profile and release: [2621-YANG-Platform-Applicability.csv](2621-YANG-Platform-Applicability.csv).
+- Modules newly listed by each saved profile, split by source age: [2621-YANG-Platform-Newly-Listed.csv](2621-YANG-Platform-Newly-Listed.csv).
 - Advertised profile feature deltas: [2621-YANG-Platform-Feature-Deltas.csv](2621-YANG-Platform-Feature-Deltas.csv).
 - Deviation targets referenced by each saved profile: [2621-YANG-Platform-Deviation-Targets.csv](2621-YANG-Platform-Deviation-Targets.csv).
