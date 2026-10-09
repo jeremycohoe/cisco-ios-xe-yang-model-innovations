@@ -15,7 +15,7 @@ This folder contains Cisco IOS XE YANG release comparisons. Read `NEXT-RELEASE-H
 
 - Baseline folders, when supplied locally: `../2611/` (26.1.1) and `../2621/` (26.2.1); these source folders are not committed to this repository.
 - Overview: `2621-YANG-Model-Overview.md`.
-- Supporting files: `2621-YANG-Model-Grouping-Deltas.csv`, `2621-YANG-Model-Deviation-Deltas.csv`, `2621-YANG-Model-Augment-Deltas.csv`, `2621-YANG-Platform-Applicability.csv`, `2621-YANG-Platform-Feature-Deltas.csv`, and `2621-YANG-Platform-Deviation-Targets.csv`.
+- Supporting files: `2621-YANG-Model-Grouping-Deltas.csv`, `2621-YANG-Model-Deviation-Deltas.csv`, `2621-YANG-Model-Augment-Deltas.csv`, `2621-YANG-Platform-Applicability.csv`, `2621-YANG-Platform-Newly-Listed.csv`, `2621-YANG-Platform-Feature-Deltas.csv`, and `2621-YANG-Platform-Deviation-Targets.csv`.
 
 The files in `scripts/` are legacy generators for earlier comparison formats. They are not a reproducible generator for the current 26.1.1 → 26.2.1 report. Use the handoff and source/profile evidence to design the next release audit; do not treat the old script output as a validated schema comparison.
 

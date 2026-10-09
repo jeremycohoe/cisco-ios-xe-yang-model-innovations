@@ -2,7 +2,7 @@
 
 ## Overview
 
-The [26.1.1 → 26.2.1 YANG overview](2621-YANG-Model-Overview.md) is the current source and saved-profile audit. Its supporting CSVs cover grouping, deviation, and augment deltas, platform applicability, advertised feature changes, and changed deviation targets by profile. Use [NEXT-RELEASE-HANDOFF.md](NEXT-RELEASE-HANDOFF.md) for the next release audit.
+The [26.1.1 → 26.2.1 YANG overview](2621-YANG-Model-Overview.md) is the current source and saved-profile audit. Its supporting CSVs cover grouping, deviation, and augment deltas, platform applicability, modules newly listed by each profile, advertised feature changes, and changed deviation targets by profile. Use [NEXT-RELEASE-HANDOFF.md](NEXT-RELEASE-HANDOFF.md) for the next release audit.
 
 The 31 earlier documents cover a v16.3.1 baseline and 30 historical comparisons. Their format and generation scripts predate the 26.2.1 audit. The source YANG folders are inputs and are not published here.
 
@@ -45,7 +45,7 @@ Earlier comparison documents may include:
 
 ## Legacy generators
 
-`scripts/generate_markdown.py`, `scripts/compare_releases.py`, and `scripts/count_xpaths.py` are retained for older comparisons. They do **not** reproduce the 26.2.1 overview or its six supporting CSVs. In particular, the current report requires augment, feature, and saved-profile analysis beyond these scripts. Do not treat their XPath totals as resolved per-profile schema counts.
+`scripts/generate_markdown.py`, `scripts/compare_releases.py`, and `scripts/count_xpaths.py` are retained for older comparisons. They do **not** reproduce the 26.2.1 overview or its seven supporting CSVs. In particular, the current report requires augment, feature, and saved-profile analysis beyond these scripts. Do not treat their XPath totals as resolved per-profile schema counts.
 
 The following commands are historical examples for the older report format.
 
